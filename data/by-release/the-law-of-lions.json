@@ -16,6 +16,190 @@
     "chained": false
   },
   {
+    "name": "Heal",
+    "stub": "heal",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Remove all wound tokens from a target unit or 2 wound tokens from a target Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Holy Knight",
+    "stub": "holy-knight",
+    "type": "Ally",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:power]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "divine:power": 1
+    },
+    "text": "Magic Armor: This unit cannot be targeted by spells an opponent controls.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Law of Assurance",
+    "stub": "law-of-assurance",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "When this spell comes into play, change all dice in your active pool to their class side.\n\nPlayers may not re-roll or change the level of dice in an opponent's active pool.\n\n* Bound: This card cannot be discarded from your spellboard when you Meditate.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Law of Sight",
+    "stub": "law-of-sight",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "When this spell comes into play, you may draw up to 2 cards. No player may play reaction spells.\n\n* Bound: This card cannot be discarded from your spellboard when you Meditate.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Meteor",
+    "stub": "meteor",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "2 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 2
+    },
+    "text": "Deal 1 damage to all units. Then, deal damage to all units equal to the number of [[divine:power]] spent to play this spell.",
+    "chained": true
+  },
+  {
+    "name": "Odette Diamondcrest",
+    "stub": "odette-diamondcrest",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "text": "Enter the Fray: [[main]] - [[exhaust]]: Deal 2 damage to a target unit. Deal damage to this Phoenixborn equal to the target unit's attack value.",
+    "battlefield": 5,
+    "life": 18,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Power Through",
+    "stub": "power-through",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "This unit now has the following ability:\n\nOverkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.",
+    "attack": "+1",
+    "chained": false
+  },
+  {
+    "name": "Shield Mage",
+    "stub": "shield-mage",
+    "type": "Ally",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "Defensive Aura: Units you control cannot be targeted by attacks an opponent controls.",
+    "attack": 0,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
     "name": "Summon Emperor Lion",
     "stub": "summon-emperor-lion",
     "type": "Ready Spell",
@@ -69,6 +253,29 @@
         "stub": "winged-lioness"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Sword of Virtue",
+    "stub": "sword-of-virtue",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Destroy a target unit or remove all wound tokens and exhaustion tokens from a target unit.",
+    "phoenixborn": "Odette Diamondcrest",
     "chained": false
   },
   {

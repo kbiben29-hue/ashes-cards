@@ -1,5 +1,120 @@
 [
   {
+    "name": "Crystal Shield",
+    "stub": "crystal-shield",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "This unit now has the following ability:\n\nUnit Guard: This unit may guard a unit that is being attacked.",
+    "life": "+2",
+    "chained": false
+  },
+  {
+    "name": "Deep Freeze",
+    "stub": "deep-freeze",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "* When attaching this spell, place 3 status tokens on this spell. Discard this spell when it no longer has any status tokens on it. As long as this spell is attached to this unit, this unit is considered to be exhausted. This unit now has the following ability:\n\n* Thaw: [[side]]: Remove 1 status token from a Deep Freeze alteration spell attached to this unit.",
+    "chained": false
+  },
+  {
+    "name": "Freezing Blast",
+    "stub": "freezing-blast",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 2
+    },
+    "text": "Deal 2 damage to a target unit. Remove 2 status tokens from that unit.",
+    "chained": false
+  },
+  {
+    "name": "Frost Bite",
+    "stub": "frost-bite",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Deal 1 damage to a target unit or Phoenixborn.\n\nFocus 1: You may change the activation cost of this ability to [[main]] - [[exhaust]] - 1 [[basic]].",
+    "chained": false
+  },
+  {
+    "name": "Frost Fang",
+    "stub": "frost-fang",
+    "type": "Ally",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 2
+    },
+    "text": "* Armored 1: After this unit is dealt damage, prevent 1 damage from being received.",
+    "attack": 3,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
     "name": "Frostback Bear",
     "stub": "frostback-bear",
     "type": "Conjuration",
@@ -13,6 +128,30 @@
     "life": 3,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Frozen Crown",
+    "stub": "frozen-crown",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "natural:class": 1
+    },
+    "attack": "+3",
     "chained": false
   },
   {
@@ -43,6 +182,69 @@
     "life": 2,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ice Trap",
+    "stub": "ice-trap",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "text": "You may play this spell after a unit with a life value of 2 or less comes into play. Destroy that target unit.",
+    "chained": false
+  },
+  {
+    "name": "Rin Northfell",
+    "stub": "rin-northfell",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "text": "Ice Buff: [[side]] - [[exhaust]]: Attach an [[Ice Buff]] conjured alteration spell to a target unit you control.",
+    "conjurations": [
+      {
+        "name": "Ice Buff",
+        "stub": "ice-buff"
+      }
+    ],
+    "battlefield": 6,
+    "life": 17,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Rin's Fury",
+    "stub": "rins-fury",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Discard",
+    "cost": [
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "You may play this spell after a unit you control is dealt damage by a unit's attack. Prevent that damage from being received. Destroy that target attacking unit.",
+    "phoenixborn": "Rin Northfell",
     "chained": false
   },
   {

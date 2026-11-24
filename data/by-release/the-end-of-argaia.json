@@ -1,5 +1,53 @@
 [
   {
+    "name": "Afterimage",
+    "stub": "afterimage",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:power]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "You may play this spell after an ally you control is destroyed as a result of an attack, spell, ability, or dice power an opponent controls. Place that ally into your hand. Deal 2 damage to a target unit that opponent controls."
+  },
+  {
+    "name": "Cataclysm",
+    "stub": "cataclysm",
+    "type": "Action Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Deal 1 damage to all units and Phoenixborn. If this destroys at least 2 units, place 2 [[Rubble Spirit]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Rubble Spirit",
+        "stub": "rubble-spirit"
+      }
+    ],
+    "phoenixborn": "Rowan Umberend"
+  },
+  {
     "name": "Cinder Spirit",
     "stub": "cinder-spirit",
     "type": "Conjuration",
@@ -13,6 +61,41 @@
     "life": 2,
     "recover": 0,
     "copies": 3
+  },
+  {
+    "name": "Double Edge",
+    "stub": "double-edge",
+    "type": "Action Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]"
+    ],
+    "text": "Draw 2 cards. Discard 1 card from your hand. If you discarded, deal 1 damage to a target unit an opponent controls and deal 1 damage to that opponent's target Phoenixborn.",
+    "phoenixborn": "Jericho, Reborn"
+  },
+  {
+    "name": "Fatal Strike",
+    "stub": "fatal-strike",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:power]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "You may play this spell after an opponent takes a Pass main action. Deal 2 damage to a target unit or Phoenixborn that opponent controls."
   },
   {
     "name": "Ocean's Eye",
@@ -31,6 +114,42 @@
     "copies": 6
   },
   {
+    "name": "Realization",
+    "stub": "realization",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]"
+    ],
+    "text": "During the draw cards step, you may draw 1 additional card.\n\n[[side]] - [[exhaust]]: If your draw pile is empty, shuffle your discard pile, reveal 1 random card from it, and remove it from the game. Then, reveal another random card from it and add it to your hand.",
+    "phoenixborn": "Orrick Gilstream"
+  },
+  {
+    "name": "Rising Tides",
+    "stub": "rising-tides",
+    "type": "Action Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "At the end of the next turn this round, deal 1 damage to all units."
+  },
+  {
     "name": "Rubble Spirit",
     "stub": "rubble-spirit",
     "type": "Conjuration",
@@ -44,6 +163,34 @@
     "life": 1,
     "recover": 0,
     "copies": 4
+  },
+  {
+    "name": "Spear Master",
+    "stub": "spear-master",
+    "type": "Ally",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:power]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1,
+      "time:power": 1
+    },
+    "text": "Replenish 2: When this unit comes into play, and at the end of the round, place 2 status tokens on it.\n\nSpear Volley: When this unit is declared as an attacker, you may remove any number of status tokens from units you control. Deal 1 damage to an equal number of target units that opponents control.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2
   },
   {
     "name": "Summon Cinder Spirit",
@@ -127,6 +274,51 @@
     ]
   },
   {
+    "name": "Timestopper",
+    "stub": "timestopper",
+    "type": "Ally",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:power]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "~ Swift: After a unit comes into play onto an opponent's battlefield, you may play this unit from your hand without paying its main action cost.\n\nHalt: When this unit comes into play, choose a target unit an opponent controls. That unit cannot attack, block, or guard until the end of the next turn or the round.",
+    "attack": 1,
+    "life": 2,
+    "recover": 1
+  },
+  {
+    "name": "Tranquility",
+    "stub": "tranquility",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Phoenixborn",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "At the end of your turn, place 1 status token on this spell. Then, if there are 3 or more status tokens on this spell, remove it from the game.\n\nThe only side action you may take is Meditate."
+  },
+  {
     "name": "Tusk Mount",
     "stub": "tusk-mount",
     "type": "Conjuration",
@@ -146,5 +338,29 @@
     "life": 4,
     "recover": 1,
     "copies": 2
+  },
+  {
+    "name": "Vermillion Sage",
+    "stub": "vermillion-sage",
+    "type": "Ally",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "Study 1: When this unit comes into play, look at the top card of your draw pile and place it on the top or bottom of your draw pile. Then, draw 1 card.\n\n* Inheritance 1: When this unit is destroyed, you may place 1 status token on a target unit.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1
   }
 ]

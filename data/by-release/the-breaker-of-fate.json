@@ -1,5 +1,183 @@
 [
   {
+    "name": "Accelerate",
+    "stub": "accelerate",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "Draw 1 card. Change 2 dice in your active pool to a side of your choice. You may take up to 2 additional side actions this turn.",
+    "chained": false
+  },
+  {
+    "name": "Blink",
+    "stub": "blink",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Remove a target unit from the game. At the end of this turn, place that unit onto its owner's battlefield.",
+    "phoenixborn": "Jericho, Reborn",
+    "chained": false
+  },
+  {
+    "name": "Flash Strike",
+    "stub": "flash-strike",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "You may play this spell after an opponent has the choice to declare blockers or a guard. Choose a unit you control with 1 or more status tokens on it. For the remainder of the turn, add 2 to its attack value and it gains the following ability:\n\nQuick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "chained": false
+  },
+  {
+    "name": "Foresight",
+    "stub": "foresight",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "During the draw cards step, you may draw 1 additional card.\n\n[[main]] - [[exhaust]]: Look at the top 2 cards of a target player's draw pile. Place 1 of those cards on the bottom of that draw pile, and place the other card on the top of that draw pile.",
+    "chained": false
+  },
+  {
+    "name": "Jericho, Reborn",
+    "stub": "jericho-reborn",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "Prepare: [[side]] - [[exhaust]] - 1 [[time:class]]: Search your draw pile for 1 card and set it aside. Shuffle your draw pile, then place the set aside card on top of it.",
+    "battlefield": 7,
+    "life": 17,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Outmatch",
+    "stub": "outmatch",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:power]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Add 4 to the attack value of a target unit you control for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Standard Bearer",
+    "stub": "standard-bearer",
+    "type": "Ally",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "* Resourceful 1: When this unit comes into play, place 1 status token on this unit. At the beginning of the player turns phase, place 1 status token on this unit.\n\nInspire 1: When this unit is declared as an attacker, you may choose a number of other attacking units up to the number of status tokens on this unit. Add 1 to the chosen unit's attack values for the remainder of the turn.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Stasis",
+    "stub": "stasis",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "~ After an opponent declares attackers, you may play this spell from your hand without paying its side action cost. It is also a reaction spell until it is in play.\n\nThis unit is considered to be exhausted. If it was declared as an attacker, it is no longer attacking.\n\nUnchain: [[main]] - [[side]]: Discard this spell.",
+    "chained": false
+  },
+  {
     "name": "Summon Time Hopper",
     "stub": "summon-time-hopper",
     "type": "Ready Spell",
@@ -56,6 +234,31 @@
         "stub": "turtle-guard"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Swift Messenger",
+    "stub": "swift-messenger",
+    "type": "Ally",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "~ Swift: After a unit comes into play onto an opponent's battlefield, you may play this unit from your hand without paying its main action cost.\n\nAssist 1: When this unit comes into play, draw 1 card.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
     "chained": false
   },
   {

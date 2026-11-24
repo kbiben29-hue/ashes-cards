@@ -1,5 +1,121 @@
 [
   {
+    "name": "Amplify",
+    "stub": "amplify",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "Choose a target unit you control with an attack value of 0. Add 3 to its attack value for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Anguish",
+    "stub": "anguish",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Choose a target Phoenixborn. Its controlling player may discard 1 card at random from their hand. If they do not or cannot, place 2 wound tokens on that Phoenixborn. Then choose a target Phoenixborn. Its controlling player may move 2 dice of your choice from their active pool to their exhausted pool. If they do not or cannot, place 2 wound tokens on that Phoenixborn.",
+    "phoenixborn": "Leo Sunshadow",
+    "chained": false
+  },
+  {
+    "name": "Beast Tamer",
+    "stub": "beast-tamer",
+    "type": "Ally",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 2
+    },
+    "text": "Tame 1: While this unit is in battle, the attack value of units in battle with it is reduced by 1.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Change Psyche",
+    "stub": "change-psyche",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "Remove 1 exhaustion token from a target unit or place 1 exhaustion token on a target unit.",
+    "chained": false
+  },
+  {
+    "name": "Dispel",
+    "stub": "dispel",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Remove 2 status tokens from a target card or choose a target alteration spell. If that alteration spell is a conjured alteration spell, return it to its owner's conjuration pile. Otherwise, shuffle it into its owner's draw pile.",
+    "chained": false
+  },
+  {
     "name": "Glow Finch",
     "stub": "glow-finch",
     "type": "Conjuration",
@@ -14,6 +130,69 @@
     "life": 1,
     "recover": 0,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Leo Sunshadow",
+    "stub": "leo-sunshadow",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "text": "Summon Glow Finch: [[side]] - [[exhaust]] - 1 [[basic]]: Place a [[Glow Finch]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Glow Finch",
+        "stub": "glow-finch"
+      }
+    ],
+    "battlefield": 6,
+    "life": 19,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Memory Theft",
+    "stub": "memory-theft",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Look at a target player's hand. That player may discard 1 card of your choice from that hand. If they do not or cannot, place 1 wound token on their Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Mind Probe",
+    "stub": "mind-probe",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "Choose a target opponent to reveal the top 5 cards of their draw pile. Choose 1 of those revealed cards and remove it from the game. Return the rest of the revealed cards to the top of that opponent's draw pile in the order of your choice.",
     "chained": false
   },
   {
@@ -46,6 +225,27 @@
     "life": 1,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Remorse",
+    "stub": "remorse",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[charm:power]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. That target player must discard 2 cards off the top of their draw pile. Then, if their draw pile is empty, deal 2 damage to their target Phoenixborn.",
     "chained": false
   },
   {

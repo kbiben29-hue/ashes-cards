@@ -16,6 +16,193 @@
     "chained": false
   },
   {
+    "name": "Captivate",
+    "stub": "captivate",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:power": 1
+    },
+    "text": "When this spell comes into play, you may destroy a target exhausted unit with a charm die on it.\n\n[[side]] - [[exhaust]]: Choose a target unit. That unit cannot be declared as an attacker until the start of your next turn or the next round.",
+    "chained": false
+  },
+  {
+    "name": "Concentration",
+    "stub": "concentration",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 2
+    },
+    "text": "[[main]] or [[side]] - [[exhaust]] - 2 [[basic]]: Place 1 status token on your Phoenixborn. Draw 1 card. Choose 1 die in your exhausted pool and place it into your active pool on a side of your choice.\n\nFocus 1: Then, if there are 7 or more status tokens on your Phoenixborn, attach [[The Awakened State]] conjured alteration spell to it.",
+    "conjurations": [
+      {
+        "name": "The Awakened State",
+        "stub": "the-awakened-state"
+      }
+    ],
+    "phoenixborn": "Orrick Gilstream",
+    "chained": false
+  },
+  {
+    "name": "Fate Reflection",
+    "stub": "fate-reflection",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Discard",
+    "cost": [
+      [
+        "1 [[time:power]]",
+        "1 [[illusion:power]]"
+      ]
+    ],
+    "altDice": [
+      "time",
+      "illusion"
+    ],
+    "magicCost": {
+      "time:power / illusion:power": 1
+    },
+    "text": "You may play this spell after a unit you control is dealt damage by a spell, ability, or dice power an opponent controls. Prevent that damage from being received, and then deal an equal amount of damage to a target unit that opponent controls.",
+    "chained": false
+  },
+  {
+    "name": "Flock Shepherd",
+    "stub": "flock-shepherd",
+    "type": "Ally",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "Gather 2: After an opponent declares attackers, you may add 2 to the attack value of all units you control with a printed attack value of 0 for the remainder of the turn.\n\nProtect: Units you control with a printed attack value of 0 cannot be targeted by spells, abilities, or dice powers an opponent controls.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Generosity",
+    "stub": "generosity",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      [
+        "1 [[charm:class]]",
+        "1 [[time:class]]"
+      ]
+    ],
+    "altDice": [
+      "charm",
+      "time"
+    ],
+    "magicCost": {
+      "charm:class / time:class": 1
+    },
+    "text": "Resolve one of the effects listed below. Choose a target opponent to resolve a different effect of their choice. Then, resolve the last unchosen effect.\n\n- Remove 1 exhaustion token from your Phoenixborn or a ready spell you control.\n\n- Remove 2 wound tokens from your Phoenixborn or a unit you control.\n\n- Draw 3 cards.",
+    "chained": false
+  },
+  {
+    "name": "Orrick Gilstream",
+    "stub": "orrick-gilstream",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "text": "Insight: After taking a Meditate action, you may place 1 exhaustion token on this card to place the first card discarded off the top of your draw pile during that action into your hand.",
+    "battlefield": 5,
+    "life": 19,
+    "spellboard": 5,
+    "chained": false
+  },
+  {
+    "name": "Recollect",
+    "stub": "recollect",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "Choose a ready spell you control. Search your discard pile for all cards with the same title and place them into your hand.",
+    "chained": false
+  },
+  {
+    "name": "Rile the Meek",
+    "stub": "rile-the-meek",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "Resolve the following effect once for each unexhausted unit you control with a printed attack value of 0:\n\nYou may deal 1 damage to a target unit an opponent controls.",
+    "chained": false
+  },
+  {
     "name": "Ruby Cobra",
     "stub": "ruby-cobra",
     "type": "Conjuration",
@@ -88,6 +275,36 @@
         "stub": "ruby-cobra"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Sunshield Sentry",
+    "stub": "sunshield-sentry",
+    "type": "Ally",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:power]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:power": 1,
+      "charm:class": 1
+    },
+    "text": "Deflect: When this unit is declared as a blocker, you may choose a target unblocked attacking unit. That unit is no longer attacking.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 2,
+    "life": 5,
+    "recover": 1,
     "chained": false
   },
   {

@@ -1,5 +1,27 @@
 [
   {
+    "name": "Chant of Sacrifice",
+    "stub": "chant-of-sacrifice",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Destroy a unit you control.",
+    "chained": false
+  },
+  {
     "name": "Fallen",
     "stub": "fallen",
     "type": "Conjuration",
@@ -13,6 +35,200 @@
     "life": 1,
     "recover": 1,
     "copies": 7,
+    "chained": false
+  },
+  {
+    "name": "Grave Knight",
+    "stub": "grave-knight",
+    "type": "Ally",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "Threatening: This unit must be blocked, if able.\n\nOverkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.",
+    "attack": 4,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Immortal Commander",
+    "stub": "immortal-commander",
+    "type": "Ally",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "Command 1: [[side]] - [[exhaust]]: Add 1 to the attack value of all other units you currently control for the remainder of the turn.",
+    "attack": 0,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "James Endersight",
+    "stub": "james-endersight",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "text": "Convene With Souls: [[side]] - [[exhaust]]: Search your draw pile for an ally, reveal it, and place it into your hand. Place a number of wound tokens equal to that ally's life value on this card. Shuffle your draw pile.",
+    "battlefield": 7,
+    "life": 19,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Rally the Troops",
+    "stub": "rally-the-troops",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Choose X allies you control with 1 or more exhaustion tokens on them and place them into their owner's hand. Remove X wound tokens from your Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Reaping Angel",
+    "stub": "reaping-angel",
+    "type": "Ally",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "Offer: When this unit comes into play, search your draw pile. You may reveal an ally and place it into your discard pile. Shuffle your draw pile. Then, you may search your discard pile for an ally and remove it from the game to remove 1 wound token from a target Phoenixborn.",
+    "attack": 2,
+    "life": 2,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Reclaim Soul",
+    "stub": "reclaim-soul",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Destroy a unit you control to remove 2 wound tokens from your Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Revival Pact",
+    "stub": "revival-pact",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Search your discard pile for up to 3 allies and shuffle them into your draw pile.",
+    "chained": false
+  },
+  {
+    "name": "Rising Horde",
+    "stub": "rising-horde",
+    "type": "Ally",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 2
+    },
+    "text": "* Raise Fallen: When this unit is destroyed, place 2 [[Fallen]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Fallen",
+        "stub": "fallen"
+      }
+    ],
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
     "chained": false
   },
   {
@@ -41,6 +257,23 @@
         "stub": "fallen"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Vengeance",
+    "stub": "vengeance",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "X [[basic]]"
+    ],
+    "text": "Destroy X units you control. If you do, add 1 to the attack value of X target units you control for the remainder of the turn.",
+    "phoenixborn": "James Endersight",
     "chained": false
   }
 ]

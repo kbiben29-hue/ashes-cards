@@ -1,5 +1,50 @@
 [
   {
+    "name": "Armor of Valor",
+    "stub": "armor-of-valor",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Phoenixborn",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "* Valor 1: After this Phoenixborn is dealt damage while guarding or resolving its ability, prevent 1 damage from being received.",
+    "phoenixborn": "Odette Diamondcrest",
+    "chained": false
+  },
+  {
+    "name": "Bravery",
+    "stub": "bravery",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "You may play this spell after a unit you control is dealt damage. Prevent that damage from being received.",
+    "phoenixborn": "Xander Heartsblood",
+    "chained": false
+  },
+  {
     "name": "Divinity Mount",
     "stub": "divinity-mount",
     "type": "Conjuration",
@@ -14,6 +59,53 @@
     "life": 3,
     "recover": 3,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Fork Lightning",
+    "stub": "fork-lightning",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Choose two target units an opponent controls. If you do, deal 1 damage to each targeted unit.",
+    "chained": false
+  },
+  {
+    "name": "Glory Aspirant",
+    "stub": "glory-aspirant",
+    "type": "Ally",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Lionize: When this unit comes into play, search your draw pile. You may reveal a card with a [[divine:power]] in its play cost and place it into your hand. Shuffle your draw pile. Then, change 1 divine die in your active pool to a side of your choice.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
     "chained": false
   },
   {
@@ -33,6 +125,82 @@
     "chained": false
   },
   {
+    "name": "Hand of Spear",
+    "stub": "hand-of-spear",
+    "type": "Ally",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "Raise Shield: When this unit comes into play, place a [[Hand of Shield]] conjuration onto your battlefield.\n\nQuick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "conjurations": [
+      {
+        "name": "Hand of Shield",
+        "stub": "hand-of-shield"
+      }
+    ],
+    "attack": 2,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Intercession",
+    "stub": "intercession",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "You may play this spell after an opponent declares an attacker that is targeting a unit you control. Choose another unit you control to gain the following abilities for the remainder of the turn:\n\nUnit Guard: This unit may guard a unit that is being attacked.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "chained": false
+  },
+  {
+    "name": "Pride",
+    "stub": "pride",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "When attaching this spell to a unit you control, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.\n\n* This unit now has the following ability:\n\n* Pride: This unit cannot be guarded or guarded against.",
+    "chained": false
+  },
+  {
     "name": "Ptera Hatchling",
     "stub": "ptera-hatchling",
     "type": "Conjuration",
@@ -49,6 +217,59 @@
     "chained": false
   },
   {
+    "name": "Ptera Herder",
+    "stub": "ptera-herder",
+    "type": "Ally",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Call Ptera Hatchling: When this unit comes into play, place a [[Ptera Hatchling]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ptera Hatchling",
+        "stub": "ptera-hatchling"
+      }
+    ],
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Radiant Light",
+    "stub": "radiant-light",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "When this spell comes into play, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.\n\nWhile a divine die is on a unit you control, its life value and recover value are increased by 1.\n\n* Flicker: Shuffle this card into your draw pile at the end of the round.",
+    "chained": false
+  },
+  {
     "name": "Shining Stag Mount",
     "stub": "shining-stag-mount",
     "type": "Conjuration",
@@ -62,6 +283,58 @@
     "life": 2,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Silver Paladin",
+    "stub": "silver-paladin",
+    "type": "Ally",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:power]]",
+      "1 [[divine:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "divine:class": 1,
+      "divine:power": 1
+    },
+    "text": "Smite 1: When this unit comes into play, you may destroy a target unit an opponent controls with an attack value of 1 or less.\n\nExalt: After this unit destroys a unit an opponent controls during your turn, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.",
+    "attack": 3,
+    "life": 5,
+    "recover": 2,
+    "chained": true
+  },
+  {
+    "name": "Soulfire",
+    "stub": "soulfire",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Search your discard pile for up to 3 allies and remove them from the game. For each ally removed, resolve the following effect:\n\nChoose a player. Deal 1 damage to a target unit they control, or deal 1 damage to their target Phoenixborn if they control no units.",
+    "phoenixborn": "James Endersight",
     "chained": false
   },
   {
@@ -91,5 +364,34 @@
       }
     ],
     "chained": false
+  },
+  {
+    "name": "Take to the Skies",
+    "stub": "take-to-the-skies",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "If your Phoenixborn is exhausted, place a [[Divinity Mount]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Divinity Mount",
+        "stub": "divinity-mount"
+      }
+    ],
+    "phoenixborn": "Dimona Odinstar",
+    "chained": true
   }
 ]

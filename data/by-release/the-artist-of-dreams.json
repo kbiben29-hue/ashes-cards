@@ -1,5 +1,97 @@
 [
   {
+    "name": "Double Down",
+    "stub": "double-down",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:class]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "illusion",
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1,
+      "illusion:class": 1
+    },
+    "text": "You may play this spell after a conjuration you control with a life value of 1 is destroyed as a result of an attack, spell, ability, or dice power an opponent controls. Place 2 copies of that conjuration onto your battlefield.",
+    "chained": false
+  },
+  {
+    "name": "Dream Fracture",
+    "stub": "dream-fracture",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: Choose a target opponent that has 1 or more dice in their active pool. Lower 1 die in their active pool one level. Then, deal 1 damage to their target Phoenixborn if they have no dice on their power side in their active pool.",
+    "chained": false
+  },
+  {
+    "name": "Dreamlock Mage",
+    "stub": "dreamlock-mage",
+    "type": "Ally",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 2
+    },
+    "text": "Restrict 1: [[side]]: Lower 1 die on its power side in a target opponent's active pool one level.",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Ensnare",
+    "stub": "ensnare",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:power]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:power": 1
+    },
+    "text": "You may play this spell after an opponent declares a guard. Deal 2 damage to that target guarding unit or Phoenixborn.",
+    "chained": false
+  },
+  {
     "name": "Fox Spirit",
     "stub": "fox-spirit",
     "type": "Conjuration",
@@ -13,6 +105,90 @@
     "life": 1,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Hope Everthorn",
+    "stub": "hope-everthorn",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "text": "Duplicate: [[side]] - [[exhaust]] - 1 [[basic]]: Choose a conjuration you control with a life value of 1. Place a copy of that conjuration onto your battlefield. At the end of this turn, destroy that copy.",
+    "battlefield": 6,
+    "life": 17,
+    "spellboard": 5,
+    "chained": false
+  },
+  {
+    "name": "Keepsake",
+    "stub": "keepsake",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "After 1 or more dice in an opponent’s active pool are re-rolled, lowered in level, or changed to a side of your choice, place 1 status token on this spell for each affected die, without exceeding four on this spell.\n\n[[main]], 1 [[illusion:class]]: Discard this spell. Deal damage to a target unit equal to the number of status tokens that were on this spell.",
+    "chained": false
+  },
+  {
+    "name": "Realm Walker",
+    "stub": "realm-walker",
+    "type": "Ally",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:power]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1,
+      "illusion:power": 1
+    },
+    "text": "Isolate 1: When this unit is declared as an attacker, choose a target opponent to place 1 exhaustion token onto an unexhausted unit of their choice that they control.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Reimagine",
+    "stub": "reimagine",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "altDice": [
+      "illusion",
+      "time"
+    ],
+    "text": "After you pay for a dice power using a [[time:power]] or [[illusion:power]], you may place that die and 1 exhaustion token on this spell if it has no dice on it.\n\n* You may use [[time:power]] or [[illusion:power]] on this spell to pay the cost of reactions.\n\n* Exhaust any dice on this spell during the exhaust dice step of the recovery phase.",
     "chained": false
   },
   {
@@ -71,6 +247,28 @@
         "stub": "wishing-wing"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Void Pulse",
+    "stub": "void-pulse",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "You may play this spell after you declare attackers. Deal damage to a target unit an opponent controls equal to the number of attacking units. If that destroyed the unit, draw 2 cards, and then change 2 dice in a target player's active pool to a side of your choice.",
+    "phoenixborn": "Hope Everthorn",
     "chained": false
   },
   {

@@ -1,5 +1,138 @@
 [
   {
+    "name": "Body Inversion",
+    "stub": "body-inversion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[illusion:class]]: Swap a target unit's printed attack value with its printed life value for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Copycat",
+    "stub": "copycat",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "You may play this spell after an opponent resolves an action spell or activated Phoenixborn ability. Resolve a copy of that spell or ability without paying its play cost or activation cost.",
+    "phoenixborn": "Victoria Glassfire",
+    "chained": false
+  },
+  {
+    "name": "Figures in the Fog",
+    "stub": "figures-in-the-fog",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:power]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Choose a target attacking unit and place 1 exhaustion token on it. It is no longer attacking.",
+    "chained": false
+  },
+  {
+    "name": "Flash Archer",
+    "stub": "flash-archer",
+    "type": "Ally",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[illusion:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "illusion:class": 2
+    },
+    "text": "Double Shot: [[side]] - [[exhaust]]: Deal 1 damage to a target unit. Then you may deal 1 damage to a target unit.",
+    "attack": 4,
+    "life": 2,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Particle Shield",
+    "stub": "particle-shield",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "You may play this spell after a unit you control is dealt damage. Prevent 1 damage from being received. Draw 1 card.",
+    "chained": false
+  },
+  {
+    "name": "Secret Door",
+    "stub": "secret-door",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[illusion:class]]: Choose a target unit you control with a life value of 1. It cannot be blocked for the remainder of the turn.",
+    "chained": false
+  },
+  {
     "name": "Shadow Hound",
     "stub": "shadow-hound",
     "type": "Conjuration",
@@ -83,6 +216,73 @@
         "stub": "shadow-spirit"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "To Shadows",
+    "stub": "to-shadows",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      [
+        "1 [[illusion:power]]",
+        "1 [[time:power]]"
+      ]
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "altDice": [
+      "time",
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:power / time:power": 1
+    },
+    "text": "Discard a target exhausted unit.",
+    "chained": false
+  },
+  {
+    "name": "Vanish",
+    "stub": "vanish",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:power]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:power": 1
+    },
+    "text": "You may play this spell after an opponent targets you or your Phoenixborn with a spell, ability, or dice power. Cancel that effect and the remaining effects of that spell, ability, or dice power.",
+    "chained": false
+  },
+  {
+    "name": "Victoria Glassfire",
+    "stub": "victoria-glassfire",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "dice": [
+      "illusion"
+    ],
+    "text": "Surprise!: [[side]] - [[exhaust]] - 1 [[illusion:class]]: Re-roll up to 4 dice in a target opponent's active pool. Re-roll an equal number of dice in your active pool.",
+    "battlefield": 5,
+    "life": 18,
+    "spellboard": 5,
     "chained": false
   }
 ]

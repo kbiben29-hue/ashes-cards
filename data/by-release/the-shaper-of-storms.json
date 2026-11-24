@@ -30,6 +30,59 @@
     "copies": 3
   },
   {
+    "name": "Eagle Trainer",
+    "stub": "eagle-trainer",
+    "type": "Ally",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[astral:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "astral:class": 1
+    },
+    "text": "Call Eagle Fledgling: When this unit comes into play, place an [[Eagle Fledgling]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Eagle Fledgling",
+        "stub": "eagle-fledgling"
+      }
+    ],
+    "attack": 1,
+    "life": 2,
+    "recover": 1
+  },
+  {
+    "name": "Freezing Rain",
+    "stub": "freezing-rain",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "Place 1 exhaustion token on a target exhausted unit."
+  },
+  {
     "name": "Galewind Hawk",
     "stub": "galewind-hawk",
     "type": "Conjuration",
@@ -45,6 +98,113 @@
     "copies": 2
   },
   {
+    "name": "Gathering Clouds",
+    "stub": "gathering-clouds",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[astral:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "astral:class": 1
+    },
+    "text": "Place 2 [[Cloud Spirit]] conjurations onto your battlefield. Place an astral die from your exhausted pool onto your Phoenixborn.",
+    "conjurations": [
+      {
+        "name": "Cloud Spirit",
+        "stub": "cloud-spirit"
+      }
+    ]
+  },
+  {
+    "name": "Hurricane",
+    "stub": "hurricane",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "3 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 3
+    },
+    "text": "Remove 1 exhaustion token from a Phoenixborn or ready spell. Lower 3 dice in a target opponent's active pool one level. Deal 1 damage to all units that opponent controls.",
+    "phoenixborn": "Kanna Galeheart"
+  },
+  {
+    "name": "Kanna Galeheart",
+    "stub": "kanna-galeheart",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "text": "Aeromancy: [[main]] - [[exhaust]]: Look at the top 5 cards of your draw pile. You may reveal an action spell and add it to your hand. Then, shuffle your draw pile.",
+    "battlefield": 7,
+    "life": 17,
+    "spellboard": 3
+  },
+  {
+    "name": "Puncturing Wind",
+    "stub": "puncturing-wind",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[astral:class]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "astral:class": 1
+    },
+    "text": "Lower 2 dice in a target opponent's active pool one level. Then, choose a target unit or a Phoenixborn that opponent controls. It cannot be declared as a blocker or guard for the remainder of the turn."
+  },
+  {
+    "name": "Searing Bolt",
+    "stub": "searing-bolt",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "Deal 2 damage to a target unit an opponent controls with the highest life value of units they control."
+  },
+  {
     "name": "Storm Spirit",
     "stub": "storm-spirit",
     "type": "Conjuration",
@@ -58,6 +218,32 @@
     "life": 1,
     "recover": 0,
     "copies": 3
+  },
+  {
+    "name": "Stormchaser",
+    "stub": "stormchaser",
+    "type": "Ally",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "Chase 2: When this unit is declared as an attacker, if you played an action spell this turn, add 2 to this unit's attack value for the remainder of the turn.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1
   },
   {
     "name": "Summon Galewind Hawk",
@@ -105,5 +291,22 @@
         "stub": "storm-spirit"
       }
     ]
+  },
+  {
+    "name": "Tailwind",
+    "stub": "tailwind",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "text": "[[side]] - [[exhaust]]: If your Phoenixborn has an astral die on it, add 1 to the attack value of all units you currently control for the remainder of the turn.\n\nFocus 1: You may spend 1 [[basic]] to take 1 additional side action this turn."
   }
 ]

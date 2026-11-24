@@ -1,5 +1,160 @@
 [
   {
+    "name": "Aerial Strike",
+    "stub": "aerial-strike",
+    "type": "Action Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "If your Phoenixborn has an astral die on it, deal 4 damage to a target unit an opponent controls.",
+    "phoenixborn": "Arren Frostpeak"
+  },
+  {
+    "name": "Arren Frostpeak",
+    "stub": "arren-frostpeak",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "dice": [
+      "astral"
+    ],
+    "effectMagicCost": {
+      "astral:class": 1
+    },
+    "text": "Ascend: [[side]] - [[exhaust]] - 1 [[astral:class]]: Deal 1 damage to a target unit an opponent controls. Place an astral die from your exhausted pool onto this Phoenixborn.",
+    "battlefield": 7,
+    "life": 15,
+    "spellboard": 3
+  },
+  {
+    "name": "Barrier",
+    "stub": "barrier",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[artifice:power]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:power": 1
+    },
+    "text": "You may play this spell after a charged card you control is dealt damage. Prevent 3 damage from being received."
+  },
+  {
+    "name": "Brilliant Display",
+    "stub": "brilliant-display",
+    "type": "Action Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Resolve the following effect once for each artifice die on cards you control:\n\nDeal 1 damage to a target unit an opponent controls.",
+    "phoenixborn": "Issa Brightmore"
+  },
+  {
+    "name": "Cirrus Ranger",
+    "stub": "cirrus-ranger",
+    "type": "Ally",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[astral:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "astral:class": 1
+    },
+    "text": "Aerial Ambush 1: When this unit comes into play, if your Phoenixborn has an astral die on it, deal 1 damage to a target Phoenixborn an opponent controls and lower 1 die in that target opponent's active pool one level.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1
+  },
+  {
+    "name": "Core Supplier",
+    "stub": "core-supplier",
+    "type": "Ally",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[artifice:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "artifice:class": 1
+    },
+    "text": "Supply 2: When this unit comes into play, place up to 2 artifice dice from your exhausted pool onto cards you control.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1
+  },
+  {
+    "name": "Dodge",
+    "stub": "dodge",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[astral:power]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "astral:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Place an astral die from your exhausted pool onto a unit you control. For the remainder of the turn, astral dice you control do not exhaust when preventing damage from being received."
+  },
+  {
     "name": "Frost Talon",
     "stub": "frost-talon",
     "type": "Conjuration",
@@ -13,6 +168,152 @@
     "life": 1,
     "recover": 0,
     "copies": 3
+  },
+  {
+    "name": "Gust Spear",
+    "stub": "gust-spear",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[astral:class]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "astral:class": 1
+    },
+    "text": "When attaching this spell, lower 2 dice in a target opponent's active pool one level.",
+    "attack": "+1"
+  },
+  {
+    "name": "Issa Brightmore",
+    "stub": "issa-brightmore",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "artifice:class": 1
+    },
+    "text": "Inspiration: [[side]] - [[exhaust]] - 1 [[artifice:class]]: Draw 2 cards. Place an artifice die from your exhausted pool onto a card you control.",
+    "battlefield": 5,
+    "life": 18,
+    "spellboard": 5
+  },
+  {
+    "name": "Javelineer",
+    "stub": "javelineer",
+    "type": "Ally",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[astral:power]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "astral:power": 1
+    },
+    "text": "Frost Throw: [[main]] - [[exhaust]]: Deal damage to a target unit an opponent controls equal to this unit's attack value.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1
+  },
+  {
+    "name": "Recharge",
+    "stub": "recharge",
+    "type": "Action Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[artifice:power]]",
+      "1 [[discard]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:power": 1
+    },
+    "text": "Remove 1 exhaustion token and 2 wound tokens from a charged card you control."
+  },
+  {
+    "name": "Reconfigure",
+    "stub": "reconfigure",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "text": "[[side]] - [[exhaust]]: Move an artifice die from a card you control onto another card you control."
+  },
+  {
+    "name": "Retreat",
+    "stub": "retreat",
+    "type": "Action Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]"
+    ],
+    "text": "Return an exhausted ally you control and any cards attached to it to each card's owner's hand."
+  },
+  {
+    "name": "Skybreak Captain",
+    "stub": "skybreak-captain",
+    "type": "Ally",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[astral:power]]",
+      "1 [[astral:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "astral:class": 1,
+      "astral:power": 1
+    },
+    "text": "Uplift: When this unit comes into play, place an astral die from your exhausted pool onto it.\n\nAerial Command 1: [[side]]: If this unit has an astral die on it, increase the attack value of another unit you control by 1 for the remainder of the turn.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2
   },
   {
     "name": "Spark Drone",
@@ -152,6 +453,51 @@
     ]
   },
   {
+    "name": "Supercharge",
+    "stub": "supercharge",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[artifice:class]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: If this spell is charged, add 2 to the attack value of a target unit for the remainder of the turn."
+  },
+  {
+    "name": "Systems Drafter",
+    "stub": "systems-drafter",
+    "type": "Ally",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[artifice:class]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:class": 1
+    },
+    "text": "Rethink 1: When this unit comes into play, remove 1 exhaustion token from a ready spell you control.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1
+  },
+  {
     "name": "Thunder Hulk",
     "stub": "thunder-hulk",
     "type": "Conjuration",
@@ -165,5 +511,52 @@
     "life": 3,
     "recover": 0,
     "copies": 2
+  },
+  {
+    "name": "Thunder Suit",
+    "stub": "thunder-suit",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[artifice:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "artifice:class": 1
+    },
+    "text": "When attaching this spell, place an artifice die from your exhausted pool onto the attached unit.",
+    "attack": "+2",
+    "life": "+2",
+    "recover": "+1"
+  },
+  {
+    "name": "Whirlwind",
+    "stub": "whirlwind",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[astral:class]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "magicCost": {
+      "astral:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: Lower 2 dice in a target opponent's active pool one level. If your Phoenixborn has an astral die on it, draw 1 card."
   }
 ]

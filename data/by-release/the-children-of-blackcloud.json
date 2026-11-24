@@ -1,5 +1,139 @@
 [
   {
+    "name": "Blackcloud Ninja",
+    "stub": "blackcloud-ninja",
+    "type": "Ally",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Seal Strike 1: When this unit is declared as an attacker, you may choose a target opponent to place 1 exhaustion token on an unexhausted ready spell of their choice that they control.",
+    "phoenixborn": "Brennen Blackcloud",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Blood Chains",
+    "stub": "blood-chains",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Destroy a unit you control to place 1 exhaustion token on a target unit. If the destroyed unit had 1 or more wound tokens on it, place 2 exhaustion tokens instead.",
+    "chained": false
+  },
+  {
+    "name": "Brennen Blackcloud",
+    "stub": "brennen-blackcloud",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "dice": [
+      "ceremonial"
+    ],
+    "text": "Spirit Burn: [[main]] - [[exhaust]] - 1 [[ceremonial:class]]: Destroy an ally you control to deal 2 damage to a target Phoenixborn.",
+    "battlefield": 5,
+    "life": 16,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Chant of Worship",
+    "stub": "chant-of-worship",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has no status tokens on it.\n\n[[main]] - [[exhaust]]: Remove 1 status token from this spell to draw 1 card.",
+    "chained": false
+  },
+  {
+    "name": "Choke",
+    "stub": "choke",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Place 1 exhaustion token on a target unexhausted Phoenixborn an opponent controls. Deal 1 damage to that target Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Crimson Bomber",
+    "stub": "crimson-bomber",
+    "type": "Ally",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 2
+    },
+    "text": "Detonate 3: [[side]]: Destroy this unit to place 1 wound token on up to 3 target units.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "chained": false
+  },
+  {
     "name": "Dread Wraith",
     "stub": "dread-wraith",
     "type": "Conjuration",
@@ -13,6 +147,98 @@
     "life": 6,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Fester",
+    "stub": "fester",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:power": 1
+    },
+    "text": "Destroy a target unit with 1 or more wound tokens on it.",
+    "chained": false
+  },
+  {
+    "name": "Fire Archer",
+    "stub": "fire-archer",
+    "type": "Ally",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Ambush 1: When this unit comes into play, you may deal 1 damage to a target Phoenixborn.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Regress",
+    "stub": "regress",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "* Fleeting: Discard this card at the end of this round.",
+    "attack": "-3",
+    "chained": false
+  },
+  {
+    "name": "Safeguard",
+    "stub": "safeguard",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Choose a target unit or Phoenixborn you control. Until the start of your next turn, prevent all damage dealt to the chosen target by an opponent's attack, spell, ability, or dice power from being received.",
     "chained": false
   },
   {

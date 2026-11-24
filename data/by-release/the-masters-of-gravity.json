@@ -1,5 +1,75 @@
 [
   {
+    "name": "Changing Winds",
+    "stub": "changing-winds",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "When this spell comes into play, you may draw 2 cards. If you do, choose 2 cards in your hand and place each one on the top or bottom of your draw pile.\n\n[[side]] - [[exhaust]]: Draw 1 card. Change 1 die in your active pool to a side of your choice.",
+    "chained": false
+  },
+  {
+    "name": "Chaos Gravity",
+    "stub": "chaos-gravity",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      [
+        "1 [[divine:class]]",
+        "1 [[sympathy:class]]"
+      ],
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "altDice": [
+      "sympathy",
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class / sympathy:class": 1
+    },
+    "text": "Place 1 exhaustion token on a target unit. Move 1 exhaustion token from a target unit to another unit controlled by the same player. Remove 1 exhaustion token from a target unit.",
+    "phoenixborn": "Echo Greystorm",
+    "chained": false
+  },
+  {
+    "name": "Echo Greystorm",
+    "stub": "echo-greystorm",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "text": "Gravity Flux: [[side]] - [[exhaust]]: Place 1 exhaustion token on a target unit. At the end of this turn, remove that same exhaustion token.",
+    "battlefield": 6,
+    "life": 19,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
     "name": "Enhanced Strength",
     "stub": "enhanced-strength",
     "type": "Conjured Alteration Spell",
@@ -12,6 +82,128 @@
     "attack": "+1",
     "life": "+1",
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Enlightenment",
+    "stub": "enlightenment",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "Remove 1 exhaustion token from a target card.",
+    "chained": false
+  },
+  {
+    "name": "Gravity Training",
+    "stub": "gravity-training",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "altDice": [
+      "divine",
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "divine:class / sympathy:class": 1
+    },
+    "text": "[[main]] or [[side]] - [[exhaust]] - 1 [[divine:class]] or 1 [[sympathy:class]]: Attach an [[Enhanced Strength]] conjured alteration spell to a target exhausted unit you control.",
+    "conjurations": [
+      {
+        "name": "Enhanced Strength",
+        "stub": "enhanced-strength"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Holy Relics",
+    "stub": "holy-relics",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "2 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 2
+    },
+    "attack": "+2",
+    "life": "+2",
+    "chained": false
+  },
+  {
+    "name": "Law of Fear",
+    "stub": "law-of-fear",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "When this spell comes into play, you may place 1 exhaustion token on a target unit with an attack value of 0.\n\nWhile in battle, the attack value of all attacking units is reduced by 1.\n\n* Bound: This card cannot be discarded from your spellboard when you Meditate.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Light Swordsman",
+    "stub": "light-swordsman",
+    "type": "Ally",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "Quick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "attack": 2,
+    "life": 1,
+    "recover": 1,
     "chained": false
   },
   {
@@ -28,6 +220,68 @@
     "life": 2,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Polarity Mage",
+    "stub": "polarity-mage",
+    "type": "Ally",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      [
+        "1 [[sympathy:class]]",
+        "1 [[divine:class]]"
+      ]
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "altDice": [
+      "sympathy",
+      "divine"
+    ],
+    "magicCost": {
+      "sympathy:class / divine:class": 1
+    },
+    "text": "Give and Take: When this unit comes into play, you may search your discard pile for an alteration spell and place it into your hand, or discard a target alteration spell attached to a unit you control.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Sonic Swordsman",
+    "stub": "sonic-swordsman",
+    "type": "Ally",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:power]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:power": 1,
+      "sympathy:class": 1
+    },
+    "text": "Sonic Pulse 1: After this unit destroys a unit an opponent controls by attacking, you may place 1 exhaustion token on a target unit.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 3,
+    "life": 4,
+    "recover": 2,
     "chained": false
   },
   {

@@ -1,5 +1,182 @@
 [
   {
+    "name": "Adrenaline Rush",
+    "stub": "adrenaline-rush",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      [
+        "1 [[ceremonial:power]]",
+        "1 [[sympathy:power]]"
+      ],
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "altDice": [
+      "ceremonial",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "ceremonial:power / sympathy:power": 1
+    },
+    "text": "Deal 1 damage to a target unit you control. Remove 1 exhaustion token from that unit.",
+    "chained": false
+  },
+  {
+    "name": "Beast Mage",
+    "stub": "beast-mage",
+    "type": "Ally",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 2
+    },
+    "text": "Terrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.\n\n* Transform 2: While you do not have the first player token, the attack value, life value, and recover value of this unit are increased by 2.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "chained": false
+  },
+  {
+    "name": "Beast Warrior",
+    "stub": "beast-warrior",
+    "type": "Ally",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "Group Tactics 1: After you declare 3 or more attackers, you may add 1 to this unit's attack value for the remainder of this turn.\n\n* Transform 1: While you do not have the first player token, the attack value, life value, and recover value of this unit are increased by 1",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "chained": false
+  },
+  {
+    "name": "Consume Soul",
+    "stub": "consume-soul",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "You may play this spell after a unit an opponent controls is destroyed as a result of an attack you control. Remove 2 wound tokens and 1 exhaustion token from your Phoenixborn.",
+    "phoenixborn": "Harold Westraven",
+    "chained": false
+  },
+  {
+    "name": "Dark Reaping",
+    "stub": "dark-reaping",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Destroy a unit you control to change 5 dice in your active pool to a side of your choice.",
+    "chained": false
+  },
+  {
+    "name": "Drain Vitality",
+    "stub": "drain-vitality",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      [
+        "[[main]]",
+        "[[side]]"
+      ],
+      "1 [[basic]]"
+    ],
+    "altDice": [
+      "ceremonial",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "ceremonial:class / sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]]: Deal 1 damage to a target unit. If you do, remove 1 wound token from a target unit.\n\n[[side]] - [[exhaust]] - 1 [[sympathy:class]]: Remove 1 status token from a target unit. If you do, place 1 status token on a target unit.",
+    "chained": false
+  },
+  {
+    "name": "Harold Westraven",
+    "stub": "harold-westraven",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "text": "Mark Prey: [[side]] - [[exhaust]]: Attach a [[Hunter's Mark]] conjured alteration spell to a target unit.",
+    "conjurations": [
+      {
+        "name": "Hunter's Mark",
+        "stub": "hunters-mark"
+      }
+    ],
+    "battlefield": 7,
+    "life": 16,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
     "name": "Hunter's Mark",
     "stub": "hunters-mark",
     "type": "Conjured Alteration Spell",
@@ -12,6 +189,61 @@
     "phoenixborn": "Harold Westraven",
     "copies": 1,
     "chained": false
+  },
+  {
+    "name": "Master Vampire",
+    "stub": "master-vampire",
+    "type": "Ally",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "Stalk: This unit cannot be guarded against.\n\nLife Drain 1: After this unit destroys a unit an opponent controls by attacking, you may remove 1 wound token from your Phoenixborn.",
+    "attack": 3,
+    "life": 4,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Psychic Vampire",
+    "stub": "psychic-vampire",
+    "type": "Ally",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:power": 1
+    },
+    "text": "Lobotomize 1: When this unit is destroyed as a result of a spell, attack, counter, ability, or dice power an opponent controls, that opponent must discard 1 card of their choice from their hand.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "chained": true
   },
   {
     "name": "Summon Vampire Bat Swarm",
@@ -40,6 +272,28 @@
         "stub": "vampire-bat-swarm"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Transmute Magic",
+    "stub": "transmute-magic",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "Swap any number of dice in your exhausted pool with an equal number of dice in your active pool, placing them each on a side of your choice. Change 1 die in each target player's active pool to a side of your choice.",
     "chained": false
   },
   {

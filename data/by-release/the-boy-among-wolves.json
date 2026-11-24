@@ -32,6 +32,68 @@
     "chained": false
   },
   {
+    "name": "Explosive Growth",
+    "stub": "explosive-growth",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "sympathy",
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "When attaching this spell, place 2 status tokens on this unit. Discard all other copies of Explosive Growth attached to this unit.\n\nX = the number of status tokens on this unit.",
+    "attack": "+X",
+    "chained": true
+  },
+  {
+    "name": "Hunt Master",
+    "stub": "hunt-master",
+    "type": "Ally",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:power]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:power": 1,
+      "sympathy:class": 1
+    },
+    "text": "Call the Hunt: When this unit comes into play, place 2 status tokens on this unit and place a [[Panther Spirit]] conjuration onto your battlefield.\n\nGuide: [[side]]: Remove 1 status token from this unit to add 1 to the attack value of another target unit you control for the remainder of the turn.",
+    "conjurations": [
+      {
+        "name": "Panther Spirit",
+        "stub": "panther-spirit"
+      }
+    ],
+    "attack": 2,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
     "name": "Indiglow Creeper",
     "stub": "indiglow-creeper",
     "type": "Conjuration",
@@ -55,6 +117,127 @@
     "life": 1,
     "recover": 0,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Invigorate",
+    "stub": "invigorate",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      [
+        "1 [[natural:class]]",
+        "1 [[sympathy:class]]"
+      ]
+    ],
+    "dice": [
+      "natural"
+    ],
+    "altDice": [
+      "sympathy",
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class / sympathy:class": 1
+    },
+    "text": "Place 1 status token on up to 3 target units you control.",
+    "chained": false
+  },
+  {
+    "name": "Join the Hunt",
+    "stub": "join-the-hunt",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Choose a target unit you control to gain the following ability for the remainder of the turn:\n\nGroup Tactics 2: After you declare three or more attackers, you may add 2 to this unit's attack value for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Jungle Warrior",
+    "stub": "jungle-warrior",
+    "type": "Ally",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "* Last Orders 1: When this unit is destroyed, you may spend 1 [[basic]] to remove 1 exhaustion token from a target unit.\n\n* Inheritance 1: When this unit is destroyed, you may place 1 status token on a target unit.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Koji Wolfcub",
+    "stub": "koji-wolfcub",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "text": "Accelerate Growth: [[side]] - [[exhaust]]: Place 1 status token on a target card.",
+    "battlefield": 10,
+    "life": 16,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Lick Wounds",
+    "stub": "lick-wounds",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Discard",
+    "cost": [
+      [
+        "[[main]]",
+        "[[side]]"
+      ],
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Remove 2 wound tokens and 1 exhaustion token from a target unit or Phoenixborn.",
+    "phoenixborn": "Koji Wolfcub",
     "chained": false
   },
   {
@@ -93,6 +276,31 @@
     "life": 1,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Sleeping Bear",
+    "stub": "sleeping-bear",
+    "type": "Ally",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 2
+    },
+    "text": "Slumbering 1: When this unit comes into play, place 1 exhaustion token on it.",
+    "attack": 4,
+    "life": 4,
+    "recover": 2,
     "chained": false
   },
   {
@@ -158,6 +366,34 @@
         "stub": "brilliant-thorn"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Temple Elder",
+    "stub": "temple-elder",
+    "type": "Ally",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "effectMagicCost": {
+      "sympathy:class": 1
+    },
+    "text": "* Resourceful 1: When this unit comes into play, place 1 status token on this unit. At the beginning of the player turns phase, place 1 status token on this unit.\n\nWisdom 1: [[side]] - 1 [[sympathy:class]]: Remove 1 status token from this unit. If you do, draw 1 card.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
     "chained": false
   }
 ]

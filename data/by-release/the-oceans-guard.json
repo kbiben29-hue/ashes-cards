@@ -1,5 +1,53 @@
 [
   {
+    "name": "Darkwater Hunter",
+    "stub": "darkwater-hunter",
+    "type": "Ally",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 2
+    },
+    "text": "~ **Blood Scent:** After 1 or more wound tokens are placed on an opponent's Phoenixborn, you may play this unit from your hand without paying its main action cost.\n\n**Stalk:** This unit cannot be guarded against.",
+    "attack": 3,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Ocean's Gift",
+    "stub": "oceans-gift",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "When this spell comes into play, raise 3 dice in your active pool 1 level.\n\nThis unit now has the following ability:\n\n**Bestow 1:** When this unit is declared as an attacker, you may place 1 status token on a unit you control.",
+    "attack": "+1",
+    "chained": false
+  },
+  {
     "name": "Prism Tetra",
     "stub": "prism-tetra",
     "type": "Conjuration",
@@ -51,6 +99,28 @@
     "life": 1,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Stand Still",
+    "stub": "stand-still",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:class]]",
+      "1 [[discard]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "You may play this spell after you declare attackers. Choose a target unit an opponent controls. Units with that unit's current title cannot be declared as blockers for the remainder of the turn.",
     "chained": false
   },
   {
@@ -187,6 +257,96 @@
     "life": 3,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Tidal Shift",
+    "stub": "tidal-shift",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "sympathy",
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "Move 1 exhaustion token from a ready spell you control onto a target unit an opponent controls.",
+    "chained": false
+  },
+  {
+    "name": "Tristan Darkwater",
+    "stub": "tristan-darkwater",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Magnify: [[side]] - [[exhaust]] - 1 [[basic]]: Choose any number of units you control with a combined life value of up to 3. During Attack actions this turn, the numeral values of their abilities are increased by 1.",
+    "battlefield": 9,
+    "life": 17,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Tsunami Shot",
+    "stub": "tsunami-shot",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Resolve the following effect up to four times:\n\nDeal 1 damage to a target unit an opponent controls.",
+    "phoenixborn": "Tristan Darkwater",
+    "chained": false
+  },
+  {
+    "name": "Wave Crash",
+    "stub": "wave-crash",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "Remove 1 status token from a unit you control to deal 2 damage to a target unit an opponent controls or 1 damage to a target Phoenixborn.",
     "chained": false
   }
 ]

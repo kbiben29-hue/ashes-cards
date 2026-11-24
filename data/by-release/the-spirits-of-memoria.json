@@ -16,6 +16,213 @@
     "chained": false
   },
   {
+    "name": "Angelic Rescue",
+    "stub": "angelic-rescue",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "You may play this spell after a unit you control is dealt damage by a spell, ability, or dice power an opponent controls. Prevent that damage from being received, and then remove all wound tokens from that unit.",
+    "chained": false
+  },
+  {
+    "name": "Celestial Knight",
+    "stub": "celestial-knight",
+    "type": "Ally",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:power]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion",
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "illusion:power": 1
+    },
+    "text": "* Armored 1: After this unit is dealt damage, prevent 1 damage from being received.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Chained Creations",
+    "stub": "chained-creations",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "Deal 2 damage to a target conjuration an opponent controls. If that destroyed the conjuration, place 1 exhaustion token on a ready spell that target opponent controls that has a printed effect that can place that conjuration onto the battlefield.",
+    "chained": false
+  },
+  {
+    "name": "Gates Thrown Open",
+    "stub": "gates-thrown-open",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "Remove 1 exhaustion token from 1 ready spell in each of your spellboard slots.",
+    "chained": false
+  },
+  {
+    "name": "Law of Grace",
+    "stub": "law-of-grace",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "When this spell comes into play, remove 1 wound token from your Phoenixborn.\n\nAfter any Phoenixborn is dealt damage by a spell or ability, prevent 1 damage from being received.\n\n* Bound: This card cannot be discarded from your spellboard when you Meditate.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Purify",
+    "stub": "purify",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Choose a target ally you control and place it into your hand. If you do, destroy a target conjuration an opponent controls.",
+    "phoenixborn": "Sembali Grimtongue",
+    "chained": false
+  },
+  {
+    "name": "Sembali Grimtongue",
+    "stub": "sembali-grimtongue",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "text": "Gift of Wings: [[side]] - [[exhaust]] - 2 [[basic]]: Remove all exhaustion tokens from a target ally you control. It cannot be guarded against for the remainder of the turn.",
+    "battlefield": 5,
+    "life": 19,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Shadow Guard",
+    "stub": "shadow-guard",
+    "type": "Ally",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 2
+    },
+    "text": "~ Hidden: After an opponent has declared attackers, you may play this unit from your hand without paying its main action cost.\n\nUnit Guard: This unit may guard a unit that is being attacked.",
+    "attack": 3,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Shepherd of Lost Souls",
+    "stub": "shepherd-of-lost-souls",
+    "type": "Ally",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Spirit Guide: When this unit comes into play, you may search your discard pile for an ally with a title other than this unit's title and place it into your hand.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "chained": false
+  },
+  {
     "name": "Spectral Assassin",
     "stub": "spectral-assassin",
     "type": "Conjuration",

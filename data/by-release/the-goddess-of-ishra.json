@@ -1,5 +1,117 @@
 [
   {
+    "name": "Astrea",
+    "stub": "astrea",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "text": "Beguile: [[main]] - [[exhaust]] - 1 [[basic]]: Place 1 exhaustion token on a target unexhausted unit.",
+    "battlefield": 4,
+    "life": 19,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Call to Action",
+    "stub": "call-to-action",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[charm:power]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Remove 1 exhaustion token from a target unit you control.",
+    "chained": false
+  },
+  {
+    "name": "Devotion",
+    "stub": "devotion",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "divine",
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1,
+      "divine:class": 1
+    },
+    "text": "This spell can only be attached to a unit you control. When attaching this spell, remove 1 exhaustion token from this unit.\n\nThis unit now has the following abilities:\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.\n\nRooted: This unit cannot attack.",
+    "life": "+1",
+    "recover": "+1",
+    "chained": false
+  },
+  {
+    "name": "Imperial Ninja",
+    "stub": "imperial-ninja",
+    "type": "Ally",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 2
+    },
+    "text": "Interrogate: When this unit is declared as an attacker, look at 1 random card in a target opponent's hand. That target player may discard 2 cards off the top of their draw pile. If they discard fewer than 2 cards, they must discard the looked at card.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Kneel",
+    "stub": "kneel",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "divine",
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1,
+      "divine:class": 1
+    },
+    "text": "Place 1 exhaustion token on each unexhausted unit.",
+    "chained": false
+  },
+  {
     "name": "Light Bringer",
     "stub": "light-bringer",
     "type": "Conjuration",
@@ -13,6 +125,44 @@
     "life": 1,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Mark of the Goddess",
+    "stub": "mark-of-the-goddess",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Choose a target unexhausted unit an opponent controls. Deal damage equal to the chosen unit's attack value to another target unit that opponent controls. If the chosen unit is the only unexhausted unit that opponent controls, you may deal that damage to their target Phoenixborn instead.",
+    "phoenixborn": "Astrea",
+    "chained": false
+  },
+  {
+    "name": "Royal Charm",
+    "stub": "royal-charm",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "text": "After you pay a cost using a charm or divine die on its power side, you may place that die on this spell if it has no dice on it.\n\n[[side]] - [[exhaust]]: Choose a die on this spell and resolve its dice power without paying its cost.",
     "chained": false
   },
   {
@@ -112,6 +262,33 @@
         "stub": "weeping-spirit"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Sun Sister",
+    "stub": "sun-sister",
+    "type": "Ally",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "Care 1: [[side]]: Remove 1 wound token from another target unit you control.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
     "chained": false
   },
   {

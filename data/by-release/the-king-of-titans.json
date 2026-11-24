@@ -32,6 +32,113 @@
     "chained": false
   },
   {
+    "name": "Earthquake",
+    "stub": "earthquake",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Deal 4 damage to a target unit and 1 damage to each other unit.",
+    "phoenixborn": "Xander Heartsblood",
+    "chained": false
+  },
+  {
+    "name": "Law of Domination",
+    "stub": "law-of-domination",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "When this spell comes into play, choose an opponent to choose a unit they control. Then, choose a unit you control. Those units deal damage to each other equal to their attack value.\n\nThis damage, and damage from attacking or countering, cannot be prevented.\n\n* Bound: This card cannot be discarded from your spellboard when you Meditate.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Mass Heal",
+    "stub": "mass-heal",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]"
+    ],
+    "text": "Remove 1 wound token from all units. If you have a divine die on its class or power side in your active pool, you may instead remove 1 wound token from your Phoenixborn and all units you control.",
+    "chained": false
+  },
+  {
+    "name": "Nature's Wrath",
+    "stub": "natures-wrath",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "Deal 1 damage to all units.",
+    "chained": false
+  },
+  {
+    "name": "Pain Shaman",
+    "stub": "pain-shaman",
+    "type": "Ally",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 2
+    },
+    "text": "Exchange Pain 1: When this unit comes into play, you may deal 1 damage to a target unit, and then remove 1 wound token from a target unit or Phoenixborn.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
     "name": "Raptor Hatchling",
     "stub": "raptor-hatchling",
     "type": "Conjuration",
@@ -45,6 +152,66 @@
     "life": 1,
     "recover": 0,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Raptor Herder",
+    "stub": "raptor-herder",
+    "type": "Ally",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      [
+        "1 [[natural:class]]",
+        "1 [[sympathy:class]]"
+      ]
+    ],
+    "dice": [
+      "natural"
+    ],
+    "altDice": [
+      "sympathy",
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class / sympathy:class": 1
+    },
+    "text": "Call Raptor Hatchling: When this unit comes into play, place a [[Raptor Hatchling]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Raptor Hatchling",
+        "stub": "raptor-hatchling"
+      }
+    ],
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Sacred Ground",
+    "stub": "sacred-ground",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: All units you currently control gain the following ability until the start of your next turn:\n\n* Armored 1: After this unit is dealt damage, prevent 1 damage from being received.",
     "chained": false
   },
   {
@@ -182,5 +349,19 @@
       }
     ],
     "chained": true
+  },
+  {
+    "name": "Xander Heartsblood",
+    "stub": "xander-heartsblood",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "text": "Reincarnate: [[side]] - [[exhaust]] - 1 [[divine:class]]: Search your discard pile for an ally and place it into your hand.",
+    "battlefield": 6,
+    "life": 20,
+    "spellboard": 3,
+    "chained": false
   }
 ]

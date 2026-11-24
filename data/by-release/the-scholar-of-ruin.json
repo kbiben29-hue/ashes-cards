@@ -1,5 +1,138 @@
 [
   {
+    "name": "Chant of Erosion",
+    "stub": "chant-of-erosion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has no status tokens on it.\n\n[[main]] - [[exhaust]]: Remove 1 status token from this spell to attach an [[Eroding]] conjured alteration spell to a target unit.",
+    "conjurations": [
+      {
+        "name": "Eroding",
+        "stub": "eroding"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Chant of Hostility",
+    "stub": "chant-of-hostility",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has no status tokens on it.\n\n[[side]] - [[exhaust]]: Remove 1 status token from this spell to add 1 to the attack value of a target unit you control for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Crypt Guardian",
+    "stub": "crypt-guardian",
+    "type": "Ally",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nShackle 1: At the end of the round or when this unit is destroyed as a result of a spell, ability, or dice power, you may place 1 exhaustion token on a target unexhausted unit.",
+    "attack": 2,
+    "life": 4,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Discovery",
+    "stub": "discovery",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]",
+      "1 [[discard]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Attach a [[Red Raindrop]] conjured alteration spell to your Phoenixborn. Then, shuffle this card into your draw pile.",
+    "conjurations": [
+      {
+        "name": "Red Raindrop",
+        "stub": "red-raindrop"
+      }
+    ],
+    "phoenixborn": "Rowan Umberend",
+    "chained": false
+  },
+  {
+    "name": "Era's End",
+    "stub": "eras-end",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "Resolve all effects that trigger at the end of the round on unexhausted cards currently in play, in the order of your choice.",
+    "chained": false
+  },
+  {
     "name": "Eroding",
     "stub": "eroding",
     "type": "Conjured Alteration Spell",
@@ -12,6 +145,79 @@
     "attack": "-1",
     "recover": "-1",
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Excavate",
+    "stub": "excavate",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "Discard 3 cards off the top of your draw pile. If you do, place 1 of them into your hand and deal 3 damage to a target unit.",
+    "chained": false
+  },
+  {
+    "name": "Knowledge Seeker",
+    "stub": "knowledge-seeker",
+    "type": "Ally",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "Seek 3: When this unit comes into play, look at the top 3 cards of your draw pile. Place each card on the top or bottom of your draw pile.\n\n* Bequest 1: When this unit is destroyed, you may draw up to 1 card.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Rapture",
+    "stub": "rapture",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Destroy an unexhausted ally you control to deal 1 damage to all units opponents control.",
     "chained": false
   },
   {
@@ -49,6 +255,51 @@
     ],
     "phoenixborn": "Rowan Umberend",
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ritualist",
+    "stub": "ritualist",
+    "type": "Ally",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Incant: When this unit comes into play, you may search your draw pile or discard pile for a ready spell with \"Chant\" in its title, reveal it, and place it into your hand. If you searched your draw pile, shuffle it.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Rowan Umberend",
+    "stub": "rowan-umberend",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Conscript: After an ally you control is destroyed, you may place it face down under this card, discarding any other allies underneath this card.\n\nExhume: [[main]] - [[exhaust]] - 1 [[basic]]: Place an ally that is underneath this card onto your battlefield, and then destroy it.",
+    "battlefield": 5,
+    "life": 18,
+    "spellboard": 5,
     "chained": false
   },
   {

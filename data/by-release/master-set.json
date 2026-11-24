@@ -1,5 +1,99 @@
 [
   {
+    "name": "Abundance",
+    "stub": "abundance",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: All players may draw up to 2 cards. For each card they cannot or do not draw, deal 1 damage to their Phoenixborn.\n\nFocus 1: Reduce the damage your Phoenixborn receives from this spell by 1.\n\nFocus 2: Reduce the damage your Phoenixborn receives from this spell by an additional 1.",
+    "chained": false
+  },
+  {
+    "name": "Anchornaut",
+    "stub": "anchornaut",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Throw 1: When this unit comes into play, you may deal 1 damage to another target unit.",
+    "attack": 0,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Aradel Summergaard",
+    "stub": "aradel-summergaard",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "dice": [
+      "natural"
+    ],
+    "text": "Water Blast: [[side]] - [[exhaust]] - 1 [[natural:class]]: Deal 2 damage to a target unit.",
+    "battlefield": 8,
+    "life": 16,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Blood Archer",
+    "stub": "blood-archer",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "Blood Shot: [[side]]: Place 1 wound token on this unit to deal 1 damage to a target unit.",
+    "attack": 3,
+    "life": 3,
+    "recover": 2,
+    "chained": false
+  },
+  {
     "name": "Blood Puppet",
     "stub": "blood-puppet",
     "type": "Conjuration",
@@ -20,6 +114,54 @@
     "chained": false
   },
   {
+    "name": "Blood Shaman",
+    "stub": "blood-shaman",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "* Blood Ritual 1: When this unit is destroyed as a result of a spell, ability, or dice power you control, you may remove 1 wound token from your Phoenixborn and then raise 1 die in your active pool one level.",
+    "attack": 0,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Blood Transfer",
+    "stub": "blood-transfer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm",
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[charm:class]] - 1 [[ceremonial:class]]: Deal 2 damage to a target unit you control. If you do, you may remove 2 wound tokens from another unit you control or remove 1 wound token from your Phoenixborn.",
+    "chained": false
+  },
+  {
     "name": "Blue Jaguar",
     "stub": "blue-jaguar",
     "type": "Conjuration",
@@ -34,6 +176,28 @@
     "life": 2,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Bound Soul",
+    "stub": "bound-soul",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "Search your discard pile for an ally and place it into your hand.",
     "chained": false
   },
   {
@@ -53,6 +217,216 @@
     "chained": false
   },
   {
+    "name": "Call Upon the Realms",
+    "stub": "call-upon-the-realms",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]"
+    ],
+    "text": "Change 3 dice in your active pool to a side of your choice.",
+    "chained": false
+  },
+  {
+    "name": "Chant of Revenge",
+    "stub": "chant-of-revenge",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has no status tokens on it.\n\n[[side]] - [[exhaust]]: Remove 1 status token from this spell to deal 1 damage to a target Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Close Combat",
+    "stub": "close-combat",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "text": "Choose an unexhausted unit you control. Deal damage to another target unit equal to the chosen unit's attack value. Then, place 1 wound token or 1 exhaustion token on the chosen unit you control.",
+    "chained": false
+  },
+  {
+    "name": "Coal Roarkwin",
+    "stub": "coal-roarkwin",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "text": "Slash: [[side]] - 1 [[discard]]: Choose a player. Deal 1 damage to a target unit they control, or deal 1 damage to their target Phoenixborn if they control no units.",
+    "battlefield": 6,
+    "life": 15,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Cover",
+    "stub": "cover",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "text": "You may play this spell after your Phoenixborn, while guarding, is dealt damage by a unit's attack. Prevent that damage from being received. Deal 1 damage to the target attacking unit.",
+    "chained": false
+  },
+  {
+    "name": "Cut the Strings",
+    "stub": "cut-the-strings",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]] - 1 [[basic]]: Deal 2 damage to a unit you control. If you do, you may discard a target alteration spell.",
+    "chained": false
+  },
+  {
+    "name": "Empower",
+    "stub": "empower",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "natural:class / sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] or 1 [[sympathy:class]]: Place 1 status token on a target unit you control.\n\nFocus 1: Then, you may remove any number of status tokens from a unit you control. Deal damage to a target unit equal to the number of status tokens removed.",
+    "chained": false
+  },
+  {
+    "name": "Enchanted Violinist",
+    "stub": "enchanted-violinist",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "Song of Sorrow: [[side]] - [[exhaust]]: Deal 1 damage to a target unit an opponent controls. If that destroyed the unit, that target opponent must discard 1 card off the top of their draw pile.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Expand Energy",
+    "stub": "expand-energy",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Draw until you have 2 cards in your hand.",
+    "chained": false
+  },
+  {
+    "name": "Fade Away",
+    "stub": "fade-away",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "Destroy this unit at the end of the round. If the destroyed unit was an ally, remove it from the game.",
+    "chained": false
+  },
+  {
     "name": "False Demon",
     "stub": "false-demon",
     "type": "Conjuration",
@@ -66,6 +440,50 @@
     "life": 2,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Fear",
+    "stub": "fear",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "text": "Destroy a unit you control. If you do, remove wound tokens from your Phoenixborn equal to the destroyed unit's recover value and then discard a target unit an opponent controls.",
+    "phoenixborn": "Jessa Na Ni",
+    "chained": false
+  },
+  {
+    "name": "Final Cry",
+    "stub": "final-cry",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[ceremonial:power]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:power": 1
+    },
+    "text": "You may play this spell after a unit you control is destroyed. Deal 2 damage to a target Phoenixborn.",
     "chained": false
   },
   {
@@ -85,6 +503,100 @@
     "chained": false
   },
   {
+    "name": "Golden Veil",
+    "stub": "golden-veil",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[charm:power]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:power": 1
+    },
+    "text": "You may play this spell after an opponent targets a unit you control with a spell, ability, or dice power. Cancel that effect and the remaining effects of that spell, ability or dice power.",
+    "chained": true
+  },
+  {
+    "name": "Hammer Knight",
+    "stub": "hammer-knight",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:power]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "Aftershock 1: After this unit destroys a unit an opponent controls by attacking, you may deal 1 damage to a target unit.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 3,
+    "life": 4,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Hidden Power",
+    "stub": "hidden-power",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "Draw 1 card. Change 5 dice in your active pool to a side of your choice.",
+    "chained": false
+  },
+  {
+    "name": "Hypnotize",
+    "stub": "hypnotize",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 2
+    },
+    "text": "[[side]] - [[exhaust]] - 2 [[charm:class]]: Choose a target unit you control to gain the following ability for the remainder of the turn.\n\nBypass: This unit cannot be blocked or guarded.",
+    "chained": true
+  },
+  {
     "name": "Iron Rhino",
     "stub": "iron-rhino",
     "type": "Conjuration",
@@ -98,6 +610,94 @@
     "life": 4,
     "recover": 0,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Iron Worker",
+    "stub": "iron-worker",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "* Overtime 2: During the draw cards step, you may draw up to 2 additional cards.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Jessa Na Ni",
+    "stub": "jessa-na-ni",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "text": "Screams of the Departed: Once per turn, after a unit is destroyed, you may spend 1 [[basic]] to deal 1 damage to a target Phoenixborn.",
+    "battlefield": 4,
+    "life": 19,
+    "spellboard": 4,
+    "effectRepeats": true,
+    "chained": false
+  },
+  {
+    "name": "Living Doll",
+    "stub": "living-doll",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]",
+      [
+        "1 [[charm:class]]",
+        "1 [[sympathy:class]]"
+      ]
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "altDice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "ceremonial:class": 1,
+      "charm:class / sympathy:class": 1
+    },
+    "text": "Pain Link 1: [[side]]: Move 1 wound token from this unit onto a target Phoenixborn.",
+    "attack": 0,
+    "life": 3,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Maeoni Viper",
+    "stub": "maeoni-viper",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "text": "Command Strike: [[side]] - [[exhaust]] - 2 [[basic]]: Choose an unexhausted unit you control. Deal damage to a target unit equal to the chosen unit's attack value.",
+    "battlefield": 4,
+    "life": 20,
+    "spellboard": 5,
     "chained": false
   },
   {
@@ -117,6 +717,32 @@
     "chained": false
   },
   {
+    "name": "Massive Growth",
+    "stub": "massive-growth",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "* This spell can only be attached to a unit with an attack value of 2 or less.\n\n* Spell Guard: This spell cannot be affected by an opponent's spell.\n\n* Fleeting: Discard this card at the end of this round.",
+    "attack": "+4",
+    "life": "+4",
+    "chained": false
+  },
+  {
     "name": "Mist Spirit",
     "stub": "mist-spirit",
     "type": "Conjuration",
@@ -129,6 +755,349 @@
     "life": 1,
     "recover": 0,
     "copies": 10,
+    "chained": false
+  },
+  {
+    "name": "Mist Typhoon",
+    "stub": "mist-typhoon",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "illusion",
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1,
+      "illusion:class": 1
+    },
+    "text": "Deal 1 damage to all opponent's units. You may draw 1 card.",
+    "chained": false
+  },
+  {
+    "name": "Molten Gold",
+    "stub": "molten-gold",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 2
+    },
+    "text": "Place 3 wound tokens on a target unit an opponent controls.",
+    "chained": false
+  },
+  {
+    "name": "Noah Redmoon",
+    "stub": "noah-redmoon",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "text": "Shadow Target: [[side]] - [[exhaust]] - 1 [[basic]]: Choose a target opponent and place 1 exhaustion token on an unexhausted ready spell they control.",
+    "battlefield": 7,
+    "life": 16,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "One Hundred Blades",
+    "stub": "one-hundred-blades",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "Deal 1 damage to a target Phoenixborn. Deal 1 damage to all opponents' units. Draw 1 card.",
+    "phoenixborn": "Coal Roarkwin",
+    "chained": false
+  },
+  {
+    "name": "Open Memories",
+    "stub": "open-memories",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "You may search your draw pile for 1 card and place it into your hand. If you do, shuffle your draw pile.",
+    "chained": false
+  },
+  {
+    "name": "Out of the Mist",
+    "stub": "out-of-the-mist",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[illusion:power]]",
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "illusion",
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1,
+      "illusion:power": 1
+    },
+    "text": "Deal X amount of damage to a target unit. You may draw 1 card.\n\nX = the number of units you have in play.",
+    "chained": false
+  },
+  {
+    "name": "Purge",
+    "stub": "purge",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Choose a target player to discard 1 card off the top of their draw pile.\n\nFocus 1: You may pay 1 [[basic]]  to have the target player discard 1 additional card.",
+    "chained": false
+  },
+  {
+    "name": "Redirect",
+    "stub": "redirect",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[charm:power]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:power": 1
+    },
+    "text": "You may play this spell after your Phoenixborn is dealt damage if you control at least 1 unit. Choose a unit you control to receive that damage instead.",
+    "chained": false
+  },
+  {
+    "name": "Reflections in the Water",
+    "stub": "reflections-in-the-water",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      [
+        "1 [[illusion:class]]",
+        "1 [[time:class]]"
+      ]
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "altDice": [
+      "time",
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class / time:class": 1
+    },
+    "text": "* While this spell is attached to this unit, this unit is considered to have no abilities, including inexhaustible abilities.\n\n* Fleeting: Discard this card at the end of this round.",
+    "chained": false
+  },
+  {
+    "name": "Refresh",
+    "stub": "refresh",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "Remove all exhaustion tokens from a target unit.",
+    "chained": false
+  },
+  {
+    "name": "Resummon",
+    "stub": "resummon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]] - 1 [[illusion:class]]: Destroy a conjuration you control. Then, place that conjuration onto your battlefield.",
+    "chained": false
+  },
+  {
+    "name": "Root Armor",
+    "stub": "root-armor",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "This unit now has the following ability:\n\n* Armored 1: After this unit is dealt damage, prevent 1 damage from being received.",
+    "life": "+1",
+    "chained": false
+  },
+  {
+    "name": "Rose Fire Dancer",
+    "stub": "rose-fire-dancer",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "Distract: [[side]] - [[exhaust]]: Place 1 exhaustion token on a target unit.",
+    "attack": 3,
+    "life": 1,
+    "recover": 0,
+    "chained": false
+  },
+  {
+    "name": "Saria Guideman",
+    "stub": "saria-guideman",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "dice": [
+      "charm"
+    ],
+    "text": "Heart's Pull: [[side]] - [[exhaust]] - 1 [[charm:class]]: You may draw 1 card. If you do, you may choose a target player to discard 1 card off the top of their draw pile.",
+    "battlefield": 5,
+    "life": 20,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
+    "name": "Seal",
+    "stub": "seal",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "charm",
+      "illusion"
+    ],
+    "magicCost": {
+      "charm:class": 1,
+      "illusion:class": 1
+    },
+    "text": "Choose a ready spell on a target player's spellboard. Place 1 exhaustion token on the chosen spell and on each other copy of the chosen spell on that player's spellboard.",
     "chained": false
   },
   {
@@ -146,6 +1115,49 @@
     "life": 2,
     "recover": 0,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Shadow Strike",
+    "stub": "shadow-strike",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[illusion:power]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Deal 3 damage to a target unit that opponent controls that is not attacking.",
+    "chained": false
+  },
+  {
+    "name": "Shifting Mist",
+    "stub": "shifting-mist",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Change 2 dice in your active pool to a side of your choice.",
     "chained": false
   },
   {
@@ -178,6 +1190,151 @@
     "life": 1,
     "recover": 0,
     "copies": 6,
+    "chained": false
+  },
+  {
+    "name": "Sleight of Hand",
+    "stub": "sleight-of-hand",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:power]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "illusion:power": 1
+    },
+    "text": "Draw 3 cards.",
+    "chained": false
+  },
+  {
+    "name": "Small Sacrifice",
+    "stub": "small-sacrifice",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]]: Deal 1 damage to a target unit on your battlefield. If you do, you may deal 1 damage to a target unit on an opponent's battlefield.\n\nFocus 1: If both targeted units are unexhausted, you may place 1 exhaustion token on both units instead of damage.",
+    "chained": false
+  },
+  {
+    "name": "Steady Gaze",
+    "stub": "steady-gaze",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "2 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 2
+    },
+    "text": "Place 2 exhaustion tokens on a target unit.",
+    "chained": false
+  },
+  {
+    "name": "Stormwind Sniper",
+    "stub": "stormwind-sniper",
+    "type": "Ally",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[ceremonial:class]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "Ambush 1: When this unit comes into play, you may deal 1 damage to a target Phoenixborn.\n\nConcealed: This unit cannot be targeted by attacks, spells, abilities, or dice powers an opponent controls.",
+    "attack": 2,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Strange Copy",
+    "stub": "strange-copy",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      [
+        "1 [[illusion:power]]",
+        "1 [[sympathy:power]]"
+      ]
+    ],
+    "altDice": [
+      "illusion",
+      "sympathy"
+    ],
+    "magicCost": {
+      "illusion:power / sympathy:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Choose a unit you control to become a copy of a target unit for the remainder of the turn. While a copy, that unit replaces its title, printed abilities and printed attack, life and recover values with those of the target unit. If a printed value is X, use the current value of X.",
+    "chained": false
+  },
+  {
+    "name": "Strengthen",
+    "stub": "strengthen",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "1 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "natural",
+      "ceremonial"
+    ],
+    "magicCost": {
+      "natural:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Add 2 to a target unit's attack value for the remainder of the turn.\n\nFocus 2: Add 1 more to that unit's attack value for the remainder of the turn.",
     "chained": false
   },
   {
@@ -520,6 +1677,31 @@
     "chained": false
   },
   {
+    "name": "Sympathy Pain",
+    "stub": "sympathy-pain",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      [
+        "1 [[charm:power]]",
+        "1 [[sympathy:power]]"
+      ]
+    ],
+    "altDice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "charm:power / sympathy:power": 1
+    },
+    "text": "You may play this spell after 1 or more wound tokens are placed on your Phoenixborn as a result of an attack, spell, ability, or dice power an opponent controls. Deal 2 damage to a target unit or Phoenixborn that opponent controls.",
+    "chained": false
+  },
+  {
     "name": "Three-Eyed Owl",
     "stub": "three-eyed-owl",
     "type": "Conjuration",
@@ -533,6 +1715,54 @@
     "life": 2,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Transfer",
+    "stub": "transfer",
+    "type": "Action Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "Move 1 token from a target player's non-Phoenixborn card onto another non-Phoenixborn card that player controls.",
+    "chained": false
+  },
+  {
+    "name": "Undying Heart",
+    "stub": "undying-heart",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "This unit now has the following ability:\n\n* Undying: When this unit is destroyed, if it is an ally, you may place it into its owner's hand.",
+    "life": "+1",
+    "recover": "+1",
     "chained": false
   }
 ]

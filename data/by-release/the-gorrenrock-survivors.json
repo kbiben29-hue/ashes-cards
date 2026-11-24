@@ -1,5 +1,54 @@
 [
   {
+    "name": "Backtrack",
+    "stub": "backtrack",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:power]]",
+      "1 [[discard]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "You may play this spell after an opponent declares attackers. Choose a target attacking ally and place it into its owner's hand.",
+    "chained": false
+  },
+  {
+    "name": "Canyon Shelter",
+    "stub": "canyon-shelter",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural",
+      "time"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Remove an exhausted unit you control from play and place it face down under this spell.\n\n[[main]] - 1 [[time:class]]: Choose a unit underneath this spell and place it onto your battlefield. Place 1 status token on that unit.",
+    "effectRepeats": true,
+    "chained": false
+  },
+  {
     "name": "Emberoot Lizard",
     "stub": "emberoot-lizard",
     "type": "Conjuration",
@@ -16,6 +65,128 @@
     "chained": false
   },
   {
+    "name": "Fighting Spirit",
+    "stub": "fighting-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "After a unit you control with 1 or more status tokens on it is destroyed, place 1 status token on this spell.\n\n[[side]] - [[exhaust]]: Add X to the attack value of a target unit you control for the remainder of the turn. Then, move 1 status token from this spell onto that unit.\n\nX = the number of status tokens on this spell.",
+    "chained": false
+  },
+  {
+    "name": "Gorrenrock Brawler",
+    "stub": "gorrenrock-brawler",
+    "type": "Ally",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[time:power]]",
+      "1 [[natural:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "time",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "time:power": 1,
+      "natural:class": 1
+    },
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "* Brawl 1: After a unit is destroyed, if this unit had been declared as an attacker, blocker, or guard this turn, place 1 status token on this unit.\n\n* Comeback: [[main]] - 1 [[basic]]: If there are 6 or more tokens of any type on this unit, remove all tokens from this unit.",
+    "attack": 4,
+    "life": 5,
+    "recover": 1,
+    "effectRepeats": true,
+    "chained": false
+  },
+  {
+    "name": "Hunting Weapons",
+    "stub": "hunting-weapons",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "text": "This spell can only be attached to an ally.\n\nThis unit now has the following ability:\n\nHunt 1: When this unit is declared as an attacker, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": "+1",
+    "chained": false
+  },
+  {
+    "name": "Inflame",
+    "stub": "inflame",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "This unit now has the following ability:\n\nThreatening: This unit must be blocked, if able.",
+    "attack": "+1",
+    "chained": false
+  },
+  {
+    "name": "Lulu Firststone",
+    "stub": "lulu-firststone",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "text": "Bolster: [[side]] - [[exhaust]] - 1 [[basic]]: Place 1 status token on a target unit you control and attach a [[Spark]] conjured alteration spell to that unit.",
+    "conjurations": [
+      {
+        "name": "Spark",
+        "stub": "spark"
+      }
+    ],
+    "battlefield": 6,
+    "life": 16,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
     "name": "Omen Bringer",
     "stub": "omen-bringer",
     "type": "Conjuration",
@@ -29,6 +200,29 @@
     "life": 2,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Phoenix Barrage",
+    "stub": "phoenix-barrage",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "3 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 3
+    },
+    "text": "Deal 2 damage to a target unit. Deal 2 damage to a target unit. Deal 2 damage to a target Phoenixborn.",
+    "phoenixborn": "Lulu Firststone",
     "chained": false
   },
   {
@@ -103,6 +297,34 @@
         "stub": "omen-bringer"
       }
     ],
+    "chained": false
+  },
+  {
+    "name": "Survival of the Fittest",
+    "stub": "survival-of-the-fittest",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[natural:class]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1,
+      "natural:class": 1
+    },
+    "text": "Destroy all units with no tokens on them and no alteration spells attached to them.",
     "chained": false
   }
 ]

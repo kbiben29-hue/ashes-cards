@@ -1,5 +1,97 @@
 [
   {
+    "name": "Confusion Spores",
+    "stub": "confusion-spores",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Target unit cannot block or guard for the remainder of this turn.\n\nFocus 1: You may spend an additional 1 [[sympathy:class]] to take 1 additional side action this turn.",
+    "chained": false
+  },
+  {
+    "name": "Essence Druid",
+    "stub": "essence-druid",
+    "type": "Ally",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:power]]",
+      "1 [[charm:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy",
+      "charm"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "charm:class": 1,
+      "sympathy:power": 1
+    },
+    "text": "Spell Recall: When this unit comes into play, you may search your discard pile for a ready spell and place it into your hand.\n\nTame 2: While this unit is in battle, the attack value of units in battle with it is reduced by 2.",
+    "attack": 2,
+    "life": 4,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Exhortation",
+    "stub": "exhortation",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[charm:class]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "charm:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "Choose 2 units you control. For each unit, add the other unit's current attack value to its attack value for the remainder of this turn.",
+    "chained": false
+  },
+  {
+    "name": "Fiona Mercywind",
+    "stub": "fiona-mercywind",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "text": "Ingenuity: [[side]] - [[exhaust]] - 1 [[discard]]: Draw 1 card or remove 1 exhaustion token from a ready spell you control.",
+    "battlefield": 6,
+    "life": 15,
+    "spellboard": 5,
+    "chained": false
+  },
+  {
     "name": "Majestic Titan",
     "stub": "majestic-titan",
     "type": "Conjuration",
@@ -35,6 +127,57 @@
     "chained": false
   },
   {
+    "name": "Mind Maze",
+    "stub": "mind-maze",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "* This unit cannot attack, block, or guard.\n\n* Escape: [[main]] - [[side]] - 1 [[basic]] - 1 [[discard]]: Discard this card.\n\n* Lost: Discard this unit at the end of the round.",
+    "phoenixborn": "Fiona Mercywind",
+    "chained": false
+  },
+  {
+    "name": "New Ideas",
+    "stub": "new-ideas",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      [
+        "[[main]]",
+        "[[side]]"
+      ],
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "Choose 1 card in your hand and place it on the bottom of your draw pile. If you do, draw 3 cards.",
+    "chained": false
+  },
+  {
     "name": "Nightsong Cricket",
     "stub": "nightsong-cricket",
     "type": "Conjuration",
@@ -48,6 +191,58 @@
     "life": 1,
     "recover": 0,
     "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Return to Soil",
+    "stub": "return-to-soil",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "text": "Deal 1 damage to a target unit an opponent controls. If that destroyed the unit, that target opponent must discard 1 card off the top of their draw pile and then you may search their discard pile for 2 cards and remove them from the game.",
+    "chained": false
+  },
+  {
+    "name": "Seeds of Aggression",
+    "stub": "seeds-of-aggression",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      [
+        "1 [[charm:power]]",
+        "1 [[sympathy:power]]"
+      ]
+    ],
+    "dice": [
+      "charm",
+      "sympathy"
+    ],
+    "altDice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "charm:power / sympathy:power": 1
+    },
+    "text": "Choose a target unit you control and a target unit an opponent controls. Those units deal damage to each other equal to their attack value.",
     "chained": false
   },
   {

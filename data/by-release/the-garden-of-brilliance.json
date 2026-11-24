@@ -1,5 +1,60 @@
 [
   {
+    "name": "Aspiring Growth",
+    "stub": "aspiring-growth",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "This spell can only be attached to a unit with an attack value of 1 or less.",
+    "attack": "+2",
+    "life": "+1"
+  },
+  {
+    "name": "Botanist",
+    "stub": "botanist",
+    "type": "Ally",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "Nurture: [[side]]: Attach a [[Nurtured]] conjured alteration spell to a conjuration you control.",
+    "conjurations": [
+      {
+        "name": "Nurtured",
+        "stub": "nurtured"
+      }
+    ],
+    "attack": 1,
+    "life": 3,
+    "recover": 1
+  },
+  {
     "name": "Capacitor Beetle",
     "stub": "capacitor-beetle",
     "type": "Conjuration",
@@ -13,6 +68,49 @@
     "life": 2,
     "recover": 0,
     "copies": 3
+  },
+  {
+    "name": "Catalyst",
+    "stub": "catalyst",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[artifice:class]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:class": 1
+    },
+    "text": "Draw 1 card. Place an artifice die from your exhausted pool onto a card you control. You may move an artifice die from a card you control onto another card you control.",
+    "chained": false
+  },
+  {
+    "name": "Encircle",
+    "stub": "encircle",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "text": "Deal damage to a target unit an opponent controls equal to the number of unexhausted conjurations you control."
   },
   {
     "name": "Floral Tyrant",
@@ -31,6 +129,26 @@
     "chained": false
   },
   {
+    "name": "Maeve Luminvale",
+    "stub": "maeve-luminvale",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "artifice:class": 1
+    },
+    "text": "Power Split: [[side]] - [[exhaust]] - 1 [[artifice:class]]: Choose up to 2 cards you control. Place an artifice die from your exhausted pool onto each of the chosen cards.",
+    "battlefield": 6,
+    "life": 17,
+    "spellboard": 4,
+    "chained": false
+  },
+  {
     "name": "Nurtured",
     "stub": "nurtured",
     "type": "Conjured Alteration Spell",
@@ -41,6 +159,102 @@
     "placement": "Unit",
     "life": "+1",
     "copies": 2
+  },
+  {
+    "name": "Overcharged Growth",
+    "stub": "overcharged-growth",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 2
+    },
+    "text": "This unit now has the following ability:\n\nUnstoppable 1: This unit cannot be blocked or guarded against by units with an attack or life value of 1 or less.",
+    "phoenixborn": "Maeve Luminvale",
+    "attack": "+1",
+    "life": "+1",
+    "recover": "+1"
+  },
+  {
+    "name": "Photovoltaics",
+    "stub": "photovoltaics",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[artifice:class]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:class": 1
+    },
+    "text": "[[side]]: If this spell has fewer than 3 status tokens on it, place 1 status token on it and raise 1 die in your active pool one level. You may place 1 exhaustion token on this spell and remove 3 status tokens from it to place an artifice die from your exhausted pool onto a card you control.",
+    "chained": false
+  },
+  {
+    "name": "Propagate",
+    "stub": "propagate",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "text": "You may play this spell after a conjuration you control is destroyed. Place up to 2 [[Snapseed]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Snapseed",
+        "stub": "snapseed"
+      }
+    ]
+  },
+  {
+    "name": "Shock Gauntlet",
+    "stub": "shock-gauntlet",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[artifice:class]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "magicCost": {
+      "artifice:class": 1
+    },
+    "text": "When attaching this spell to a unit you control, you may move an artifice die from another card you control onto the attached unit. If you do, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": "+1",
+    "chained": false
   },
   {
     "name": "Snapseed",

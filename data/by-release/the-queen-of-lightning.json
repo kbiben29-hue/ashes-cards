@@ -1,5 +1,54 @@
 [
   {
+    "name": "Adept Duelist",
+    "stub": "adept-duelist",
+    "type": "Ally",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "Stalk: This unit cannot be guarded against.\n\nDisarm: When this unit is declared as an attacker, you may discard a target alteration spell attached to a unit an opponent controls.",
+    "attack": 2,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Blessing of Lightning",
+    "stub": "blessing-of-lightning",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Choose up to 3 divine dice in your exhausted pool and resolve their dice powers without paying their costs.",
+    "chained": false
+  },
+  {
     "name": "Cloudburst Gryphon",
     "stub": "cloudburst-gryphon",
     "type": "Conjuration",
@@ -13,6 +62,104 @@
     "life": 2,
     "recover": 0,
     "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Crystal Archer",
+    "stub": "crystal-archer",
+    "type": "Ally",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "divine",
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1,
+      "divine:class": 1
+    },
+    "text": "Preemptive Shot 1: When this unit is declared as an attacker, blocker, or guard, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Crystal Armor",
+    "stub": "crystal-armor",
+    "type": "Alteration Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Unit",
+    "cost": [
+      "[[side]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "altDice": [
+      "divine",
+      "time"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "~ After an opponent declares attackers, you may play this spell from your hand by paying 1 [[time:power]] instead of its play cost.",
+    "attack": "+1",
+    "life": "+1",
+    "recover": "+1",
+    "chained": false
+  },
+  {
+    "name": "Dimona Odinstar",
+    "stub": "dimona-odinstar",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "text": "Promote: [[main]] - [[exhaust]] - 2 [[basic]]: Remove an exhausted ally you control from play. If you do, place an [[Empyrean Mount]] conjuration onto your battlefield and place that ally face down under that unit.",
+    "conjurations": [
+      {
+        "name": "Empyrean Mount",
+        "stub": "empyrean-mount"
+      }
+    ],
+    "battlefield": 7,
+    "life": 16,
+    "spellboard": 3,
+    "chained": false
+  },
+  {
+    "name": "Disengage",
+    "stub": "disengage",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Discard",
+    "cost": [
+      "1 [[time:power]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:power": 1
+    },
+    "text": "You may play this spell after an opponent declares blockers. Choose an attacking ally you control that is blocked. It is no longer attacking. Place 1 exhaustion token on the target unit that was blocking the chosen ally.",
     "chained": false
   },
   {
@@ -30,6 +177,101 @@
     "life": 3,
     "recover": 3,
     "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Piercing Light",
+    "stub": "piercing-light",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:power]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:power": 1
+    },
+    "text": "All units you control with a divine die on them have the following ability:\n\nOverkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.",
+    "chained": false
+  },
+  {
+    "name": "Rayward Knight",
+    "stub": "rayward-knight",
+    "type": "Ally",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "3 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 3
+    },
+    "text": "To Arms: When this unit comes into play, you may search your discard pile for an ally and shuffle it into your draw pile.\n\nCharge: [[side]]: Take an Attack action, targeting a unit and declaring this unit as the attacker.",
+    "phoenixborn": "Dimona Odinstar",
+    "attack": 3,
+    "life": 3,
+    "recover": 3,
+    "chained": false
+  },
+  {
+    "name": "Rayward Recruit",
+    "stub": "rayward-recruit",
+    "type": "Ally",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "magicCost": {
+      "divine:class": 1
+    },
+    "text": "Armed: When this unit comes into play, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.",
+    "attack": 0,
+    "life": 2,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Reinforce",
+    "stub": "reinforce",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[time:class]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: Look at the top 5 cards of your draw pile. You may reveal an ally or alteration spell and place it into your hand. Shuffle your draw pile. You may immediately play the revealed card, without paying any main or side action costs.",
     "chained": false
   },
   {

@@ -16,6 +16,168 @@
     "chained": false
   },
   {
+    "name": "Ancestral Army",
+    "stub": "ancestral-army",
+    "type": "Ally",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "3 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 3
+    },
+    "text": "Invoke Ancestors: When this unit comes into play, place 2 [[Ancestor Spirit]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ancestor Spirit",
+        "stub": "ancestor-spirit"
+      }
+    ],
+    "phoenixborn": "Rimea Careworn",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "chained": false
+  },
+  {
+    "name": "Augury",
+    "stub": "augury",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "When this spell comes into play, place 3 status tokens on it.\n\n[[side]] - [[exhaust]]: Search your draw pile. You may reveal 1 card with a magic play cost of X and place it into your hand. If you do, remove 1 status token from this spell. Shuffle your draw pile.\n\nX = the number of status tokens on this spell.",
+    "chained": false
+  },
+  {
+    "name": "Battle Seer",
+    "stub": "battle-seer",
+    "type": "Ally",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:power]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "illusion:power": 1,
+      "sympathy:class": 1
+    },
+    "text": "Quick Strike: While this unit is attacking, it deals its damage before units in battle with it.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 3,
+    "life": 4,
+    "recover": 2,
+    "chained": false
+  },
+  {
+    "name": "Dark Presence",
+    "stub": "dark-presence",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[illusion:class]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[side]] - [[exhaust]]: Choose a target unit you control to gain the following ability for the remainder of the turn:\n\nTerrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.\n\nFocus 1: Then, reduce the attack value of a target unit an opponent controls by 1 for the remainder of the turn.",
+    "chained": false
+  },
+  {
+    "name": "Hollow",
+    "stub": "hollow",
+    "type": "Ally",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "cost": [
+      "[[main]]",
+      [
+        "1 [[illusion:power]]",
+        "1 [[sympathy:power]]"
+      ]
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "altDice": [
+      "illusion",
+      "sympathy"
+    ],
+    "magicCost": {
+      "illusion:power / sympathy:power": 1
+    },
+    "text": "Hex 2: When this unit comes into play, you may lower 2 dice in a target opponent's active pool one level.",
+    "attack": 2,
+    "life": 1,
+    "recover": 1,
+    "chained": false
+  },
+  {
+    "name": "Memorialize",
+    "stub": "memorialize",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[sympathy:class]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:class": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has no status tokens on it.\n\n[[side]] - [[exhaust]]: Remove 1 status token from this spell to search your discard pile for a spell and place that spell on the bottom of your draw pile.",
+    "chained": false
+  },
+  {
     "name": "Nightmare Mount",
     "stub": "nightmare-mount",
     "type": "Conjuration",
@@ -45,6 +207,68 @@
     "life": 4,
     "recover": 0,
     "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Resonance",
+    "stub": "resonance",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "2 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 2
+    },
+    "text": "When this spell comes into play, select 2 dice in your exhausted pool and place them into your active pool on a side of your choice.\n\nWhen you play this spell, place it face up under a ready spell on your spellboard. While this card is on your spellboard, all other cards in its spellboard slot are focused one additional time.",
+    "chained": false
+  },
+  {
+    "name": "Rimea Careworn",
+    "stub": "rimea-careworn",
+    "type": "Phoenixborn",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "text": "Visions: [[side]] - [[exhaust]]: Draw 2 cards. Then, look at 2 random cards in a target opponent's hand.",
+    "battlefield": 5,
+    "life": 17,
+    "spellboard": 5,
+    "chained": false
+  },
+  {
+    "name": "Shared Sorrow",
+    "stub": "shared-sorrow",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "Discard 1 card from your hand with a magic play cost of 1 or more. Search your discard pile for another card with a magic play cost of X and place it into your hand. Deal X damage to a target unit.\n\nX = the magic play cost of the discarded card.",
     "chained": false
   },
   {
