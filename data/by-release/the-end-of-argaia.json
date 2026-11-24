@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Cinder Spirit",
+    "stub": "cinder-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Ignite: When this unit is declared as an attacker, if it has 1 or more status tokens on it, add 1 to its attack value for the remainder of the turn. If you do, you may deal 1 damage to another target unit.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Ocean's Eye",
+    "stub": "oceans-eye",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Sting 1: When this unit is declared as an attacker, you may deal 1 damage to target wounded unit.",
+    "phoenixborn": "Tristan Darkwater",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 6
+  },
+  {
+    "name": "Rubble Spirit",
+    "stub": "rubble-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Crumble 1: When this unit comes into play, discard 1 card off the top of a target opponent's draw pile.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Summon Cinder Spirit",
+    "stub": "summon-cinder-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: Place 1 status token on this spell.\n\n* [[side]] - 1 [[time:class]] - 1 [[basic]]: Move 1 status token from this spell onto a unit you control. If you do, place a [[Cinder Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Cinder Spirit",
+        "stub": "cinder-spirit"
+      }
+    ]
+  },
+  {
+    "name": "Summon Ocean's Eyes",
+    "stub": "summon-oceans-eyes",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[basic]]: Place two [[Ocean's Eye]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ocean's Eye",
+        "stub": "oceans-eye"
+      }
+    ],
+    "phoenixborn": "Tristan Darkwater"
+  },
+  {
+    "name": "Summon Tusk Mount",
+    "stub": "summon-tusk-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 2,
+      "time:class": 2
+    },
+    "text": "[[side]] - [[exhaust]] - 2 [[time:class]] - 2 [[basic]]: Remove an unexhausted ally you control from play. If you do, place a [[Tusk Mount]] conjuration onto your battlefield, placing that ally face down under it.",
+    "conjurations": [
+      {
+        "name": "Tusk Mount",
+        "stub": "tusk-mount"
+      }
+    ]
+  },
+  {
+    "name": "Tusk Mount",
+    "stub": "tusk-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Wreckage 2: After this unit destroys a unit an opponent controls by attacking, place 2 [[Rubble Spirit]] conjurations onto your battlefield.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "conjurations": [
+      {
+        "name": "Rubble Spirit",
+        "stub": "rubble-spirit"
+      }
+    ],
+    "attack": 5,
+    "life": 4,
+    "recover": 1,
+    "copies": 2
+  }
+]

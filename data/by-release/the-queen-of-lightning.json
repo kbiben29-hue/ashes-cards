@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Cloudburst Gryphon",
+    "stub": "cloudburst-gryphon",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "text": "Quick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Empyrean Mount",
+    "stub": "empyrean-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "text": "Battlemaster: When this unit is declared as an attacker, you may choose a target unit an opponent controls. That unit must block this unit, if able.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "phoenixborn": "Dimona Odinstar",
+    "attack": 3,
+    "life": 3,
+    "recover": 3,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Cloudburst Gryphon",
+    "stub": "summon-cloudburst-gryphon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine",
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]] - 1 [[time:class]]: Place a [[Cloudburst Gryphon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Cloudburst Gryphon",
+        "stub": "cloudburst-gryphon"
+      }
+    ],
+    "chained": false
+  }
+]

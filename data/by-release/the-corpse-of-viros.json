@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Bone Crow",
+    "stub": "bone-crow",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Battlefield",
+    "text": "Feast 1: When this unit is declared as an attacker, add 1 to its attack value for the remainder of the turn if it is targeting a card with any wound tokens on it.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Calamity Golem",
+    "stub": "calamity-golem",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Battlefield",
+    "text": "Rancor: When this unit is declared as an attacker, deal damage to a target unit an opponent controls equal to the number of wound tokens on this unit.",
+    "attack": 3,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Summon Bone Crow",
+    "stub": "summon-bone-crow",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[ceremonial:class]]: If a unit was destroyed this turn, place a [[Bone Crow]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Bone Crow",
+        "stub": "bone-crow"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Calamity Golem",
+    "stub": "summon-calamity-golem",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "3 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 3
+    },
+    "text": "Destroy an ally you control to place a [[Calamity Golem]] conjuration onto your battlefield. Place wound tokens on it equal to the printed recover value of the destroyed ally.",
+    "conjurations": [
+      {
+        "name": "Calamity Golem",
+        "stub": "calamity-golem"
+      }
+    ],
+    "chained": false
+  }
+]

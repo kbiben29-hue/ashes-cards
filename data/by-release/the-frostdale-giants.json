@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Frostback Bear",
+    "stub": "frostback-bear",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Battlefield",
+    "text": "Terrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Ice Buff",
+    "stub": "ice-buff",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Unit",
+    "phoenixborn": "Rin Northfell",
+    "life": "+1",
+    "copies": 5,
+    "chained": false
+  },
+  {
+    "name": "Ice Golem",
+    "stub": "ice-golem",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Battlefield",
+    "text": "* Skin Morph 2: Add 2 to this unit's life value if it has 1 or more alteration spells attached to it.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Frostback Bear",
+    "stub": "summon-frostback-bear",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[basic]]: Place a [[Frostback Bear]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frostback Bear",
+        "stub": "frostback-bear"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ice Golem",
+    "stub": "summon-ice-golem",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[natural:class]] - 1 [[basic]]: Place an [[Ice Golem]] conjuration onto your battlefield.\n\nFocus 2: You may remove 1 wound token from all Ice Golems you control.",
+    "conjurations": [
+      {
+        "name": "Ice Golem",
+        "stub": "ice-golem"
+      }
+    ],
+    "chained": false
+  }
+]

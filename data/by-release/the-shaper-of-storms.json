@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Cloud Spirit",
+    "stub": "cloud-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "* Disperse: Discard this card at the end of the round unless you control another copy of this card.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Eagle Fledgling",
+    "stub": "eagle-fledgling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Uplift: When this unit comes into play, place an astral die from your exhausted pool onto it.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Galewind Hawk",
+    "stub": "galewind-hawk",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Galewinds: When this unit is declared as an attacker, you may choose a natural or astral die in your exhausted pool and resolve its dice power without paying its cost.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2
+  },
+  {
+    "name": "Storm Spirit",
+    "stub": "storm-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Hex 1: When this unit comes into play, you may lower 1 die in a target opponent's active pool one level.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Summon Galewind Hawk",
+    "stub": "summon-galewind-hawk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral",
+      "natural"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]] - 1 [[natural:class]]: Place a [[Galewind Hawk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Galewind Hawk",
+        "stub": "galewind-hawk"
+      }
+    ]
+  },
+  {
+    "name": "Summon Storm Spirit",
+    "stub": "summon-storm-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]]: Place a [[Storm Spirit]] conjuration onto your battlefield.\n\nFocus 1: If you control a card with an astral die on it, you may change the activation cost of this spell to [[side]] - [[exhaust]] - 1 [[basic]].",
+    "conjurations": [
+      {
+        "name": "Storm Spirit",
+        "stub": "storm-spirit"
+      }
+    ]
+  }
+]

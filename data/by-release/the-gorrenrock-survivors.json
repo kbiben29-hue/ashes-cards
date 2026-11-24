@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Emberoot Lizard",
+    "stub": "emberoot-lizard",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Battlefield",
+    "text": "Ignite: When this unit is declared as an attacker, if it has 1 or more status tokens on it, add 1 to its attack value for the remainder of the turn. If you do, you may deal 1 damage to another target unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Omen Bringer",
+    "stub": "omen-bringer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Battlefield",
+    "text": "Forewarn 2: When this unit comes into play, you may look at the top 2 cards of a target opponent's draw pile. Place each card on the top or bottom of that player's draw pile.\n\nHasten: When this unit is declared as an attacker, if it has 1 or more status tokens on it, you may remove 1 exhaustion token from a ready spell you control.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Spark",
+    "stub": "spark",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Unit",
+    "text": "* Spark: [[main]]: Discard this spell to deal 1 damage to a target unit.",
+    "phoenixborn": "Lulu Firststone",
+    "attack": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Emberoot Lizard",
+    "stub": "summon-emberoot-lizard",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Place an [[Emberoot Lizard]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Emberoot Lizard",
+        "stub": "emberoot-lizard"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Omen Bringer",
+    "stub": "summon-omen-bringer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]] - 1 [[basic]]: Place an [[Omen Bringer]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Omen Bringer",
+        "stub": "omen-bringer"
+      }
+    ],
+    "chained": false
+  }
+]

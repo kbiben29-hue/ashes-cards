@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Fox Spirit",
+    "stub": "fox-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "text": "Keen 1: When this unit comes into play, you may raise 1 die in your active pool one level.\n\nPounce 2: When this unit is declared as an attacker, add 2 to its attack value for the remainder of the turn if it is targeting an exhausted unit.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Fox Spirit",
+    "stub": "summon-fox-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Fox Spirit]] conjuration onto your battlefield.\n\nFocus 1: You may change the activation cost of this spell to [[side]] - [[exhaust]] - 1 [[illusion:class]].",
+    "conjurations": [
+      {
+        "name": "Fox Spirit",
+        "stub": "fox-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Wishing Wing",
+    "stub": "summon-wishing-wing",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]]: Place a [[Wishing Wing]] conjuration onto your battlefield.\n\nFocus 2: Then place 1 status token on that [[Wishing Wing]].",
+    "conjurations": [
+      {
+        "name": "Wishing Wing",
+        "stub": "wishing-wing"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Wishing Wing",
+    "stub": "wishing-wing",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "text": "Opportunist 1: When this unit comes into play, if you have a [[time:power]] in your active pool, place 1 status token on this unit.\n\n* Bequest X: When this unit is destroyed, you may draw up to X cards.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  }
+]

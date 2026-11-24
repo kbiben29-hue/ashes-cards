@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Hunter's Mark",
+    "stub": "hunters-mark",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Unit",
+    "text": "When this unit receives damage, place twice the normal number of wound tokens on it.\n\nWhile this unit is the target of an attack, no guard may be declared.",
+    "phoenixborn": "Harold Westraven",
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Summon Vampire Bat Swarm",
+    "stub": "summon-vampire-bat-swarm",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]] - 1 [[sympathy:class]]: Place a [[Vampire Bat Swarm]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Vampire Bat Swarm",
+        "stub": "vampire-bat-swarm"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Vampire Bat Swarm",
+    "stub": "vampire-bat-swarm",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class / sympathy:class": 1
+    },
+    "text": "Group Tactics 1: After you declare three or more attackers, you may add 1 to this unit's attack value for the remainder of the turn.\n\nSwarm: When this unit is destroyed, you may spend 1 [[ceremonial:class]] or 1 [[sympathy:class]] to place this unit onto your battlefield.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "effectRepeats": true,
+    "chained": false
+  }
+]

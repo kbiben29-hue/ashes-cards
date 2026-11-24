@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Shadow Hound",
+    "stub": "shadow-hound",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Battlefield",
+    "text": "Concealed: This unit cannot be targeted by attacks, spells, abilities, or dice powers an opponent controls.\n\nStalk: This unit cannot be guarded against.",
+    "attack": 3,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Shadow Spirit",
+    "stub": "shadow-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Battlefield",
+    "text": "Trickery 1: When this unit is declared as an attacker, lower 1 die in a target opponent's active pool one level.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Shadow Hound",
+    "stub": "summon-shadow-hound",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 3
+    },
+    "text": "[[main]] - [[exhaust]] - 3 [[illusion:class]]: Place a [[Shadow Hound]] conjuration onto your battlefield.\n\nFocus 1: You may deal 1 damage to a target unit.\n\nFocus 2: Then you may deal 1 damage to a target unit.",
+    "conjurations": [
+      {
+        "name": "Shadow Hound",
+        "stub": "shadow-hound"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shadow Spirit",
+    "stub": "summon-shadow-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:power]]: Place a [[Shadow Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shadow Spirit",
+        "stub": "shadow-spirit"
+      }
+    ],
+    "chained": false
+  }
+]

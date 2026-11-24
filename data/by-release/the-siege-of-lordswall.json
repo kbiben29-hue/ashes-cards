@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Divinity Mount",
+    "stub": "divinity-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Lightning Breath 1: When this unit is declared as an attacker, you may deal 1 damage to all units a target opponent controls.\n\n* Queen Rider: When this unit is destroyed, place 3 wounds on your Phoenixborn.",
+    "phoenixborn": "Dimona Odinstar",
+    "attack": 3,
+    "life": 3,
+    "recover": 3,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Hand of Shield",
+    "stub": "hand-of-shield",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ptera Hatchling",
+    "stub": "ptera-hatchling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Shock 1: When this unit is declared as an attacker, if its current attack value is greater than its printed attack value, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Shining Stag Mount",
+    "stub": "shining-stag-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Armed: When this unit comes into play, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Shining Stag Mount",
+    "stub": "summon-shining-stag-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[divine:class]] - 1 [[basic]]: Remove an unexhausted ally you control from play. If you do, place a [[Shining Stag Mount]] conjuration onto your battlefield, placing that ally face down underneath it.",
+    "conjurations": [
+      {
+        "name": "Shining Stag Mount",
+        "stub": "shining-stag-mount"
+      }
+    ],
+    "chained": false
+  }
+]

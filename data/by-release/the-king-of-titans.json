@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Archasaurus Mount",
+    "stub": "archasaurus-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Gigantic 2: This unit cannot be blocked or guarded against by units with a life value of 2 or less.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 4,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Cerasaurus Mount",
+    "stub": "cerasaurus-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Overkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Raptor Hatchling",
+    "stub": "raptor-hatchling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Group Tactics 2: After you declare 3 or more attackers, you may add 2 to this unit's attack value for the remainder of this turn.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Shining Hydra",
+    "stub": "shining-hydra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Regenerate Heads: [[side]]: Remove 1 wound token from this unit to attach a [[Shining Hydra Head]] conjured alteration spell to this unit.",
+    "conjurations": [
+      {
+        "name": "Shining Hydra Head",
+        "stub": "shining-hydra-head"
+      }
+    ],
+    "attack": 1,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Shining Hydra Head",
+    "stub": "shining-hydra-head",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Unit",
+    "text": "This unit now has the following ability:\n\nTerrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.",
+    "attack": "+1",
+    "recover": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Archasaurus Mount",
+    "stub": "summon-archasaurus-mount",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[divine:class]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "Remove an unexhausted ally you control from play. If you do, place an [[Archasaurus Mount]] conjuration onto your battlefield and place that ally face down under that unit.",
+    "conjurations": [
+      {
+        "name": "Archasaurus Mount",
+        "stub": "archasaurus-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Cerasaurus Mount",
+    "stub": "summon-cerasaurus-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[natural:class]] - 1 [[divine:class]]: Remove an unexhausted ally you control from play. If you do, place a [[Cerasaurus Mount]] conjuration onto your battlefield and place that ally face down under that unit.",
+    "conjurations": [
+      {
+        "name": "Cerasaurus Mount",
+        "stub": "cerasaurus-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shining Hydra",
+    "stub": "summon-shining-hydra",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "Place a [[Shining Hydra]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shining Hydra",
+        "stub": "shining-hydra"
+      }
+    ],
+    "chained": true
+  }
+]

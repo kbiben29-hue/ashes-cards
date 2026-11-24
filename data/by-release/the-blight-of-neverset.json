@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Bastion Badger",
+    "stub": "bastion-badger",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nExploit 2: While this unit is in battle with a unit with a charm die on it, the attack value of this unit is increased by 2.",
+    "attack": 1,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Eternity Flame",
+    "stub": "eternity-flame",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "text": "Engulf: When this unit comes into play, you may destroy a target unit an opponent controls with a charm die on it. If you do, deal 2 damage to that opponent's target Phoenixborn.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Shimmer Wing",
+    "stub": "shimmer-wing",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Ritual Flames: [[main]] - 1 [[basic]]: Discard this unit and another [[Shimmer Wing]] you control to place an [[Eternity Flame]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Eternity Flame",
+        "stub": "eternity-flame"
+      }
+    ],
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Bastion Badger",
+    "stub": "summon-bastion-badger",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[basic]]: Place a [[Bastion Badger]] conjuration onto your battlefield. Then, you may raise 1 charm class die in your active pool one level.",
+    "conjurations": [
+      {
+        "name": "Bastion Badger",
+        "stub": "bastion-badger"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shimmer Wing",
+    "stub": "summon-shimmer-wing",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Draw 1 card. Place a [[Shimmer Wing]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shimmer Wing",
+        "stub": "shimmer-wing"
+      }
+    ],
+    "chained": false
+  }
+]

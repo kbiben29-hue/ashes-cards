@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Majestic Titan",
+    "stub": "majestic-titan",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Gigantic 1: This unit cannot be blocked or guarded against by units with a life value of 1 or less.\n\n* Renew: [[main]] - 1 [[basic]]: Discard a copy of Summon Majestic Titan from your spellboard to remove all exhaustion tokens and discard all alteration spells from this unit.",
+    "attack": 3,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Mind Fog Owl",
+    "stub": "mind-fog-owl",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Unseen: This unit cannot be blocked unless all attacking units without the Unseen ability have been blocked.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Nightsong Cricket",
+    "stub": "nightsong-cricket",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Polyphony: When this unit is destroyed, change 1 die in a target player's active pool to a side of your choice.\n\nRenewed Harmony: When this unit is destroyed, you and a target opponent each choose a card in the other's discard pile. Place the chosen cards into their owner's hand.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Summon Majestic Titan",
+    "stub": "summon-majestic-titan",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "charm:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Majestic Titan]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Majestic Titan",
+        "stub": "majestic-titan"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Mind Fog Owl",
+    "stub": "summon-mind-fog-owl",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[basic]]: Place a [[Mind Fog Owl]] conjuration onto your battlefield.\n\nFocus 1: If you spent any [[charm:power]] to activate this spell, you may choose 1 [[charm:power]] spent and resolve its dice power without paying its cost.",
+    "conjurations": [
+      {
+        "name": "Mind Fog Owl",
+        "stub": "mind-fog-owl"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Nightsong Cricket",
+    "stub": "summon-nightsong-cricket",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Nightsong Cricket]] conjuration onto your battlefield.\n\nFocus 1: If you spent any [[sympathy:power]] to activate this spell, you may search a target player's discard pile for 1 card and remove it from the game.",
+    "conjurations": [
+      {
+        "name": "Nightsong Cricket",
+        "stub": "nightsong-cricket"
+      }
+    ],
+    "chained": false
+  }
+]

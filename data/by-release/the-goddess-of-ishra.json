@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Light Bringer",
+    "stub": "light-bringer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Infatuate: When this unit comes into play, choose a target opponent. When choosing a main action during their next turn, that opponent must choose an Attack action if they control any units that can be declared as an attacker.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Steadfast Guardian",
+    "stub": "steadfast-guardian",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Summon Light Bringer",
+    "stub": "summon-light-bringer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]]: Place a [[Light Bringer]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Light Bringer",
+        "stub": "light-bringer"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Steadfast Guardian",
+    "stub": "summon-steadfast-guardian",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm",
+      "divine"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[divine:class]]: Place a [[Steadfast Guardian]] conjuration onto your battlefield.\n\nFocus 1: You may remove all wound tokens and exhaustion tokens from a target Steadfast Guardian you control.",
+    "conjurations": [
+      {
+        "name": "Steadfast Guardian",
+        "stub": "steadfast-guardian"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Weeping Spirit",
+    "stub": "summon-weeping-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Place a [[Weeping Spirit]] conjuration onto a target player's battlefield.\n\nFocus 1: You may search a target discard pile for 1 card and remove it from the game.",
+    "conjurations": [
+      {
+        "name": "Weeping Spirit",
+        "stub": "weeping-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Weeping Spirit",
+    "stub": "weeping-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Fearful: This unit cannot block.\n\nQuell: [[side]] - 1 [[discard]]: Destroy this unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  }
+]

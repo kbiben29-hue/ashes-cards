@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Ash Spirit",
+    "stub": "ash-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "text": "To Ash: After this unit is destroyed as a result of an attack from a unit an opponent controls, destroy that target unit.\n\nSmolder 1: At the end of the round, deal 1 damage to a target Phoenixborn whose owner has no cards in their draw pile.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ruby Cobra",
+    "stub": "ruby-cobra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "text": "Intimidate 1: When this unit is declared as an attacker, add 1 to its attack value for the remainder of the turn, and then choose a target opponent to discard 1 card off the top of their draw pile.\n\nCharming: This unit cannot be targeted by attacks from units with a charm die on them.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Ash Spirit",
+    "stub": "summon-ash-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm",
+      "time"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]]: Place an [[Ash Spirit]] conjuration onto your battlefield. All players draw 1 card.\n\nFocus 1: Then, all opponents that could not draw a card must discard 1 card of their choice from their hand.",
+    "conjurations": [
+      {
+        "name": "Ash Spirit",
+        "stub": "ash-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ruby Cobra",
+    "stub": "summon-ruby-cobra",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:power]]: Place a [[Ruby Cobra]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ruby Cobra",
+        "stub": "ruby-cobra"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "The Awakened State",
+    "stub": "the-awakened-state",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Phoenixborn",
+    "text": "* [[side]]: Remove 1 status token from your Phoenixborn. If you do, choose an opponent. Deal 1 damage to a target unit they control. Deal 1 damage to their target Phoenixborn.\n\n* Spell Guard: This spell cannot be affected by an opponent's spell.",
+    "phoenixborn": "Orrick Gilstream",
+    "copies": 1,
+    "chained": false
+  }
+]

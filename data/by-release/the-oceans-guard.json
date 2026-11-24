@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Prism Tetra",
+    "stub": "prism-tetra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Fearful: This unit cannot block.\n\nGroup Tactics 1: After you declare three or more attackers, you may add 1 to this unit's attack value for the remainder of the turn.\n\n* Scatter: Discard this unit at the end of the round unless it has 1 or more status tokens on it.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 9,
+    "chained": false
+  },
+  {
+    "name": "Radiant Leviathan",
+    "stub": "radiant-leviathan",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Coalesced: Other units you control cannot be targeted by attacks an opponent controls.\n\n* Refract: When this unit is destroyed, place 1 [[Prism Tetra]] conjuration onto your battlefield for each status token on this unit.",
+    "conjurations": [
+      {
+        "name": "Prism Tetra",
+        "stub": "prism-tetra"
+      }
+    ],
+    "attack": 3,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Seafoam Snapper",
+    "stub": "seafoam-snapper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Hungry 1: When this unit comes into play, destroy an exhausted conjuration you control. If you do, place 1 status token on this unit.\n\nTough 1: After this unit is dealt damage, if there are any status tokens on it, remove them all to prevent 1 damage from being received.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Summon Prism Tetra",
+    "stub": "summon-prism-tetra",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[sympathy:class]]: Place three [[Prism Tetra]] conjurations onto your battlefield.\n\n**Focus 1:** Until the start of your next turn or the next round, Prism Tetras you control cannot be targeted by spells, abilities, or dice powers an opponent controls.",
+    "conjurations": [
+      {
+        "name": "Prism Tetra",
+        "stub": "prism-tetra"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Radiant Leviathan",
+    "stub": "summon-radiant-leviathan",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:power]]",
+      "1 [[time:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "sympathy",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "time:class": 1,
+      "sympathy:power": 1
+    },
+    "text": "Place a [[Radiant Leviathan]] conjuration onto your battlefield. Place 1 status token on it for each other conjuration you control.",
+    "conjurations": [
+      {
+        "name": "Radiant Leviathan",
+        "stub": "radiant-leviathan"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Seafoam Snapper",
+    "stub": "summon-seafoam-snapper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:power]]: Place a [[Seafoam Snapper]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Seafoam Snapper",
+        "stub": "seafoam-snapper"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Tidal Crab",
+    "stub": "summon-tidal-crab",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "time:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[time:class]]: Place a [[Tidal Crab]] conjuration onto your battlefield. Place 2 status tokens on it.",
+    "conjurations": [
+      {
+        "name": "Tidal Crab",
+        "stub": "tidal-crab"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Tidal Crab",
+    "stub": "tidal-crab",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Unburden: [[side]]: Move 1 status token from this unit onto another unit you control.\n\n* Slow: Reduce this unit's attack value by 1 for each status token on it.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  }
+]

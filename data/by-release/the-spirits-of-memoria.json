@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Admonisher",
+    "stub": "admonisher",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "text": "Rebuke 1: At the end of each round, deal 1 damage to a target Phoenixborn.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Spectral Assassin",
+    "stub": "spectral-assassin",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "text": "Sneaky Strike: When this unit is declared as an attacker, opponents may not play reaction spells for the remainder of the turn.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Summon Admonisher",
+    "stub": "summon-admonisher",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]]: Place an [[Admonisher]] conjuration onto your battlefield.\n\nFocus 1: If you cannot, deal 1 damage to a target Phoenixborn.",
+    "conjurations": [
+      {
+        "name": "Admonisher",
+        "stub": "admonisher"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Spectral Assassin",
+    "stub": "summon-spectral-assassin",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[illusion:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "Choose a target ally you control and place it into its owner's hand. If you do, place a [[Spectral Assassin]] conjuration onto your battlefield. You may draw 1 card.",
+    "conjurations": [
+      {
+        "name": "Spectral Assassin",
+        "stub": "spectral-assassin"
+      }
+    ],
+    "chained": false
+  }
+]

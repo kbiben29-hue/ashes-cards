@@ -1,0 +1,4124 @@
+[
+  {
+    "name": "Adaptodon",
+    "stub": "adaptodon",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "Adapt: [[side]]: Attach a [[Fire Adaptation]] or [[Ice Adaptation]] conjured alteration spell to this unit if it has neither attached to it.",
+    "conjurations": [
+      {
+        "name": "Ice Adaptation",
+        "stub": "ice-adaptation"
+      },
+      {
+        "name": "Fire Adaptation",
+        "stub": "fire-adaptation"
+      }
+    ],
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Admonisher",
+    "stub": "admonisher",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "text": "Rebuke 1: At the end of each round, deal 1 damage to a target Phoenixborn.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ancestor Spirit",
+    "stub": "ancestor-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "text": "Guidance: When this unit comes into play, you may draw 1 card. If you do, place 1 card from your hand on the bottom of your draw pile.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Archasaurus Mount",
+    "stub": "archasaurus-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Gigantic 2: This unit cannot be blocked or guarded against by units with a life value of 2 or less.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 4,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Ash Spirit",
+    "stub": "ash-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "text": "To Ash: After this unit is destroyed as a result of an attack from a unit an opponent controls, destroy that target unit.\n\nSmolder 1: At the end of the round, deal 1 damage to a target Phoenixborn whose owner has no cards in their draw pile.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Bastion Badger",
+    "stub": "bastion-badger",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nExploit 2: While this unit is in battle with a unit with a charm die on it, the attack value of this unit is increased by 2.",
+    "attack": 1,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Biter",
+    "stub": "biter",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nRooted: This unit cannot attack.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Blood Puppet",
+    "stub": "blood-puppet",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Cursed 1: At the end of each round, place 1 wound token on your Phoenixborn.\n\nSelf Inflict 1: [[side]] - 1 [[basic]]: Deal 1 damage to this unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 5,
+    "effectRepeats": true,
+    "chained": false
+  },
+  {
+    "name": "Blue Jaguar",
+    "stub": "blue-jaguar",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Gaze: When this unit is declared as an attacker, you may choose a target unit an opponent controls. That unit cannot block or guard for the remainder of the turn.",
+    "phoenixborn": "Aradel Summergaard",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Bone Crow",
+    "stub": "bone-crow",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Battlefield",
+    "text": "Feast 1: When this unit is declared as an attacker, add 1 to its attack value for the remainder of the turn if it is targeting a card with any wound tokens on it.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Brilliant Thorn",
+    "stub": "brilliant-thorn",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Inheritance 1: When this unit is destroyed, you may place 1 status token on a target unit.\n\n* Fade: Destroy this unit at the end of this round.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 6,
+    "chained": false
+  },
+  {
+    "name": "Butterfly Monk",
+    "stub": "butterfly-monk",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\n* Mend 1: When this unit is destroyed, you may remove 1 wound token from a target unit or Phoenixborn.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Calamity Golem",
+    "stub": "calamity-golem",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Battlefield",
+    "text": "Rancor: When this unit is declared as an attacker, deal damage to a target unit an opponent controls equal to the number of wound tokens on this unit.",
+    "attack": 3,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Capacitor Beetle",
+    "stub": "capacitor-beetle",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "* Volt Shift: [[side]]: Discard this unit to place an artifice die from your exhausted pool onto a card you control.",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Cerasaurus Mount",
+    "stub": "cerasaurus-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Overkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Cerulean Diver",
+    "stub": "cerulean-diver",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Battlefield",
+    "text": "Dive 1: When this unit is declared as an attacker, draw 1 card from the bottom of your draw pile.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Cinder Spirit",
+    "stub": "cinder-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Ignite: When this unit is declared as an attacker, if it has 1 or more status tokens on it, add 1 to its attack value for the remainder of the turn. If you do, you may deal 1 damage to another target unit.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Cloud Spirit",
+    "stub": "cloud-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "* Disperse: Discard this card at the end of the round unless you control another copy of this card.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Cloudburst Gryphon",
+    "stub": "cloudburst-gryphon",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "text": "Quick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Divinity Mount",
+    "stub": "divinity-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Lightning Breath 1: When this unit is declared as an attacker, you may deal 1 damage to all units a target opponent controls.\n\n* Queen Rider: When this unit is destroyed, place 3 wounds on your Phoenixborn.",
+    "phoenixborn": "Dimona Odinstar",
+    "attack": 3,
+    "life": 3,
+    "recover": 3,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Dread Wraith",
+    "stub": "dread-wraith",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Battlefield",
+    "text": "* Rage 1: Add 1 to this unit's attack value for each wound token on this unit.",
+    "attack": 1,
+    "life": 6,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Eagle Fledgling",
+    "stub": "eagle-fledgling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Uplift: When this unit comes into play, place an astral die from your exhausted pool onto it.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Emberoot Lizard",
+    "stub": "emberoot-lizard",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Battlefield",
+    "text": "Ignite: When this unit is declared as an attacker, if it has 1 or more status tokens on it, add 1 to its attack value for the remainder of the turn. If you do, you may deal 1 damage to another target unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Emperor Lion",
+    "stub": "emperor-lion",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "text": "Overkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 2,
+    "life": 4,
+    "recover": 1,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Empyrean Mount",
+    "stub": "empyrean-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Battlefield",
+    "text": "Battlemaster: When this unit is declared as an attacker, you may choose a target unit an opponent controls. That unit must block this unit, if able.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "phoenixborn": "Dimona Odinstar",
+    "attack": 3,
+    "life": 3,
+    "recover": 3,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Enhanced Strength",
+    "stub": "enhanced-strength",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Unit",
+    "text": "* This unit now has the following ability:\n\n* Endurance: Remove all exhaustion tokens from this unit at the end of each round.",
+    "attack": "+1",
+    "life": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Eroding",
+    "stub": "eroding",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Unit",
+    "text": "At the end of the round, deal 1 damage to the attached unit, and then discard this spell.",
+    "attack": "-1",
+    "recover": "-1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Eternity Flame",
+    "stub": "eternity-flame",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "text": "Engulf: When this unit comes into play, you may destroy a target unit an opponent controls with a charm die on it. If you do, deal 2 damage to that opponent's target Phoenixborn.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Fallen",
+    "stub": "fallen",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "text": "Infectious: Damage dealt by this unit by attacking or countering cannot be prevented.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "copies": 7,
+    "chained": false
+  },
+  {
+    "name": "False Demon",
+    "stub": "false-demon",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Nightmare 1: When this unit comes into play, you may deal 1 damage to a target exhausted unit.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Fire Adaptation",
+    "stub": "fire-adaptation",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Unit",
+    "text": "When attaching this spell, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": "+1",
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Floral Tyrant",
+    "stub": "floral-tyrant",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Ravaging Vines: When this unit is declared as an attacker, if it is charged, deal damage to a target unit an opponent controls equal to this unit's attack value.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Fox Spirit",
+    "stub": "fox-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "text": "Keen 1: When this unit comes into play, you may raise 1 die in your active pool one level.\n\nPounce 2: When this unit is declared as an attacker, add 2 to its attack value for the remainder of the turn if it is targeting an exhausted unit.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Frost Frog",
+    "stub": "frost-frog",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "Cold Snap 1: When this unit is declared as an attacker, you may add 1 to its attack value for the remainder of the turn or place an exhaustion token on a target unit an opponent controls with a life value of 1 or less.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Frost Talon",
+    "stub": "frost-talon",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Stalk: This unit cannot be guarded against.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Frostback Bear",
+    "stub": "frostback-bear",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Battlefield",
+    "text": "Terrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Galewind Hawk",
+    "stub": "galewind-hawk",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Galewinds: When this unit is declared as an attacker, you may choose a natural or astral die in your exhausted pool and resolve its dice power without paying its cost.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2
+  },
+  {
+    "name": "Gilder",
+    "stub": "gilder",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\n* Inheritance 1: When this unit is destroyed, you may place 1 status token on a target unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Glow Finch",
+    "stub": "glow-finch",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nLast Request 2: When this unit is destroyed, you may choose a target player to discard 2 cards off the top of their draw pile.",
+    "phoenixborn": "Leo Sunshadow",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Hand of Shield",
+    "stub": "hand-of-shield",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Hunter's Mark",
+    "stub": "hunters-mark",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Unit",
+    "text": "When this unit receives damage, place twice the normal number of wound tokens on it.\n\nWhile this unit is the target of an attack, no guard may be declared.",
+    "phoenixborn": "Harold Westraven",
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Ice Adaptation",
+    "stub": "ice-adaptation",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Unit",
+    "text": "When attaching this spell, you may place 1 exhaustion token on a target unexhausted unit an opponent controls with an attack value of 1 or less.",
+    "life": "+1",
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Ice Buff",
+    "stub": "ice-buff",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Unit",
+    "phoenixborn": "Rin Northfell",
+    "life": "+1",
+    "copies": 5,
+    "chained": false
+  },
+  {
+    "name": "Ice Golem",
+    "stub": "ice-golem",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Battlefield",
+    "text": "* Skin Morph 2: Add 2 to this unit's life value if it has 1 or more alteration spells attached to it.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Indiglow Creeper",
+    "stub": "indiglow-creeper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Germinate: When this unit is destroyed, place a [[Luminous Seedling]] conjuration onto your battlefield.\n\n* Fade: Destroy this unit at the end of this round.",
+    "conjurations": [
+      {
+        "name": "Luminous Seedling",
+        "stub": "luminous-seedling"
+      },
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Iron Rhino",
+    "stub": "iron-rhino",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Gigantic 1: This unit cannot be blocked or guarded against by units with a life value of 1 or less.\n\nOverkill 2: After this unit destroys a unit an opponent controls by attacking, deal 2 damage to that opponent's target Phoenixborn.",
+    "attack": 7,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Light Bringer",
+    "stub": "light-bringer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Infatuate: When this unit comes into play, choose a target opponent. When choosing a main action during their next turn, that opponent must choose an Attack action if they control any units that can be declared as an attacker.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Luminous Seedling",
+    "stub": "luminous-seedling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "Blossom: [[main]]: Destroy this unit. If it had 2 or more status tokens on it, place up to 2 [[Brilliant Thorn]] conjurations onto your battlefield.\n\n* Growth: Add 1 to this unit's life value for each status token on this unit.",
+    "conjurations": [
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Majestic Titan",
+    "stub": "majestic-titan",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Gigantic 1: This unit cannot be blocked or guarded against by units with a life value of 1 or less.\n\n* Renew: [[main]] - 1 [[basic]]: Discard a copy of Summon Majestic Titan from your spellboard to remove all exhaustion tokens and discard all alteration spells from this unit.",
+    "attack": 3,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Masked Wolf",
+    "stub": "masked-wolf",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "phoenixborn": "Noah Redmoon",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 5,
+    "chained": false
+  },
+  {
+    "name": "Metamorpher",
+    "stub": "metamorpher",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Battlefield",
+    "text": "Morph: At the start of your turn, you may discard this unit. If you do, place a [[Sun Scarab]] or [[Moon Moth]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Sun Scarab",
+        "stub": "sun-scarab"
+      },
+      {
+        "name": "Moon Moth",
+        "stub": "moon-moth"
+      }
+    ],
+    "phoenixborn": "Fiona Mercywind",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Mind Fog Owl",
+    "stub": "mind-fog-owl",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Unseen: This unit cannot be blocked unless all attacking units without the Unseen ability have been blocked.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Mirror Spirit",
+    "stub": "mirror-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Battlefield",
+    "text": "Reflect Sorrow: When this unit comes into play, place 1 status token on this unit for each exhaustion token on units a target player controls.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Mist Spirit",
+    "stub": "mist-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 10,
+    "chained": false
+  },
+  {
+    "name": "Moon Moth",
+    "stub": "moon-moth",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.",
+    "phoenixborn": "Fiona Mercywind",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Nightmare Mount",
+    "stub": "nightmare-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "text": "Terrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 4,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Nightshade Swallow",
+    "stub": "nightshade-swallow",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Pacify 1: When this unit is destroyed, you may place 1 exhaustion token on a target unit.",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Nightsong Cricket",
+    "stub": "nightsong-cricket",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Polyphony: When this unit is destroyed, change 1 die in a target player's active pool to a side of your choice.\n\nRenewed Harmony: When this unit is destroyed, you and a target opponent each choose a card in the other's discard pile. Place the chosen cards into their owner's hand.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Nurtured",
+    "stub": "nurtured",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Unit",
+    "life": "+1",
+    "copies": 2
+  },
+  {
+    "name": "Ocean's Eye",
+    "stub": "oceans-eye",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Sting 1: When this unit is declared as an attacker, you may deal 1 damage to target wounded unit.",
+    "phoenixborn": "Tristan Darkwater",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 6
+  },
+  {
+    "name": "Omen Bringer",
+    "stub": "omen-bringer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Battlefield",
+    "text": "Forewarn 2: When this unit comes into play, you may look at the top 2 cards of a target opponent's draw pile. Place each card on the top or bottom of that player's draw pile.\n\nHasten: When this unit is declared as an attacker, if it has 1 or more status tokens on it, you may remove 1 exhaustion token from a ready spell you control.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Orchid Dove",
+    "stub": "orchid-dove",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Last Request 1: When this unit is destroyed, you may choose a target player to discard 1 card off the top of their draw pile.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Pack Wolf",
+    "stub": "pack-wolf",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "* Fade: Destroy this unit at the end of this round.",
+    "phoenixborn": "Koji Wolfcub",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Pale Steed Mount",
+    "stub": "pale-steed-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 2,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Panther Spirit",
+    "stub": "panther-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Fleeting: Discard this card at the end of this round.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Prism Tetra",
+    "stub": "prism-tetra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Fearful: This unit cannot block.\n\nGroup Tactics 1: After you declare three or more attackers, you may add 1 to this unit's attack value for the remainder of the turn.\n\n* Scatter: Discard this unit at the end of the round unless it has 1 or more status tokens on it.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 9,
+    "chained": false
+  },
+  {
+    "name": "Ptera Hatchling",
+    "stub": "ptera-hatchling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Shock 1: When this unit is declared as an attacker, if its current attack value is greater than its printed attack value, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Radiant Leviathan",
+    "stub": "radiant-leviathan",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Coalesced: Other units you control cannot be targeted by attacks an opponent controls.\n\n* Refract: When this unit is destroyed, place 1 [[Prism Tetra]] conjuration onto your battlefield for each status token on this unit.",
+    "conjurations": [
+      {
+        "name": "Prism Tetra",
+        "stub": "prism-tetra"
+      }
+    ],
+    "attack": 3,
+    "life": 5,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Raptor Hatchling",
+    "stub": "raptor-hatchling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Group Tactics 2: After you declare 3 or more attackers, you may add 2 to this unit's attack value for the remainder of this turn.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Reborn Chimera",
+    "stub": "reborn-chimera",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Battlefield",
+    "text": "Overkill 3: After this unit destroys a unit an opponent controls by attacking, deal 3 damage to that opponent's target Phoenixborn.",
+    "phoenixborn": "Rowan Umberend",
+    "attack": 4,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Red Raindrop",
+    "stub": "red-raindrop",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Phoenixborn",
+    "text": "At the end of the round, you may deal 1 damage to a target unit. Then, if there are 3 Red Raindrops attached to your Phoenixborn, place a [[Reborn Chimera]] conjuration onto your battlefield.\n\n* **Spell Guard:** This spell cannot be affected by an opponent's spell.",
+    "conjurations": [
+      {
+        "name": "Reborn Chimera",
+        "stub": "reborn-chimera"
+      }
+    ],
+    "phoenixborn": "Rowan Umberend",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "River Colossus",
+    "stub": "river-colossus",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Battlefield",
+    "text": "Gigantic 1: This unit cannot be blocked or guarded against by units with a life value of 1 or less.\n\nRouse 2: When this unit is declared as an attacker, you may lower 2 non-basic dice in your active pool one level. If you do, add 2 to this unit's attack value for the remainder of the turn.",
+    "attack": 2,
+    "life": 4,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Rubble Spirit",
+    "stub": "rubble-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Crumble 1: When this unit comes into play, discard 1 card off the top of a target opponent's draw pile.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Ruby Cobra",
+    "stub": "ruby-cobra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Battlefield",
+    "text": "Intimidate 1: When this unit is declared as an attacker, add 1 to its attack value for the remainder of the turn, and then choose a target opponent to discard 1 card off the top of their draw pile.\n\nCharming: This unit cannot be targeted by attacks from units with a charm die on them.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ruin Dweller",
+    "stub": "ruin-dweller",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Battlefield",
+    "text": "**Blight 1**: At the end of the round or when this unit is destroyed as a result of an attack an opponent controls, deal 1 damage to a target Phoenixborn.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Salamander Monk",
+    "stub": "salamander-monk",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "* Spirit Form: When this unit is destroyed, place a [[Salamander Monk Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Salamander Monk Spirit",
+        "stub": "salamander-monk-spirit"
+      }
+    ],
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Salamander Monk Spirit",
+    "stub": "salamander-monk-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "* Fleeting: Discard this card at the end of the round.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Scrawler",
+    "stub": "scrawler",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Tag 1: When this unit comes into play, place 1 exhaustion token on a target unexhausted unit with an attack value less than the number of Scrawlers you control.",
+    "phoenixborn": "Hope Everthorn",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Seafoam Snapper",
+    "stub": "seafoam-snapper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Hungry 1: When this unit comes into play, destroy an exhausted conjuration you control. If you do, place 1 status token on this unit.\n\nTough 1: After this unit is dealt damage, if there are any status tokens on it, remove them all to prevent 1 damage from being received.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Seaside Raven",
+    "stub": "seaside-raven",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Prey 2: When this unit comes into play, you may destroy a target unit with a life value of 2 or less.\n\nQuick Strike: While this unit is attacking, it deals its damage before units in battle with it.",
+    "phoenixborn": "Saria Guideman",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Shade Prowler",
+    "stub": "shade-prowler",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Predator 3: When this unit is declared as an attacker, you may deal 3 damage to a target unit an opponent controls with an attack value less than this unit's attack value.\n\n* Fade: Destroy this unit at the end of this round.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Shadow Hound",
+    "stub": "shadow-hound",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Battlefield",
+    "text": "Concealed: This unit cannot be targeted by attacks, spells, abilities, or dice powers an opponent controls.\n\nStalk: This unit cannot be guarded against.",
+    "attack": 3,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Shadow Spirit",
+    "stub": "shadow-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Battlefield",
+    "text": "Trickery 1: When this unit is declared as an attacker, lower 1 die in a target opponent's active pool one level.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Shimmer Wing",
+    "stub": "shimmer-wing",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Battlefield",
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "Ritual Flames: [[main]] - 1 [[basic]]: Discard this unit and another [[Shimmer Wing]] you control to place an [[Eternity Flame]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Eternity Flame",
+        "stub": "eternity-flame"
+      }
+    ],
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Shining Hydra",
+    "stub": "shining-hydra",
+    "type": "Conjuration",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Battlefield",
+    "text": "Regenerate Heads: [[side]]: Remove 1 wound token from this unit to attach a [[Shining Hydra Head]] conjured alteration spell to this unit.",
+    "conjurations": [
+      {
+        "name": "Shining Hydra Head",
+        "stub": "shining-hydra-head"
+      }
+    ],
+    "attack": 1,
+    "life": 4,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Shining Hydra Head",
+    "stub": "shining-hydra-head",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Unit",
+    "text": "This unit now has the following ability:\n\nTerrifying 1: This unit cannot be blocked or guarded against by units with an attack value of 1 or less.",
+    "attack": "+1",
+    "recover": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Shining Stag Mount",
+    "stub": "shining-stag-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Battlefield",
+    "text": "Armed: When this unit comes into play, you may choose a divine die in your exhausted pool and resolve its dice power without paying its cost.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Silver Snake",
+    "stub": "silver-snake",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "* Consume: After a unit an opponent controls is destroyed, place 1 status token on this unit.\n\n* X = the number of status tokens on this unit.",
+    "phoenixborn": "Maeoni Viper",
+    "attack": "X",
+    "life": 4,
+    "recover": 3,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Sleeping Widow",
+    "stub": "sleeping-widow",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 6,
+    "chained": false
+  },
+  {
+    "name": "Snapseed",
+    "stub": "snapseed",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Solar Sprout: [[main]]: Discard this unit. If it was charged, place a [[Snaptrap]] conjuration onto your battlefield.\n\n* Wilt: Discard this card at the end of the round unless it has an alteration spell attached to it.",
+    "conjurations": [
+      {
+        "name": "Snaptrap",
+        "stub": "snaptrap"
+      },
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ],
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Snaptrap",
+    "stub": "snaptrap",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Solar Bloom: [[main]]: Discard this unit. If it was charged, place a [[Floral Tyrant]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ],
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Soul Delver",
+    "stub": "soul-delver",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Magic Current X: When this unit is declared as an attacker, raise or lower X dice in a target player's active pool one level.\n\n* X = the number of status tokens on your Phoenixborn.",
+    "phoenixborn": "Rimea Careworn",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Spark",
+    "stub": "spark",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Unit",
+    "text": "* Spark: [[main]]: Discard this spell to deal 1 damage to a target unit.",
+    "phoenixborn": "Lulu Firststone",
+    "attack": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Spark Drone",
+    "stub": "spark-drone",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Spectral Assassin",
+    "stub": "spectral-assassin",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Battlefield",
+    "text": "Sneaky Strike: When this unit is declared as an attacker, opponents may not play reaction spells for the remainder of the turn.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Spectral Charger Mount",
+    "stub": "spectral-charger-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Battlefield",
+    "text": "Quick Strike: While this unit is attacking, it deals its damage before units in battle with it.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "attack": 4,
+    "life": 2,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Squall Stallion",
+    "stub": "squall-stallion",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "Lightning Speed: This unit cannot be targeted by reaction spells an opponent controls.\n\n* Torrent 1: [[side]]: Place 1 card from your hand on the top or bottom of your draw pile. If you do, place 1 status token on all Squall Stallions you control.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Steadfast Guardian",
+    "stub": "steadfast-guardian",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 1,
+    "life": 3,
+    "recover": 1,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Stellar Oracle",
+    "stub": "stellar-oracle",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Divination 2: When this unit comes into play, draw 2 cards. If you do, place a card from your hand on top of your draw pile.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2
+  },
+  {
+    "name": "Storm Spirit",
+    "stub": "storm-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Battlefield",
+    "text": "Hex 1: When this unit comes into play, you may lower 1 die in a target opponent's active pool one level.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Summon Adaptodon",
+    "stub": "summon-adaptodon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[natural:class]]: Place an [[Adaptodon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Adaptodon",
+        "stub": "adaptodon"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Admonisher",
+    "stub": "summon-admonisher",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]]: Place an [[Admonisher]] conjuration onto your battlefield.\n\nFocus 1: If you cannot, deal 1 damage to a target Phoenixborn.",
+    "conjurations": [
+      {
+        "name": "Admonisher",
+        "stub": "admonisher"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ancestor Spirit",
+    "stub": "summon-ancestor-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:power]]: Place an [[Ancestor Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ancestor Spirit",
+        "stub": "ancestor-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Archasaurus Mount",
+    "stub": "summon-archasaurus-mount",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[divine:class]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "Remove an unexhausted ally you control from play. If you do, place an [[Archasaurus Mount]] conjuration onto your battlefield and place that ally face down under that unit.",
+    "conjurations": [
+      {
+        "name": "Archasaurus Mount",
+        "stub": "archasaurus-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ash Spirit",
+    "stub": "summon-ash-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm",
+      "time"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]]: Place an [[Ash Spirit]] conjuration onto your battlefield. All players draw 1 card.\n\nFocus 1: Then, all opponents that could not draw a card must discard 1 card of their choice from their hand.",
+    "conjurations": [
+      {
+        "name": "Ash Spirit",
+        "stub": "ash-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Bastion Badger",
+    "stub": "summon-bastion-badger",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[basic]]: Place a [[Bastion Badger]] conjuration onto your battlefield. Then, you may raise 1 charm class die in your active pool one level.",
+    "conjurations": [
+      {
+        "name": "Bastion Badger",
+        "stub": "bastion-badger"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Biter",
+    "stub": "summon-biter",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[basic]]: Place a [[Biter]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Biter",
+        "stub": "biter"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Blood Puppet",
+    "stub": "summon-blood-puppet",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]]: Place a [[Blood Puppet]] conjuration onto a target player's battlefield.",
+    "conjurations": [
+      {
+        "name": "Blood Puppet",
+        "stub": "blood-puppet"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Blue Jaguar",
+    "stub": "summon-blue-jaguar",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "effectMagicCost": {
+      "basic": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[basic]]: Place a [[Blue Jaguar]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Blue Jaguar",
+        "stub": "blue-jaguar"
+      }
+    ],
+    "phoenixborn": "Aradel Summergaard",
+    "chained": false
+  },
+  {
+    "name": "Summon Bone Crow",
+    "stub": "summon-bone-crow",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[ceremonial:class]]: If a unit was destroyed this turn, place a [[Bone Crow]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Bone Crow",
+        "stub": "bone-crow"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Butterfly Monk",
+    "stub": "summon-butterfly-monk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:power]]: Place a [[Butterfly Monk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Butterfly Monk",
+        "stub": "butterfly-monk"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Calamity Golem",
+    "stub": "summon-calamity-golem",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Corpse of Viros",
+      "stub": "the-corpse-of-viros"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "3 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 3
+    },
+    "text": "Destroy an ally you control to place a [[Calamity Golem]] conjuration onto your battlefield. Place wound tokens on it equal to the printed recover value of the destroyed ally.",
+    "conjurations": [
+      {
+        "name": "Calamity Golem",
+        "stub": "calamity-golem"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Capacitor Beetle",
+    "stub": "summon-capacitor-beetle",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:power]]: Place a [[Capacitor Beetle]] conjuration onto your battlefield. If this spell is charged, draw 1 card.",
+    "conjurations": [
+      {
+        "name": "Capacitor Beetle",
+        "stub": "capacitor-beetle"
+      }
+    ]
+  },
+  {
+    "name": "Summon Cerasaurus Mount",
+    "stub": "summon-cerasaurus-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[natural:class]] - 1 [[divine:class]]: Remove an unexhausted ally you control from play. If you do, place a [[Cerasaurus Mount]] conjuration onto your battlefield and place that ally face down under that unit.",
+    "conjurations": [
+      {
+        "name": "Cerasaurus Mount",
+        "stub": "cerasaurus-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Cinder Spirit",
+    "stub": "summon-cinder-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]]: Place 1 status token on this spell.\n\n* [[side]] - 1 [[time:class]] - 1 [[basic]]: Move 1 status token from this spell onto a unit you control. If you do, place a [[Cinder Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Cinder Spirit",
+        "stub": "cinder-spirit"
+      }
+    ]
+  },
+  {
+    "name": "Summon Cloudburst Gryphon",
+    "stub": "summon-cloudburst-gryphon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Queen of Lightning",
+      "stub": "the-queen-of-lightning"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine",
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]] - 1 [[time:class]]: Place a [[Cloudburst Gryphon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Cloudburst Gryphon",
+        "stub": "cloudburst-gryphon"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Dread Wraith",
+    "stub": "summon-dread-wraith",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 3
+    },
+    "text": "[[main]] - [[exhaust]] - 3 [[ceremonial:class]]: Place a [[Dread Wraith]] conjuration on to your battlefield.\n\nFocus 2: You may remove 1 exhaustion token from a Dread Wraith you control.",
+    "conjurations": [
+      {
+        "name": "Dread Wraith",
+        "stub": "dread-wraith"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Emberoot Lizard",
+    "stub": "summon-emberoot-lizard",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Place an [[Emberoot Lizard]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Emberoot Lizard",
+        "stub": "emberoot-lizard"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Emperor Lion",
+    "stub": "summon-emperor-lion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divince:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[divine:class]] - 1 [[basic]]:  Place an [[Emperor Lion]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Emperor Lion",
+        "stub": "emperor-lion"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Fallen",
+    "stub": "summon-fallen",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has fewer than 3 status tokens on it.\n\n[[main]] - [[exhaust]] - 1 [[ceremonial:power]] - 1 [[ceremonial:class]]: Remove up to 3 status tokens from this spell to place an equal number of [[Fallen]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Fallen",
+        "stub": "fallen"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon False Demon",
+    "stub": "summon-false-demon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]] - 1 [[basic]]: Place a [[False Demon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "False Demon",
+        "stub": "false-demon"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Fox Spirit",
+    "stub": "summon-fox-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Fox Spirit]] conjuration onto your battlefield.\n\nFocus 1: You may change the activation cost of this spell to [[side]] - [[exhaust]] - 1 [[illusion:class]].",
+    "conjurations": [
+      {
+        "name": "Fox Spirit",
+        "stub": "fox-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Frost Frog",
+    "stub": "summon-frost-frog",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:power]]: Place a [[Frost Frog]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frost Frog",
+        "stub": "frost-frog"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Frost Talon",
+    "stub": "summon-frost-talon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "effectMagicCost": {
+      "astral:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]]: Place a [[Frost Talon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frost Talon",
+        "stub": "frost-talon"
+      }
+    ]
+  },
+  {
+    "name": "Summon Frostback Bear",
+    "stub": "summon-frostback-bear",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:power]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:power": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[basic]]: Place a [[Frostback Bear]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frostback Bear",
+        "stub": "frostback-bear"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Galewind Hawk",
+    "stub": "summon-galewind-hawk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral",
+      "natural"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]] - 1 [[natural:class]]: Place a [[Galewind Hawk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Galewind Hawk",
+        "stub": "galewind-hawk"
+      }
+    ]
+  },
+  {
+    "name": "Summon Ghostly Mount",
+    "stub": "summon-ghostly-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ghost Guardian",
+      "stub": "the-ghost-guardian"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "illusion:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] or [[side]] - [[exhaust]] - 1 [[illusion:class]] - 1 [[sympathy:class]]: Remove an unexhausted ally you control from play. If you do, place a [[Pale Steed Mount]] or [[Spectral Charger Mount]] conjuration onto your battlefield and place that ally face down under that unit.\n\nFocus 2: You may place a [[Nightmare Mount]] conjuration instead.",
+    "conjurations": [
+      {
+        "name": "Spectral Charger Mount",
+        "stub": "spectral-charger-mount"
+      },
+      {
+        "name": "Nightmare Mount",
+        "stub": "nightmare-mount"
+      },
+      {
+        "name": "Pale Steed Mount",
+        "stub": "pale-steed-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Gilder",
+    "stub": "summon-gilder",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[charm:class]]"
+    ],
+    "dice": [
+      "charm",
+      "natural"
+    ],
+    "magicCost": {
+      "charm:class": 1
+    },
+    "effectMagicCost": {
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Place a [[Gilder]] conjuration onto your battlefield. You may deal 1 damage to a target unit.",
+    "conjurations": [
+      {
+        "name": "Gilder",
+        "stub": "gilder"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ice Golem",
+    "stub": "summon-ice-golem",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostdale Giants",
+      "stub": "the-frostdale-giants"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[natural:class]] - 1 [[basic]]: Place an [[Ice Golem]] conjuration onto your battlefield.\n\nFocus 2: You may remove 1 wound token from all Ice Golems you control.",
+    "conjurations": [
+      {
+        "name": "Ice Golem",
+        "stub": "ice-golem"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Indiglow Creeper",
+    "stub": "summon-indiglow-creeper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural",
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "natural:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[sympathy:class]]: Place an [[Indiglow Creeper]] conjuration onto your battlefield.\n\nFocus 1: You may place 1 status token on a target unit you control.",
+    "conjurations": [
+      {
+        "name": "Indiglow Creeper",
+        "stub": "indiglow-creeper"
+      },
+      {
+        "name": "Luminous Seedling",
+        "stub": "luminous-seedling"
+      },
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Iron Rhino",
+    "stub": "summon-iron-rhino",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[natural:class]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "magicCost": {
+      "natural:class": 1
+    },
+    "effectMagicCost": {
+      "basic": 6
+    },
+    "text": "[[main]] - [[exhaust]] - 6 [[basic]]: Place an [[Iron Rhino]] conjuration onto your battlefield.\n\nFocus 1: Reduce the activate cost of this spell by 1 [[basic]].\n\nFocus 2: Reduce the activation cost of this spell by an additional 1 [[basic]].",
+    "conjurations": [
+      {
+        "name": "Iron Rhino",
+        "stub": "iron-rhino"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Light Bringer",
+    "stub": "summon-light-bringer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]]: Place a [[Light Bringer]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Light Bringer",
+        "stub": "light-bringer"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Majestic Titan",
+    "stub": "summon-majestic-titan",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "charm",
+      "sympathy"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "charm:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Majestic Titan]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Majestic Titan",
+        "stub": "majestic-titan"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Masked Wolf",
+    "stub": "summon-masked-wolf",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Masked Wolf]] conjuration onto your battlefield.\n\nFocus 1: If you spent any [[illusion:power]] to activate this spell, you may take an additional side action this turn.",
+    "conjurations": [
+      {
+        "name": "Masked Wolf",
+        "stub": "masked-wolf"
+      }
+    ],
+    "phoenixborn": "Noah Redmoon",
+    "chained": false
+  },
+  {
+    "name": "Summon Metamorpher",
+    "stub": "summon-metamorpher",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[basic]]: Place a [[Metamorpher]] conjuration onto your battlefield.\n\nFocus 1: Draw 1 card.\n\nFocus 2: Then, you may discard 1 card from your hand to search your discard pile for a spell and place it on the bottom of your draw pile.",
+    "conjurations": [
+      {
+        "name": "Metamorpher",
+        "stub": "metamorpher"
+      }
+    ],
+    "phoenixborn": "Fiona Mercywind",
+    "chained": false
+  },
+  {
+    "name": "Summon Mind Fog Owl",
+    "stub": "summon-mind-fog-owl",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[basic]]: Place a [[Mind Fog Owl]] conjuration onto your battlefield.\n\nFocus 1: If you spent any [[charm:power]] to activate this spell, you may choose 1 [[charm:power]] spent and resolve its dice power without paying its cost.",
+    "conjurations": [
+      {
+        "name": "Mind Fog Owl",
+        "stub": "mind-fog-owl"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Mirror Spirit",
+    "stub": "summon-mirror-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Mirror Spirit]] conjuration onto your battlefield.\n\nFocus 1: You may remove all status tokens from a Mirror Spirit you control. If you remove at least 1 status token, place 1 exhaustion token on a target unit.",
+    "conjurations": [
+      {
+        "name": "Mirror Spirit",
+        "stub": "mirror-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Mist Spirit",
+    "stub": "summon-mist-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Mist Spirit]] conjuration onto your battlefield. You may spend an additional 1 [[basic]] when activating this spell to place an additional [[Mist Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Mist Spirit",
+        "stub": "mist-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Nightshade Swallow",
+    "stub": "summon-nightshade-swallow",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[charm:class]]: Place a [[Nightshade Swallow]] conjuration onto your battlefield.\n\nFocus 1: You may choose a target player to discard 1 card off the top of their draw pile if you have fewer dice in your active pool than an opponent.",
+    "conjurations": [
+      {
+        "name": "Nightshade Swallow",
+        "stub": "nightshade-swallow"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Nightsong Cricket",
+    "stub": "summon-nightsong-cricket",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Protector of Argaia",
+      "stub": "the-protector-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Nightsong Cricket]] conjuration onto your battlefield.\n\nFocus 1: If you spent any [[sympathy:power]] to activate this spell, you may search a target player's discard pile for 1 card and remove it from the game.",
+    "conjurations": [
+      {
+        "name": "Nightsong Cricket",
+        "stub": "nightsong-cricket"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ocean's Eyes",
+    "stub": "summon-oceans-eyes",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[basic]]: Place two [[Ocean's Eye]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ocean's Eye",
+        "stub": "oceans-eye"
+      }
+    ],
+    "phoenixborn": "Tristan Darkwater"
+  },
+  {
+    "name": "Summon Omen Bringer",
+    "stub": "summon-omen-bringer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Gorrenrock Survivors",
+      "stub": "the-gorrenrock-survivors"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]] - 1 [[basic]]: Place an [[Omen Bringer]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Omen Bringer",
+        "stub": "omen-bringer"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Orchid Dove",
+    "stub": "summon-orchid-dove",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Place an [[Orchid Dove]] conjuration onto your battlefield.\n\nFocus 1: You may change the activation cost of this spell to [[main]] - [[exhaust]] - 1 [[basic]].\n\nFocus 2: You may deal 1 damage to a target player's Phoenixborn if they do not have any cards in their draw pile.",
+    "conjurations": [
+      {
+        "name": "Orchid Dove",
+        "stub": "orchid-dove"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Prism Tetra",
+    "stub": "summon-prism-tetra",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[sympathy:class]]: Place three [[Prism Tetra]] conjurations onto your battlefield.\n\n**Focus 1:** Until the start of your next turn or the next round, Prism Tetras you control cannot be targeted by spells, abilities, or dice powers an opponent controls.",
+    "conjurations": [
+      {
+        "name": "Prism Tetra",
+        "stub": "prism-tetra"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Radiant Leviathan",
+    "stub": "summon-radiant-leviathan",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:power]]",
+      "1 [[time:class]]",
+      "2 [[basic]]"
+    ],
+    "dice": [
+      "sympathy",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 2,
+      "time:class": 1,
+      "sympathy:power": 1
+    },
+    "text": "Place a [[Radiant Leviathan]] conjuration onto your battlefield. Place 1 status token on it for each other conjuration you control.",
+    "conjurations": [
+      {
+        "name": "Radiant Leviathan",
+        "stub": "radiant-leviathan"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon River Colossus",
+    "stub": "summon-river-colossus",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[sympathy:class]] - 1 [[basic]]: Place a [[River Colossus]] conjuration onto your battlefield.\n\nFocus 2: Then, you may change 4 dice in your active pool to a side of your choice.",
+    "conjurations": [
+      {
+        "name": "River Colossus",
+        "stub": "river-colossus"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ruby Cobra",
+    "stub": "summon-ruby-cobra",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:power]]: Place a [[Ruby Cobra]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ruby Cobra",
+        "stub": "ruby-cobra"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Ruin Dweller",
+    "stub": "summon-ruin-dweller",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Scholar of Ruin",
+      "stub": "the-scholar-of-ruin"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]] - 1 [[time:class]]: Place a [[Ruin Dweller]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Ruin Dweller",
+        "stub": "ruin-dweller"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Salamander Monk",
+    "stub": "summon-salamander-monk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]]: Place a [[Salamander Monk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Salamander Monk",
+        "stub": "salamander-monk"
+      },
+      {
+        "name": "Salamander Monk Spirit",
+        "stub": "salamander-monk-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Scrawler",
+    "stub": "summon-scrawler",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[basic]]: Place a [[Scrawler]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Scrawler",
+        "stub": "scrawler"
+      }
+    ],
+    "phoenixborn": "Hope Everthorn",
+    "chained": false
+  },
+  {
+    "name": "Summon Seafoam Snapper",
+    "stub": "summon-seafoam-snapper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:power]]: Place a [[Seafoam Snapper]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Seafoam Snapper",
+        "stub": "seafoam-snapper"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Seaside Raven",
+    "stub": "summon-seaside-raven",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "effectMagicCost": {
+      "basic": 3
+    },
+    "text": "[[main]] - [[exhaust]] - 3 [[basic]]: Place a [[Seaside Raven]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Seaside Raven",
+        "stub": "seaside-raven"
+      }
+    ],
+    "phoenixborn": "Saria Guideman",
+    "chained": false
+  },
+  {
+    "name": "Summon Shade Prowler",
+    "stub": "summon-shade-prowler",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]] - 1 [[basic]]: Place a [[Shade Prowler]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shade Prowler",
+        "stub": "shade-prowler"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shadow Hound",
+    "stub": "summon-shadow-hound",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 3
+    },
+    "text": "[[main]] - [[exhaust]] - 3 [[illusion:class]]: Place a [[Shadow Hound]] conjuration onto your battlefield.\n\nFocus 1: You may deal 1 damage to a target unit.\n\nFocus 2: Then you may deal 1 damage to a target unit.",
+    "conjurations": [
+      {
+        "name": "Shadow Hound",
+        "stub": "shadow-hound"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shadow Spirit",
+    "stub": "summon-shadow-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Duchess of Deception",
+      "stub": "the-duchess-of-deception"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:power]]: Place a [[Shadow Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shadow Spirit",
+        "stub": "shadow-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shimmer Wing",
+    "stub": "summon-shimmer-wing",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Blight of Neverset",
+      "stub": "the-blight-of-neverset"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Draw 1 card. Place a [[Shimmer Wing]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shimmer Wing",
+        "stub": "shimmer-wing"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Shining Hydra",
+    "stub": "summon-shining-hydra",
+    "type": "Action Spell",
+    "release": {
+      "name": "The King of Titans",
+      "stub": "the-king-of-titans"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[main]]",
+      "1 [[divine:class]]",
+      "1 [[natural:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "divine",
+      "natural"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "divine:class": 1,
+      "natural:class": 1
+    },
+    "text": "Place a [[Shining Hydra]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shining Hydra",
+        "stub": "shining-hydra"
+      }
+    ],
+    "chained": true
+  },
+  {
+    "name": "Summon Shining Stag Mount",
+    "stub": "summon-shining-stag-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Siege of Lordswall",
+      "stub": "the-siege-of-lordswall"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[divine:class]] - 1 [[basic]]: Remove an unexhausted ally you control from play. If you do, place a [[Shining Stag Mount]] conjuration onto your battlefield, placing that ally face down underneath it.",
+    "conjurations": [
+      {
+        "name": "Shining Stag Mount",
+        "stub": "shining-stag-mount"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Silver Snake",
+    "stub": "summon-silver-snake",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm",
+      "natural"
+    ],
+    "effectMagicCost": {
+      "charm:power": 1,
+      "natural:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:power]] - 1 [[natural:power]]: Place a [[Silver Snake]] conjuration onto your battlefield.\n\nFocus 1: Place 1 status token on that Silver Snake.\n\nFocus 2: Place 1 additional status token on that Silver Snake.\n\n* Spell Guard: This spell cannot be affected by an opponent's spell.",
+    "conjurations": [
+      {
+        "name": "Silver Snake",
+        "stub": "silver-snake"
+      }
+    ],
+    "phoenixborn": "Maeoni Viper",
+    "chained": false
+  },
+  {
+    "name": "Summon Sleeping Widows",
+    "stub": "summon-sleeping-widows",
+    "type": "Reaction Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Discard",
+    "cost": [
+      "2 [[ceremonial:class]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "magicCost": {
+      "ceremonial:class": 2
+    },
+    "text": "You may play this spell after a unit you control is destroyed. Place 2 [[Sleeping Widow]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Sleeping Widow",
+        "stub": "sleeping-widow"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Snapseed",
+    "stub": "summon-snapseed",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Place a [[Snapseed]] conjuration onto your battlefield. If this spell is charged, place an additional [[Snapseed]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Snapseed",
+        "stub": "snapseed"
+      },
+      {
+        "name": "Snaptrap",
+        "stub": "snaptrap"
+      },
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ]
+  },
+  {
+    "name": "Summon Spark Drone",
+    "stub": "summon-spark-drone",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "artifice:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:class]]: Place a [[Spark Drone]] conjuration onto your battlefield. If this spell is charged, change 2 dice in your active pool to a side of your choice.",
+    "conjurations": [
+      {
+        "name": "Spark Drone",
+        "stub": "spark-drone"
+      }
+    ]
+  },
+  {
+    "name": "Summon Spectral Assassin",
+    "stub": "summon-spectral-assassin",
+    "type": "Action Spell",
+    "release": {
+      "name": "The Spirits of Memoria",
+      "stub": "the-spirits-of-memoria"
+    },
+    "placement": "Discard",
+    "cost": [
+      "[[side]]",
+      "1 [[illusion:class]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "magicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "Choose a target ally you control and place it into its owner's hand. If you do, place a [[Spectral Assassin]] conjuration onto your battlefield. You may draw 1 card.",
+    "conjurations": [
+      {
+        "name": "Spectral Assassin",
+        "stub": "spectral-assassin"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Squall Stallion",
+    "stub": "summon-squall-stallion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:power]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:power": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Draw 1 card. Place a [[Squall Stallion]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Squall Stallion",
+        "stub": "squall-stallion"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Steadfast Guardian",
+    "stub": "summon-steadfast-guardian",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm",
+      "divine"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]] - 1 [[divine:class]]: Place a [[Steadfast Guardian]] conjuration onto your battlefield.\n\nFocus 1: You may remove all wound tokens and exhaustion tokens from a target Steadfast Guardian you control.",
+    "conjurations": [
+      {
+        "name": "Steadfast Guardian",
+        "stub": "steadfast-guardian"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Stellar Oracle",
+    "stub": "summon-stellar-oracle",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic",
+      "astral"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "astral:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]] - 1 [[basic]]: Place a [[Stellar Oracle]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Stellar Oracle",
+        "stub": "stellar-oracle"
+      }
+    ]
+  },
+  {
+    "name": "Summon Storm Spirit",
+    "stub": "summon-storm-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Shaper of Storms",
+      "stub": "the-shaper-of-storms"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]]: Place a [[Storm Spirit]] conjuration onto your battlefield.\n\nFocus 1: If you control a card with an astral die on it, you may change the activation cost of this spell to [[side]] - [[exhaust]] - 1 [[basic]].",
+    "conjurations": [
+      {
+        "name": "Storm Spirit",
+        "stub": "storm-spirit"
+      }
+    ]
+  },
+  {
+    "name": "Summon Three-Eyed Owl",
+    "stub": "summon-three-eyed-owl",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Place a [[Three-Eyed Owl]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Three-Eyed Owl",
+        "stub": "three-eyed-owl"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Thunder Hulk",
+    "stub": "summon-thunder-hulk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "artifice:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:class]] - 1 [[basic]]: Place a [[Thunder Hulk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Thunder Hulk",
+        "stub": "thunder-hulk"
+      }
+    ]
+  },
+  {
+    "name": "Summon Tidal Crab",
+    "stub": "summon-tidal-crab",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "sympathy",
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "time:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[time:class]]: Place a [[Tidal Crab]] conjuration onto your battlefield. Place 2 status tokens on it.",
+    "conjurations": [
+      {
+        "name": "Tidal Crab",
+        "stub": "tidal-crab"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Time Hopper",
+    "stub": "summon-time-hopper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[time:class]]: Place a [[Time Hopper]] conjuration onto your battlefield.\n\nFocus 1: Then, if you control an unexhausted Time Hopper with 1 or more status tokens on it, you may place an additional [[Time Hopper]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Time Hopper",
+        "stub": "time-hopper"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Turtle Guard",
+    "stub": "summon-turtle-guard",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "time:power": 1
+    },
+    "text": "[[main]] - [[side]] - [[exhaust]] - 1 [[time:power]]: You may place a [[Turtle Guard]] conjuration onto your battlefield.\n\nFocus 1: If you do not, you may place 1 exhaustion token on an unexhausted Turtle Guard you control to place 1 exhaustion token on a target unexhausted unit an opponent controls.",
+    "conjurations": [
+      {
+        "name": "Turtle Guard",
+        "stub": "turtle-guard"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Tusk Mount",
+    "stub": "summon-tusk-mount",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "basic": 2,
+      "time:class": 2
+    },
+    "text": "[[side]] - [[exhaust]] - 2 [[time:class]] - 2 [[basic]]: Remove an unexhausted ally you control from play. If you do, place a [[Tusk Mount]] conjuration onto your battlefield, placing that ally face down under it.",
+    "conjurations": [
+      {
+        "name": "Tusk Mount",
+        "stub": "tusk-mount"
+      }
+    ]
+  },
+  {
+    "name": "Summon Vampire Bat Swarm",
+    "stub": "summon-vampire-bat-swarm",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial",
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 1,
+      "ceremonial:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[ceremonial:class]] - 1 [[sympathy:class]]: Place a [[Vampire Bat Swarm]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Vampire Bat Swarm",
+        "stub": "vampire-bat-swarm"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Weeping Spirit",
+    "stub": "summon-weeping-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Place a [[Weeping Spirit]] conjuration onto a target player's battlefield.\n\nFocus 1: You may search a target discard pile for 1 card and remove it from the game.",
+    "conjurations": [
+      {
+        "name": "Weeping Spirit",
+        "stub": "weeping-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Whisperer",
+    "stub": "summon-whisperer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Whisperer]] conjuration onto your battlefield.\n\nFocus 2: Then, you may lower 1 power die in a target opponent's active pool one level.",
+    "conjurations": [
+      {
+        "name": "Whisperer",
+        "stub": "whisperer"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Winged Lioness",
+    "stub": "summon-winged-lioness",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]] - 1 [[basic]]: Place a [[Winged Lioness]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Winged Lioness",
+        "stub": "winged-lioness"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Wishing Wing",
+    "stub": "summon-wishing-wing",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[time:class]]: Place a [[Wishing Wing]] conjuration onto your battlefield.\n\nFocus 2: Then place 1 status token on that [[Wishing Wing]].",
+    "conjurations": [
+      {
+        "name": "Wishing Wing",
+        "stub": "wishing-wing"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Sun Scarab",
+    "stub": "sun-scarab",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Flood of Moon Cove",
+      "stub": "the-flood-of-moon-cove"
+    },
+    "placement": "Battlefield",
+    "text": "Stalk: This unit cannot be guarded against",
+    "phoenixborn": "Fiona Mercywind",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "The Awakened State",
+    "stub": "the-awakened-state",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Messenger of Peace",
+      "stub": "the-messenger-of-peace"
+    },
+    "placement": "Phoenixborn",
+    "text": "* [[side]]: Remove 1 status token from your Phoenixborn. If you do, choose an opponent. Deal 1 damage to a target unit they control. Deal 1 damage to their target Phoenixborn.\n\n* Spell Guard: This spell cannot be affected by an opponent's spell.",
+    "phoenixborn": "Orrick Gilstream",
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Three-Eyed Owl",
+    "stub": "three-eyed-owl",
+    "type": "Conjuration",
+    "release": {
+      "name": "Master Set",
+      "stub": "master-set"
+    },
+    "placement": "Battlefield",
+    "text": "Peer 1: When this unit comes into play, look at 1 random card in a target opponent's hand.\n\nMemory Drain 1: At the end of the prepare phase, choose a target opponent to discard 1 card of their choice from their hand.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Thunder Hulk",
+    "stub": "thunder-hulk",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Dormant: This unit cannot attack unless it is charged.\n\nOverkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2
+  },
+  {
+    "name": "Tidal Crab",
+    "stub": "tidal-crab",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Ocean's Guard",
+      "stub": "the-oceans-guard"
+    },
+    "placement": "Battlefield",
+    "text": "Unburden: [[side]]: Move 1 status token from this unit onto another unit you control.\n\n* Slow: Reduce this unit's attack value by 1 for each status token on it.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Time Hopper",
+    "stub": "time-hopper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "text": "Gift 1: When this unit comes into play, you may place 1 status token on another target unit.\n\nFearful: This unit cannot block.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Turtle Guard",
+    "stub": "turtle-guard",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "text": "Rooted: This unit cannot attack.\n\nUnit Guard: This unit may guard a unit that is being attacked.\n\n* Withdraw: While this unit is exhausted, prevent all damage dealt to this unit from being received.",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Tusk Mount",
+    "stub": "tusk-mount",
+    "type": "Conjuration",
+    "release": {
+      "name": "The End of Argaia",
+      "stub": "the-end-of-argaia"
+    },
+    "placement": "Battlefield",
+    "text": "Wreckage 2: After this unit destroys a unit an opponent controls by attacking, place 2 [[Rubble Spirit]] conjurations onto your battlefield.\n\n* Dismount: When this unit is destroyed, place any allies you own underneath this unit into your hand.",
+    "conjurations": [
+      {
+        "name": "Rubble Spirit",
+        "stub": "rubble-spirit"
+      }
+    ],
+    "attack": 5,
+    "life": 4,
+    "recover": 1,
+    "copies": 2
+  },
+  {
+    "name": "Vampire Bat Swarm",
+    "stub": "vampire-bat-swarm",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Demons of Darmas",
+      "stub": "the-demons-of-darmas"
+    },
+    "placement": "Battlefield",
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class / sympathy:class": 1
+    },
+    "text": "Group Tactics 1: After you declare three or more attackers, you may add 1 to this unit's attack value for the remainder of the turn.\n\nSwarm: When this unit is destroyed, you may spend 1 [[ceremonial:class]] or 1 [[sympathy:class]] to place this unit onto your battlefield.",
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "effectRepeats": true,
+    "chained": false
+  },
+  {
+    "name": "Weeping Spirit",
+    "stub": "weeping-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Goddess of Ishra",
+      "stub": "the-goddess-of-ishra"
+    },
+    "placement": "Battlefield",
+    "text": "Fearful: This unit cannot block.\n\nQuell: [[side]] - 1 [[discard]]: Destroy this unit.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Whisperer",
+    "stub": "whisperer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "* Haunt 1: When this unit is destroyed, lower 1 power die in a target opponent's active pool one level. If you cannot, deal 1 damage to their target Phoenixborn.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Winged Lioness",
+    "stub": "winged-lioness",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "text": "Stalk: This unit cannot be guarded against.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Wishing Wing",
+    "stub": "wishing-wing",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Artist of Dreams",
+      "stub": "the-artist-of-dreams"
+    },
+    "placement": "Battlefield",
+    "text": "Opportunist 1: When this unit comes into play, if you have a [[time:power]] in your active pool, place 1 status token on this unit.\n\n* Bequest X: When this unit is destroyed, you may draw up to X cards.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  }
+]

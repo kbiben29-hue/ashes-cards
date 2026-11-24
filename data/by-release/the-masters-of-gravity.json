@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Enhanced Strength",
+    "stub": "enhanced-strength",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Unit",
+    "text": "* This unit now has the following ability:\n\n* Endurance: Remove all exhaustion tokens from this unit at the end of each round.",
+    "attack": "+1",
+    "life": "+1",
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Mirror Spirit",
+    "stub": "mirror-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Battlefield",
+    "text": "Reflect Sorrow: When this unit comes into play, place 1 status token on this unit for each exhaustion token on units a target player controls.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Mirror Spirit",
+    "stub": "summon-mirror-spirit",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Masters of Gravity",
+      "stub": "the-masters-of-gravity"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Place a [[Mirror Spirit]] conjuration onto your battlefield.\n\nFocus 1: You may remove all status tokens from a Mirror Spirit you control. If you remove at least 1 status token, place 1 exhaustion token on a target unit.",
+    "conjurations": [
+      {
+        "name": "Mirror Spirit",
+        "stub": "mirror-spirit"
+      }
+    ],
+    "chained": false
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Scrawler",
+    "stub": "scrawler",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Tag 1: When this unit comes into play, place 1 exhaustion token on a target unexhausted unit with an attack value less than the number of Scrawlers you control.",
+    "phoenixborn": "Hope Everthorn",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Shade Prowler",
+    "stub": "shade-prowler",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Predator 3: When this unit is declared as an attacker, you may deal 3 damage to a target unit an opponent controls with an attack value less than this unit's attack value.\n\n* Fade: Destroy this unit at the end of this round.",
+    "attack": 2,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Soul Delver",
+    "stub": "soul-delver",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "Magic Current X: When this unit is declared as an attacker, raise or lower X dice in a target player's active pool one level.\n\n* X = the number of status tokens on your Phoenixborn.",
+    "phoenixborn": "Rimea Careworn",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Summon Scrawler",
+    "stub": "summon-scrawler",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic"
+    ],
+    "effectMagicCost": {
+      "basic": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[basic]]: Place a [[Scrawler]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Scrawler",
+        "stub": "scrawler"
+      }
+    ],
+    "phoenixborn": "Hope Everthorn",
+    "chained": false
+  },
+  {
+    "name": "Summon Shade Prowler",
+    "stub": "summon-shade-prowler",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]] - 1 [[basic]]: Place a [[Shade Prowler]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Shade Prowler",
+        "stub": "shade-prowler"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Whisperer",
+    "stub": "summon-whisperer",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "illusion"
+    ],
+    "effectMagicCost": {
+      "illusion:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[illusion:class]]: Place a [[Whisperer]] conjuration onto your battlefield.\n\nFocus 2: Then, you may lower 1 power die in a target opponent's active pool one level.",
+    "conjurations": [
+      {
+        "name": "Whisperer",
+        "stub": "whisperer"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Whisperer",
+    "stub": "whisperer",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Spawn of Shadowreck",
+      "stub": "the-spawn-of-shadowreck"
+    },
+    "placement": "Battlefield",
+    "text": "* Haunt 1: When this unit is destroyed, lower 1 power die in a target opponent's active pool one level. If you cannot, deal 1 damage to their target Phoenixborn.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  }
+]

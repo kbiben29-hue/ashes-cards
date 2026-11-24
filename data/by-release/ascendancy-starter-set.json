@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Frost Talon",
+    "stub": "frost-talon",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Stalk: This unit cannot be guarded against.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Spark Drone",
+    "stub": "spark-drone",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.",
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Stellar Oracle",
+    "stub": "stellar-oracle",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Divination 2: When this unit comes into play, draw 2 cards. If you do, place a card from your hand on top of your draw pile.",
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 2
+  },
+  {
+    "name": "Summon Frost Talon",
+    "stub": "summon-frost-talon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "astral"
+    ],
+    "effectMagicCost": {
+      "astral:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]]: Place a [[Frost Talon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frost Talon",
+        "stub": "frost-talon"
+      }
+    ]
+  },
+  {
+    "name": "Summon Spark Drone",
+    "stub": "summon-spark-drone",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "artifice:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:class]]: Place a [[Spark Drone]] conjuration onto your battlefield. If this spell is charged, change 2 dice in your active pool to a side of your choice.",
+    "conjurations": [
+      {
+        "name": "Spark Drone",
+        "stub": "spark-drone"
+      }
+    ]
+  },
+  {
+    "name": "Summon Stellar Oracle",
+    "stub": "summon-stellar-oracle",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "basic",
+      "astral"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "astral:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[astral:class]] - 1 [[basic]]: Place a [[Stellar Oracle]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Stellar Oracle",
+        "stub": "stellar-oracle"
+      }
+    ]
+  },
+  {
+    "name": "Summon Thunder Hulk",
+    "stub": "summon-thunder-hulk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "artifice:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:class]] - 1 [[basic]]: Place a [[Thunder Hulk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Thunder Hulk",
+        "stub": "thunder-hulk"
+      }
+    ]
+  },
+  {
+    "name": "Thunder Hulk",
+    "stub": "thunder-hulk",
+    "type": "Conjuration",
+    "release": {
+      "name": "Ascendancy Starter Set",
+      "stub": "ascendancy-starter-set"
+    },
+    "placement": "Battlefield",
+    "text": "Dormant: This unit cannot attack unless it is charged.\n\nOverkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2
+  }
+]

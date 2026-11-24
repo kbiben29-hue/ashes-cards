@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Glow Finch",
+    "stub": "glow-finch",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nLast Request 2: When this unit is destroyed, you may choose a target player to discard 2 cards off the top of their draw pile.",
+    "phoenixborn": "Leo Sunshadow",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Nightshade Swallow",
+    "stub": "nightshade-swallow",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Pacify 1: When this unit is destroyed, you may place 1 exhaustion token on a target unit.",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Orchid Dove",
+    "stub": "orchid-dove",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Battlefield",
+    "text": "Last Request 1: When this unit is destroyed, you may choose a target player to discard 1 card off the top of their draw pile.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Nightshade Swallow",
+    "stub": "summon-nightshade-swallow",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[charm:class]]: Place a [[Nightshade Swallow]] conjuration onto your battlefield.\n\nFocus 1: You may choose a target player to discard 1 card off the top of their draw pile if you have fewer dice in your active pool than an opponent.",
+    "conjurations": [
+      {
+        "name": "Nightshade Swallow",
+        "stub": "nightshade-swallow"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Orchid Dove",
+    "stub": "summon-orchid-dove",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Roaring Rose",
+      "stub": "the-roaring-rose"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "charm"
+    ],
+    "effectMagicCost": {
+      "charm:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[charm:class]]: Place an [[Orchid Dove]] conjuration onto your battlefield.\n\nFocus 1: You may change the activation cost of this spell to [[main]] - [[exhaust]] - 1 [[basic]].\n\nFocus 2: You may deal 1 damage to a target player's Phoenixborn if they do not have any cards in their draw pile.",
+    "conjurations": [
+      {
+        "name": "Orchid Dove",
+        "stub": "orchid-dove"
+      }
+    ],
+    "chained": false
+  }
+]

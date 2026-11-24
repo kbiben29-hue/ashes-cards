@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Salamander Monk",
+    "stub": "salamander-monk",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "* Spirit Form: When this unit is destroyed, place a [[Salamander Monk Spirit]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Salamander Monk Spirit",
+        "stub": "salamander-monk-spirit"
+      }
+    ],
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Salamander Monk Spirit",
+    "stub": "salamander-monk-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "* Fleeting: Discard this card at the end of the round.",
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Squall Stallion",
+    "stub": "squall-stallion",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Battlefield",
+    "text": "Lightning Speed: This unit cannot be targeted by reaction spells an opponent controls.\n\n* Torrent 1: [[side]]: Place 1 card from your hand on the top or bottom of your draw pile. If you do, place 1 status token on all Squall Stallions you control.\n\n* X = the number of status tokens on this unit.",
+    "attack": "X",
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Summon Salamander Monk",
+    "stub": "summon-salamander-monk",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]]: Place a [[Salamander Monk]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Salamander Monk",
+        "stub": "salamander-monk"
+      },
+      {
+        "name": "Salamander Monk Spirit",
+        "stub": "salamander-monk-spirit"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Squall Stallion",
+    "stub": "summon-squall-stallion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Song of Soaksend",
+      "stub": "the-song-of-soaksend"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "1 [[sympathy:power]]"
+    ],
+    "dice": [
+      "sympathy"
+    ],
+    "magicCost": {
+      "sympathy:power": 1
+    },
+    "effectMagicCost": {
+      "basic": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[sympathy:class]] - 1 [[basic]]: Draw 1 card. Place a [[Squall Stallion]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Squall Stallion",
+        "stub": "squall-stallion"
+      }
+    ],
+    "chained": false
+  }
+]

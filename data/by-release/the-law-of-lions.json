@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Emperor Lion",
+    "stub": "emperor-lion",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "text": "Overkill 1: After this unit destroys a unit an opponent controls by attacking, deal 1 damage to that opponent's target Phoenixborn.\n\nAlert: Do not place exhaustion tokens on this unit as a result of its countering.",
+    "attack": 2,
+    "life": 4,
+    "recover": 1,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Summon Emperor Lion",
+    "stub": "summon-emperor-lion",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divince:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[divine:class]] - 1 [[basic]]:  Place an [[Emperor Lion]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Emperor Lion",
+        "stub": "emperor-lion"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Winged Lioness",
+    "stub": "summon-winged-lioness",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "divine"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "divine:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[divine:class]] - 1 [[basic]]: Place a [[Winged Lioness]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Winged Lioness",
+        "stub": "winged-lioness"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Winged Lioness",
+    "stub": "winged-lioness",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Law of Lions",
+      "stub": "the-law-of-lions"
+    },
+    "placement": "Battlefield",
+    "text": "Stalk: This unit cannot be guarded against.",
+    "attack": 2,
+    "life": 2,
+    "recover": 1,
+    "copies": 4,
+    "chained": false
+  }
+]

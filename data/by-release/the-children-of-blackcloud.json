@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Dread Wraith",
+    "stub": "dread-wraith",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Battlefield",
+    "text": "* Rage 1: Add 1 to this unit's attack value for each wound token on this unit.",
+    "attack": 1,
+    "life": 6,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Summon Dread Wraith",
+    "stub": "summon-dread-wraith",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Children of Blackcloud",
+      "stub": "the-children-of-blackcloud"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 3
+    },
+    "text": "[[main]] - [[exhaust]] - 3 [[ceremonial:class]]: Place a [[Dread Wraith]] conjuration on to your battlefield.\n\nFocus 2: You may remove 1 exhaustion token from a Dread Wraith you control.",
+    "conjurations": [
+      {
+        "name": "Dread Wraith",
+        "stub": "dread-wraith"
+      }
+    ],
+    "chained": false
+  }
+]

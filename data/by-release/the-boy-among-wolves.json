@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Biter",
+    "stub": "biter",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "Unit Guard: This unit may guard a unit that is being attacked.\n\nRooted: This unit cannot attack.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Brilliant Thorn",
+    "stub": "brilliant-thorn",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Inheritance 1: When this unit is destroyed, you may place 1 status token on a target unit.\n\n* Fade: Destroy this unit at the end of this round.",
+    "attack": 3,
+    "life": 2,
+    "recover": 0,
+    "copies": 6,
+    "chained": false
+  },
+  {
+    "name": "Indiglow Creeper",
+    "stub": "indiglow-creeper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Germinate: When this unit is destroyed, place a [[Luminous Seedling]] conjuration onto your battlefield.\n\n* Fade: Destroy this unit at the end of this round.",
+    "conjurations": [
+      {
+        "name": "Luminous Seedling",
+        "stub": "luminous-seedling"
+      },
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "attack": 2,
+    "life": 1,
+    "recover": 0,
+    "copies": 1,
+    "chained": false
+  },
+  {
+    "name": "Luminous Seedling",
+    "stub": "luminous-seedling",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "Blossom: [[main]]: Destroy this unit. If it had 2 or more status tokens on it, place up to 2 [[Brilliant Thorn]] conjurations onto your battlefield.\n\n* Growth: Add 1 to this unit's life value for each status token on this unit.",
+    "conjurations": [
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "attack": 0,
+    "life": 2,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Panther Spirit",
+    "stub": "panther-spirit",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Battlefield",
+    "text": "* Fleeting: Discard this card at the end of this round.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Biter",
+    "stub": "summon-biter",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "basic": 1,
+      "natural:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[basic]]: Place a [[Biter]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Biter",
+        "stub": "biter"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Indiglow Creeper",
+    "stub": "summon-indiglow-creeper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Boy Among Wolves",
+      "stub": "the-boy-among-wolves"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural",
+      "sympathy"
+    ],
+    "effectMagicCost": {
+      "natural:class": 1,
+      "sympathy:class": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]] - 1 [[sympathy:class]]: Place an [[Indiglow Creeper]] conjuration onto your battlefield.\n\nFocus 1: You may place 1 status token on a target unit you control.",
+    "conjurations": [
+      {
+        "name": "Indiglow Creeper",
+        "stub": "indiglow-creeper"
+      },
+      {
+        "name": "Luminous Seedling",
+        "stub": "luminous-seedling"
+      },
+      {
+        "name": "Brilliant Thorn",
+        "stub": "brilliant-thorn"
+      }
+    ],
+    "chained": false
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Adaptodon",
+    "stub": "adaptodon",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "Adapt: [[side]]: Attach a [[Fire Adaptation]] or [[Ice Adaptation]] conjured alteration spell to this unit if it has neither attached to it.",
+    "conjurations": [
+      {
+        "name": "Ice Adaptation",
+        "stub": "ice-adaptation"
+      },
+      {
+        "name": "Fire Adaptation",
+        "stub": "fire-adaptation"
+      }
+    ],
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Fire Adaptation",
+    "stub": "fire-adaptation",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Unit",
+    "text": "When attaching this spell, you may deal 1 damage to a target unit an opponent controls.",
+    "attack": "+1",
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Frost Frog",
+    "stub": "frost-frog",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "Cold Snap 1: When this unit is declared as an attacker, you may add 1 to its attack value for the remainder of the turn or place an exhaustion token on a target unit an opponent controls with a life value of 1 or less.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Ice Adaptation",
+    "stub": "ice-adaptation",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Unit",
+    "text": "When attaching this spell, you may place 1 exhaustion token on a target unexhausted unit an opponent controls with an attack value of 1 or less.",
+    "life": "+1",
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Pack Wolf",
+    "stub": "pack-wolf",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Battlefield",
+    "text": "* Fade: Destroy this unit at the end of this round.",
+    "phoenixborn": "Koji Wolfcub",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 3,
+    "chained": false
+  },
+  {
+    "name": "Summon Adaptodon",
+    "stub": "summon-adaptodon",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:class": 2
+    },
+    "text": "[[main]] - [[exhaust]] - 2 [[natural:class]]: Place an [[Adaptodon]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Adaptodon",
+        "stub": "adaptodon"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Frost Frog",
+    "stub": "summon-frost-frog",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Frostwild Scourge",
+      "stub": "the-frostwild-scourge"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "effectMagicCost": {
+      "natural:power": 1
+    },
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:power]]: Place a [[Frost Frog]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Frost Frog",
+        "stub": "frost-frog"
+      }
+    ],
+    "chained": false
+  }
+]

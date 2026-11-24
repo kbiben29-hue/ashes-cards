@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Summon Time Hopper",
+    "stub": "summon-time-hopper",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "effectMagicCost": {
+      "time:class": 1
+    },
+    "text": "[[side]] - [[exhaust]] - 1 [[time:class]]: Place a [[Time Hopper]] conjuration onto your battlefield.\n\nFocus 1: Then, if you control an unexhausted Time Hopper with 1 or more status tokens on it, you may place an additional [[Time Hopper]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Time Hopper",
+        "stub": "time-hopper"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Summon Turtle Guard",
+    "stub": "summon-turtle-guard",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]",
+      "[[side]]",
+      "1 [[basic]]"
+    ],
+    "dice": [
+      "time"
+    ],
+    "magicCost": {
+      "basic": 1
+    },
+    "effectMagicCost": {
+      "time:power": 1
+    },
+    "text": "[[main]] - [[side]] - [[exhaust]] - 1 [[time:power]]: You may place a [[Turtle Guard]] conjuration onto your battlefield.\n\nFocus 1: If you do not, you may place 1 exhaustion token on an unexhausted Turtle Guard you control to place 1 exhaustion token on a target unexhausted unit an opponent controls.",
+    "conjurations": [
+      {
+        "name": "Turtle Guard",
+        "stub": "turtle-guard"
+      }
+    ],
+    "chained": false
+  },
+  {
+    "name": "Time Hopper",
+    "stub": "time-hopper",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "text": "Gift 1: When this unit comes into play, you may place 1 status token on another target unit.\n\nFearful: This unit cannot block.",
+    "attack": 1,
+    "life": 1,
+    "recover": 0,
+    "copies": 4,
+    "chained": false
+  },
+  {
+    "name": "Turtle Guard",
+    "stub": "turtle-guard",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Breaker of Fate",
+      "stub": "the-breaker-of-fate"
+    },
+    "placement": "Battlefield",
+    "text": "Rooted: This unit cannot attack.\n\nUnit Guard: This unit may guard a unit that is being attacked.\n\n* Withdraw: While this unit is exhausted, prevent all damage dealt to this unit from being received.",
+    "attack": 2,
+    "life": 3,
+    "recover": 1,
+    "copies": 2,
+    "chained": false
+  }
+]

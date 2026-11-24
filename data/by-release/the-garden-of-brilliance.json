@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Capacitor Beetle",
+    "stub": "capacitor-beetle",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "* Volt Shift: [[side]]: Discard this unit to place an artifice die from your exhausted pool onto a card you control.",
+    "attack": 1,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Floral Tyrant",
+    "stub": "floral-tyrant",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Ravaging Vines: When this unit is declared as an attacker, if it is charged, deal damage to a target unit an opponent controls equal to this unit's attack value.",
+    "attack": 3,
+    "life": 3,
+    "recover": 0,
+    "copies": 2,
+    "chained": false
+  },
+  {
+    "name": "Nurtured",
+    "stub": "nurtured",
+    "type": "Conjured Alteration Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Unit",
+    "life": "+1",
+    "copies": 2
+  },
+  {
+    "name": "Snapseed",
+    "stub": "snapseed",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Solar Sprout: [[main]]: Discard this unit. If it was charged, place a [[Snaptrap]] conjuration onto your battlefield.\n\n* Wilt: Discard this card at the end of the round unless it has an alteration spell attached to it.",
+    "conjurations": [
+      {
+        "name": "Snaptrap",
+        "stub": "snaptrap"
+      },
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ],
+    "attack": 0,
+    "life": 1,
+    "recover": 0,
+    "copies": 4
+  },
+  {
+    "name": "Snaptrap",
+    "stub": "snaptrap",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Battlefield",
+    "text": "Solar Bloom: [[main]]: Discard this unit. If it was charged, place a [[Floral Tyrant]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ],
+    "attack": 2,
+    "life": 2,
+    "recover": 0,
+    "copies": 3
+  },
+  {
+    "name": "Summon Capacitor Beetle",
+    "stub": "summon-capacitor-beetle",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "artifice"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[artifice:power]]: Place a [[Capacitor Beetle]] conjuration onto your battlefield. If this spell is charged, draw 1 card.",
+    "conjurations": [
+      {
+        "name": "Capacitor Beetle",
+        "stub": "capacitor-beetle"
+      }
+    ]
+  },
+  {
+    "name": "Summon Snapseed",
+    "stub": "summon-snapseed",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Garden of Brilliance",
+      "stub": "the-garden-of-brilliance"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "natural"
+    ],
+    "text": "[[main]] - [[exhaust]] - 1 [[natural:class]]: Place a [[Snapseed]] conjuration onto your battlefield. If this spell is charged, place an additional [[Snapseed]] conjuration onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Snapseed",
+        "stub": "snapseed"
+      },
+      {
+        "name": "Snaptrap",
+        "stub": "snaptrap"
+      },
+      {
+        "name": "Floral Tyrant",
+        "stub": "floral-tyrant"
+      }
+    ]
+  }
+]

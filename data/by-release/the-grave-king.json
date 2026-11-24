@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Fallen",
+    "stub": "fallen",
+    "type": "Conjuration",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Battlefield",
+    "text": "Infectious: Damage dealt by this unit by attacking or countering cannot be prevented.",
+    "attack": 1,
+    "life": 1,
+    "recover": 1,
+    "copies": 7,
+    "chained": false
+  },
+  {
+    "name": "Summon Fallen",
+    "stub": "summon-fallen",
+    "type": "Ready Spell",
+    "release": {
+      "name": "The Grave King",
+      "stub": "the-grave-king"
+    },
+    "placement": "Spellboard",
+    "cost": [
+      "[[main]]"
+    ],
+    "dice": [
+      "ceremonial"
+    ],
+    "effectMagicCost": {
+      "ceremonial:class": 1,
+      "ceremonial:power": 1
+    },
+    "text": "After an ally you control is destroyed, place 1 status token on this spell if it has fewer than 3 status tokens on it.\n\n[[main]] - [[exhaust]] - 1 [[ceremonial:power]] - 1 [[ceremonial:class]]: Remove up to 3 status tokens from this spell to place an equal number of [[Fallen]] conjurations onto your battlefield.",
+    "conjurations": [
+      {
+        "name": "Fallen",
+        "stub": "fallen"
+      }
+    ],
+    "chained": false
+  }
+]
