@@ -56,7 +56,9 @@ async function main() {
   const releases = await getJson(`${API}/releases`);
 
   console.log("Fetching cards (main listing)…");
-  const main = await fetchAllCards("&show_summons=true");
+  const main = await fetchAllCards();
+  // Safety check: the full listing should be several hundred cards.
+  if (main.length < 400) throw new Error(`Only ${main.length} cards in main listing — something's wrong`);
 
   // Conjurations are sometimes left out of the normal listing; fetch them explicitly.
   console.log("Fetching conjurations…");
