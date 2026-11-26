@@ -1,0 +1,440 @@
+[
+  {
+    "id": 73054,
+    "entity_id": 76356,
+    "source_id": 73047,
+    "title": "Arad StaxStorm",
+    "created": "2026-11-16T11:38:11.112503Z",
+    "modified": "2026-11-16T11:38:11.120793Z",
+    "user": {
+      "username": "Silverblu",
+      "badge": "00bp"
+    },
+    "dice": [
+      {
+        "count": 4,
+        "name": "illusion"
+      },
+      {
+        "count": 6,
+        "name": "natural"
+      }
+    ],
+    "phoenixborn": {
+      "name": "Aradel Summergaard",
+      "stub": "aradel-summergaard",
+      "battlefield": 8,
+      "life": 16,
+      "spellboard": 4,
+      "is_legacy": false
+    },
+    "cards": [
+      {
+        "count": 3,
+        "name": "Deep Freeze",
+        "stub": "deep-freeze",
+        "type": "Alteration Spell",
+        "release": {
+          "name": "The Frostdale Giants",
+          "stub": "the-frostdale-giants"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 1,
+        "name": "Fade Away",
+        "stub": "fade-away",
+        "type": "Alteration Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Flash Archer",
+        "stub": "flash-archer",
+        "type": "Ally",
+        "release": {
+          "name": "The Duchess of Deception",
+          "stub": "the-duchess-of-deception"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Freezing Blast",
+        "stub": "freezing-blast",
+        "type": "Action Spell",
+        "release": {
+          "name": "The Frostdale Giants",
+          "stub": "the-frostdale-giants"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Frozen Crown",
+        "stub": "frozen-crown",
+        "type": "Alteration Spell",
+        "release": {
+          "name": "The Frostdale Giants",
+          "stub": "the-frostdale-giants"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Mist Typhoon",
+        "stub": "mist-typhoon",
+        "type": "Action Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 1,
+        "name": "Molten Gold",
+        "stub": "molten-gold",
+        "type": "Action Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Rose Fire Dancer",
+        "stub": "rose-fire-dancer",
+        "type": "Ally",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 1,
+        "name": "Shifting Mist",
+        "stub": "shifting-mist",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Steady Gaze",
+        "stub": "steady-gaze",
+        "type": "Action Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Summon Blue Jaguar",
+        "stub": "summon-blue-jaguar",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": "Aradel Summergaard",
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Summon Frostback Bear",
+        "stub": "summon-frostback-bear",
+        "type": "Ready Spell",
+        "release": {
+          "name": "The Frostdale Giants",
+          "stub": "the-frostdale-giants"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Summon Mist Spirit",
+        "stub": "summon-mist-spirit",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      }
+    ],
+    "conjurations": [
+      {
+        "count": 2,
+        "name": "Blue Jaguar",
+        "stub": "blue-jaguar",
+        "type": "Conjuration",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": "Aradel Summergaard",
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Frostback Bear",
+        "stub": "frostback-bear",
+        "type": "Conjuration",
+        "release": {
+          "name": "The Frostdale Giants",
+          "stub": "the-frostdale-giants"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 10,
+        "name": "Mist Spirit",
+        "stub": "mist-spirit",
+        "type": "Conjuration",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      }
+    ],
+    "is_public": true,
+    "is_snapshot": true,
+    "is_red_rains": false
+  },
+  {
+    "id": 73053,
+    "entity_id": 76355,
+    "source_id": 73023,
+    "title": "Jessa Sacrifice",
+    "created": "2026-11-16T11:17:45.172116Z",
+    "modified": "2026-11-16T11:17:45.180809Z",
+    "user": {
+      "username": "Silverblu",
+      "badge": "00bp"
+    },
+    "dice": [
+      {
+        "count": 4,
+        "name": "ceremonial"
+      },
+      {
+        "count": 3,
+        "name": "charm"
+      },
+      {
+        "count": 3,
+        "name": "sympathy"
+      }
+    ],
+    "phoenixborn": {
+      "name": "Jessa Na Ni",
+      "stub": "jessa-na-ni",
+      "battlefield": 4,
+      "life": 19,
+      "spellboard": 4,
+      "is_legacy": false
+    },
+    "cards": [
+      {
+        "count": 3,
+        "name": "Blood Archer",
+        "stub": "blood-archer",
+        "type": "Ally",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 1,
+        "name": "Blood Transfer",
+        "stub": "blood-transfer",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 1,
+        "name": "Crescendo",
+        "stub": "crescendo",
+        "type": "Reaction Spell",
+        "release": {
+          "name": "The Song of Soaksend",
+          "stub": "the-song-of-soaksend"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Living Doll",
+        "stub": "living-doll",
+        "type": "Ally",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Redirect",
+        "stub": "redirect",
+        "type": "Reaction Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Shatter Pulse",
+        "stub": "shatter-pulse",
+        "type": "Reaction Spell",
+        "release": {
+          "name": "The Song of Soaksend",
+          "stub": "the-song-of-soaksend"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Small Sacrifice",
+        "stub": "small-sacrifice",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "String Mage",
+        "stub": "string-mage",
+        "type": "Ally",
+        "release": {
+          "name": "The Song of Soaksend",
+          "stub": "the-song-of-soaksend"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Summon Blood Puppet",
+        "stub": "summon-blood-puppet",
+        "type": "Ready Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Summon Dread Wraith",
+        "stub": "summon-dread-wraith",
+        "type": "Ready Spell",
+        "release": {
+          "name": "The Children of Blackcloud",
+          "stub": "the-children-of-blackcloud"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Transfer",
+        "stub": "transfer",
+        "type": "Action Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 3,
+        "name": "Undying Heart",
+        "stub": "undying-heart",
+        "type": "Alteration Spell",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      }
+    ],
+    "conjurations": [
+      {
+        "count": 5,
+        "name": "Blood Puppet",
+        "stub": "blood-puppet",
+        "type": "Conjuration",
+        "release": {
+          "name": "Master Set",
+          "stub": "master-set"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      },
+      {
+        "count": 2,
+        "name": "Dread Wraith",
+        "stub": "dread-wraith",
+        "type": "Conjuration",
+        "release": {
+          "name": "The Children of Blackcloud",
+          "stub": "the-children-of-blackcloud"
+        },
+        "phoenixborn": null,
+        "is_legacy": false
+      }
+    ],
+    "is_public": true,
+    "is_snapshot": true,
+    "is_red_rains": false
+  }
+]
